@@ -20,5 +20,7 @@ stages:
 nim-test:
   image: nimlang/nim
   stage: build
+  tags:
+     - amd64
   script:
     - nim c -r tests/*
