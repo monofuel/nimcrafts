@@ -10,6 +10,10 @@ proc meow(self: Cat) =
   echo("Meow!")
 
 
+#[
+  example of a multi-line comment
+]#
+
 let ffxiv_characters = @["Thancred Waters", "Alphinaud Leveilleur", "Hildibrand Manderville"]
 
 proc echoFPSplitList() =
