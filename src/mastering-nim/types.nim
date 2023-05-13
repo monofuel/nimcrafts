@@ -1,4 +1,4 @@
 type
-    Point* = object
-        x: int
-        y: int
+    Point*[T] = object
+        x*: T
+        y*: T
