@@ -1,11 +1,17 @@
 # Nimcraft Screeps
 
+## Building
+
+`nim js -d:nodejs -d:release bot/main.nim`
+
 ## TODO
 
 - [ ] get a bot started
 - [ ] define screeps interface
 - [ ] uploading js bot
 - [ ] uploading a wasm bot
+
+- [ ] minify / tree shake
 
 ## Deps
 
