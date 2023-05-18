@@ -32,5 +32,5 @@ import * as game from 'game';
 import * as arena from 'arena';
 
 import { Creep } from 'game/prototypes';
-import { Flag } from 'arena/prototypes';
+// import { Flag } from 'arena/prototypes';
 """.}

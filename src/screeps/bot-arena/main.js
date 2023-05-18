@@ -2,6 +2,17 @@
 var framePtr = null;
 var excHandler = 0;
 var lastJSError = null;
+var NTI33555124 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI1006632963 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI33554466 = {size: 0,kind: 1,base: null,node: null,finalizer: null};
+var NTI33554437 = {size: 0,kind: 36,base: null,node: null,finalizer: null};
+var NTI33554456 = {size: 0,kind: 31,base: null,node: null,finalizer: null};
+var NTI1006632977 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI1006632970 = {size: 0, kind: 22, base: null, node: null, finalizer: null};
+var NTI1006632979 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI1006632978 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI1006632971 = {size: 0, kind: 22, base: null, node: null, finalizer: null};
+var NTI486539392 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
 var NTI33555128 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI33555130 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI33555113 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
@@ -39,6 +50,30 @@ NTI33555130.base = NTI33555113;
 var NNI33555128 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
 NTI33555128.node = NNI33555128;
 NTI33555128.base = NTI33555113;
+var NNI1006632977 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "type", len: 0, typ: NTI33554440, name: "type", sons: null}, 
+{kind: 1, offset: "hits", len: 0, typ: NTI33554456, name: "hits", sons: null}]};
+NTI1006632977.node = NNI1006632977;
+NTI1006632970.base = NTI1006632977;
+NTI1006632979.base = NTI1006632970;
+var NNI1006632978 = {kind: 2, len: 5, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "body", len: 0, typ: NTI1006632979, name: "body", sons: null}, 
+{kind: 1, offset: "fatigue", len: 0, typ: NTI33554437, name: "fatigue", sons: null}, 
+{kind: 1, offset: "hits", len: 0, typ: NTI33554456, name: "hits", sons: null}, 
+{kind: 1, offset: "hitsMax", len: 0, typ: NTI33554456, name: "hitsMax", sons: null}, 
+{kind: 1, offset: "my", len: 0, typ: NTI33554466, name: "my", sons: null}]};
+NTI1006632978.node = NNI1006632978;
+var NNI1006632963 = {kind: 2, len: 5, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "exists", len: 0, typ: NTI33554466, name: "exists", sons: null}, 
+{kind: 1, offset: "id", len: 0, typ: NTI33554440, name: "id", sons: null}, 
+{kind: 1, offset: "ticksToDecay", len: 0, typ: NTI33554456, name: "ticksToDecay", sons: null}, 
+{kind: 1, offset: "x", len: 0, typ: NTI33554456, name: "x", sons: null}, 
+{kind: 1, offset: "y", len: 0, typ: NTI33554456, name: "y", sons: null}]};
+NTI1006632963.node = NNI1006632963;
+NTI1006632963.base = NTI33555083;
+NTI1006632978.base = NTI1006632963;
+NTI1006632971.base = NTI1006632978;
+NTI486539392.base = NTI1006632971;
+var NNI33555124 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
+NTI33555124.node = NNI33555124;
+NTI33555124.base = NTI33555113;
 
 function makeNimstrLit(c_33556801) {
       var result = [];
@@ -292,26 +327,26 @@ import * as game from 'game';
 import * as arena from 'arena';
 
 import { Creep } from 'game/prototypes';
-import { Flag } from 'arena/prototypes';
+// import { Flag } from 'arena/prototypes';
 
 
-function getAllCreeps_989855746() {
-  var result_989855747 = [];
+function getAllCreeps_1040187394() {
+  var result_1040187395 = [];
 
       return gameUtil.getObjectsByPrototype(Creep);
   
 
-  return result_989855747;
+  return result_1040187395;
 
 }
 
-function getAllFlags_989855748() {
-  var result_989855749 = [];
+function getAllFlags_1040187396() {
+  var result_1040187397 = [];
 
       return gameUtil.getObjectsByPrototype(Flag);
   
 
-  return result_989855749;
+  return result_1040187397;
 
 }
 
@@ -385,13 +420,13 @@ function addChars_251658415(result_251658417, result_251658417_Idx, x_251658418,
     (result_251658417[result_251658417_Idx].length = chckRange(addInt(old_251658421, n_251658420), 0, 2147483647));
     Label1: do {
       var iHEX60gensym4_251658435 = 0;
-      var i_486539437 = 0;
+      var i_486539439 = 0;
       Label2: do {
           Label3: while (true) {
-          if (!(i_486539437 < n_251658420)) break Label3;
-            iHEX60gensym4_251658435 = i_486539437;
+          if (!(i_486539439 < n_251658420)) break Label3;
+            iHEX60gensym4_251658435 = i_486539439;
             result_251658417[result_251658417_Idx][chckIndx(addInt(old_251658421, iHEX60gensym4_251658435), 0, (result_251658417[result_251658417_Idx]).length - 1)] = x_251658418.charCodeAt(chckIndx(addInt(start_251658419, iHEX60gensym4_251658435), 0, (x_251658418).length - 1));
-            i_486539437 = addInt(i_486539437, 1);
+            i_486539439 = addInt(i_486539439, 1);
           }
       } while (false);
     } while (false);
@@ -480,26 +515,390 @@ function raiseIndexError(i_33556754, a_33556755, b_33556756) {
 }
 
 function simpleMoveLoop() {
-    var currentTick_486539270 = gameUtil.getTicks();
-    console.log(("Current tick: "), (currentTick_486539270));
-    var creeps_486539302 = getAllCreeps_989855746();
-    console.log(("found creeps: "), ((creeps_486539302).length));
-    var flags_486539325 = getAllFlags_989855748();
-    console.log(("found flags: "), ((flags_486539325).length));
-    if (((creeps_486539302).length < 1)) {
+    var currentTick_486539272 = gameUtil.getTicks();
+    console.log(("Current tick: "), (currentTick_486539272));
+    var creeps_486539304 = getAllCreeps_1040187394();
+    console.log(("found creeps: "), ((creeps_486539304).length));
+    var flags_486539327 = getAllFlags_1040187396();
+    console.log(("found flags: "), ((flags_486539327).length));
+    if (((creeps_486539304).length < 1)) {
     raiseException({message: makeNimstrLit("No creeps found"), parent: null, m_type: NTI33555112, name: null, trace: [], up: null}, "Exception");
     }
     
-    if (((flags_486539325).length < 1)) {
+    if (((flags_486539327).length < 1)) {
     raiseException({message: makeNimstrLit("No flags found"), parent: null, m_type: NTI33555112, name: null, trace: [], up: null}, "Exception");
     }
     
-    var flag_486539356 = flags_486539325[chckIndx(0, 0, (flags_486539325).length - 1)];
-    var creep_486539357 = creeps_486539302[chckIndx(0, 0, (creeps_486539302).length - 1)];
-    var res_486539358 = creep_486539357.moveTo(flag_486539356);
-    console.log(("moveTo result: "), (res_486539358));
+    var flag_486539358 = flags_486539327[chckIndx(0, 0, (flags_486539327).length - 1)];
+    var creep_486539359 = creeps_486539304[chckIndx(0, 0, (creeps_486539304).length - 1)];
+    var res_486539360 = creep_486539359.moveTo(flag_486539358);
+    console.log(("moveTo result: "), (res_486539360));
 
   
 }
-export const loop = simpleMoveLoop;
+
+function newSeq_486539512(len_486539514) {
+  var result_486539515 = [];
+
+    result_486539515 = new Array(len_486539514); for (var i = 0 ; i < len_486539514 ; ++i) { result_486539515[i] = null; }
+  return result_486539515;
+
+}
+
+function filter_486539506(s_486539508, pred_486539510) {
+  var result_486539511 = [];
+
+    result_486539511 = nimCopy(null, newSeq_486539512(0), NTI486539392);
+    Label1: do {
+      var i_486539528 = 0;
+      var colontmp__486539625 = 0;
+      colontmp__486539625 = (s_486539508).length;
+      var i_486539626 = 0;
+      Label2: do {
+          Label3: while (true) {
+          if (!(i_486539626 < colontmp__486539625)) break Label3;
+            i_486539528 = i_486539626;
+            if (pred_486539510(s_486539508[chckIndx(i_486539528, 0, (s_486539508).length - 1)])) {
+            result_486539511.push(s_486539508[chckIndx(i_486539528, 0, (s_486539508).length - 1)]);;
+            }
+            
+            i_486539626 = addInt(i_486539626, 1);
+          }
+      } while (false);
+    } while (false);
+
+  return result_486539511;
+
+}
+
+function firstAttack() {
+    
+function HEX3Aanonymous_486539502(c_486539503) {
+      var result_486539504 = false;
+
+        result_486539504 = c_486539503.my;
+
+      return result_486539504;
+
+    }
+    
+function HEX3Aanonymous_486539534(c_486539535) {
+      var result_486539536 = false;
+
+        result_486539536 = !(c_486539535.my);
+
+      return result_486539536;
+
+    }
+
+    var currentTick_486539442 = gameUtil.getTicks();
+    console.log(("Current tick: "), (currentTick_486539442));
+    var creeps_486539461 = getAllCreeps_1040187394();
+    console.log(("found creeps: "), ((creeps_486539461).length));
+    var myCreeps_486539533 = filter_486539506(creeps_486539461, HEX3Aanonymous_486539502);
+    var enemyCreeps_486539543 = filter_486539506(creeps_486539461, HEX3Aanonymous_486539534);
+    if (((myCreeps_486539533).length < 1)) {
+    raiseException({message: makeNimstrLit("No my creeps found"), parent: null, m_type: NTI33555112, name: null, trace: [], up: null}, "Exception");
+    }
+    
+    if (((enemyCreeps_486539543).length < 1)) {
+    raiseException({message: makeNimstrLit("No enemy creeps found"), parent: null, m_type: NTI33555112, name: null, trace: [], up: null}, "Exception");
+    }
+    
+    var myCreep_486539552 = myCreeps_486539533[chckIndx(0, 0, (myCreeps_486539533).length - 1)];
+    var enemyCreep_486539553 = enemyCreeps_486539543[chckIndx(0, 0, (enemyCreeps_486539543).length - 1)];
+    var attackRes_486539554 = myCreep_486539552.attack(enemyCreep_486539553);
+    console.log(("attack result: "), (attackRes_486539554));
+    if ((attackRes_486539554 == -9)) {
+    var moveRes_486539578 = myCreep_486539552.moveTo(enemyCreep_486539553);
+    console.log(("moveTo result: "), (moveRes_486539578));
+    }
+    
+
+  
+}
+
+function sysFatal_218103842(message_218103845) {
+    raiseException({message: nimCopy(null, message_218103845, NTI33554439), m_type: NTI33555124, parent: null, name: null, trace: [], up: null}, "AssertionDefect");
+
+  
+}
+
+function raiseAssert_218103840(msg_218103841) {
+    sysFatal_218103842(msg_218103841);
+
+  
+}
+
+function failedAssertImpl_218103864(msg_218103865) {
+    raiseAssert_218103840(msg_218103865);
+
+  
+}
+
+function creepsBodies() {
+    
+function HEX3Aanonymous_486539651(c_486539652) {
+      var result_486539653 = false;
+
+        result_486539653 = !(c_486539652.my);
+
+      return result_486539653;
+
+    }
+    
+function HEX3Aanonymous_486539665(c_486539666) {
+      var result_486539667 = false;
+
+        result_486539667 = c_486539666.my;
+
+      return result_486539667;
+
+    }
+    
+function HEX3Aanonymous_486539675(c_486539676) {
+      var result_486539677 = false;
+
+        var resultHEX60gensym50_486539679 = false;
+        Label1: do {
+          var it_486539701 = null;
+          var i_486540024 = 0;
+          var L_486540025 = (c_486539676.body).length;
+          Label2: do {
+              Label3: while (true) {
+              if (!(i_486540024 < L_486540025)) break Label3;
+                it_486539701 = c_486539676.body[chckIndx(i_486540024, 0, (c_486539676.body).length - 1)];
+                if ((it_486539701.type == "attack")) {
+                resultHEX60gensym50_486539679 = true;
+                break Label1;
+                }
+                
+                i_486540024 = addInt(i_486540024, 1);
+                if (!(((c_486539676.body).length == L_486540025))) {
+                failedAssertImpl_218103864(makeNimstrLit("iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+                }
+                
+              }
+          } while (false);
+        } while (false);
+        result_486539677 = resultHEX60gensym50_486539679;
+
+      return result_486539677;
+
+    }
+    
+function HEX3Aanonymous_486539727(c_486539728) {
+      var result_486539729 = false;
+
+        var resultHEX60gensym53_486539731 = false;
+        Label1: do {
+          var it_486539735 = null;
+          var i_486540028 = 0;
+          var L_486540029 = (c_486539728.body).length;
+          Label2: do {
+              Label3: while (true) {
+              if (!(i_486540028 < L_486540029)) break Label3;
+                it_486539735 = c_486539728.body[chckIndx(i_486540028, 0, (c_486539728.body).length - 1)];
+                if ((it_486539735.type == "ranged_attack")) {
+                resultHEX60gensym53_486539731 = true;
+                break Label1;
+                }
+                
+                i_486540028 = addInt(i_486540028, 1);
+                if (!(((c_486539728.body).length == L_486540029))) {
+                failedAssertImpl_218103864(makeNimstrLit("iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+                }
+                
+              }
+          } while (false);
+        } while (false);
+        result_486539729 = resultHEX60gensym53_486539731;
+
+      return result_486539729;
+
+    }
+      
+function HEX3Aanonymous_486539743(c_486539744) {
+        var result_486539745 = false;
+
+          result_486539745 = c_486539744.my;
+
+        return result_486539745;
+
+      }
+
+    var creeps_486539629 = getAllCreeps_1040187394();
+    console.log(("found creeps: "), ((creeps_486539629).length));
+    var enemyCreeps_486539660 = filter_486539506(creeps_486539629, HEX3Aanonymous_486539651);
+    if (((enemyCreeps_486539660).length < 1)) {
+    raiseException({message: makeNimstrLit("No enemy creeps found"), parent: null, m_type: NTI33555112, name: null, trace: [], up: null}, "Exception");
+    }
+    
+    var myCreeps_486539674 = filter_486539506(creeps_486539629, HEX3Aanonymous_486539665);
+    var attackCreeps_486539726 = filter_486539506(myCreeps_486539674, HEX3Aanonymous_486539675);
+    var rangedCreeps_486539742 = filter_486539506(myCreeps_486539674, HEX3Aanonymous_486539727);
+    Label1: do {
+      var c_486539762 = null;
+      var colontmp__486540013 = null;
+      colontmp__486540013 = HEX3Aanonymous_486539743;
+      Label2: do {
+        var i_486540019 = 0;
+        var colontmp__486540020 = 0;
+        colontmp__486540020 = (creeps_486539629).length;
+        var i_486540021 = 0;
+        Label3: do {
+            Label4: while (true) {
+            if (!(i_486540021 < colontmp__486540020)) break Label4;
+              i_486540019 = i_486540021;
+              if (colontmp__486540013(creeps_486539629[chckIndx(i_486540019, 0, (creeps_486539629).length - 1)])) {
+              c_486539762 = creeps_486539629[chckIndx(i_486540019, 0, (creeps_486539629).length - 1)];
+              console.log(("creep: "), (c_486539762.id));
+              console.log(("body: "), (c_486539762.body));
+              Label5: do {
+                var b_486539802 = null;
+                var i_486539998 = 0;
+                var L_486539999 = (c_486539762.body).length;
+                Label6: do {
+                    Label7: while (true) {
+                    if (!(i_486539998 < L_486539999)) break Label7;
+                      b_486539802 = c_486539762.body[chckIndx(i_486539998, 0, (c_486539762.body).length - 1)];
+                      console.log(("part: "), (b_486539802.type));
+                      console.log(("ATTACK"), ("attack"));
+                      i_486539998 = addInt(i_486539998, 1);
+                      if (!(((c_486539762.body).length == L_486539999))) {
+                      failedAssertImpl_218103864(makeNimstrLit("iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+                      }
+                      
+                    }
+                } while (false);
+              } while (false);
+                var resultHEX60gensym76_486539840 = false;
+                Label8: do {
+                  var it_486539844 = null;
+                  var i_486540002 = 0;
+                  var L_486540003 = (c_486539762.body).length;
+                  Label9: do {
+                      Label10: while (true) {
+                      if (!(i_486540002 < L_486540003)) break Label10;
+                        it_486539844 = c_486539762.body[chckIndx(i_486540002, 0, (c_486539762.body).length - 1)];
+                        if ((it_486539844.type == "attack")) {
+                        resultHEX60gensym76_486539840 = true;
+                        break Label8;
+                        }
+                        
+                        i_486540002 = addInt(i_486540002, 1);
+                        if (!(((c_486539762.body).length == L_486540003))) {
+                        failedAssertImpl_218103864(makeNimstrLit("iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+                        }
+                        
+                      }
+                  } while (false);
+                } while (false);
+              if (resultHEX60gensym76_486539840) {
+              console.log(("creep has attack part: "), (c_486539762.id));
+              if ((0 < (enemyCreeps_486539660).length)) {
+              if ((c_486539762.attack(enemyCreeps_486539660[chckIndx(0, 0, (enemyCreeps_486539660).length - 1)]) == -9)) {
+              var _ = c_486539762.moveTo(enemyCreeps_486539660[chckIndx(0, 0, (enemyCreeps_486539660).length - 1)]);
+              }
+              
+              }
+              else {
+              console.log(("no other creeps to attack"));
+              }
+              
+              }
+              else {
+                var resultHEX60gensym86_486539885 = false;
+                Label11: do {
+                  var it_486539889 = null;
+                  var i_486540006 = 0;
+                  var L_486540007 = (c_486539762.body).length;
+                  Label12: do {
+                      Label13: while (true) {
+                      if (!(i_486540006 < L_486540007)) break Label13;
+                        it_486539889 = c_486539762.body[chckIndx(i_486540006, 0, (c_486539762.body).length - 1)];
+                        if ((it_486539889.type == "ranged_attack")) {
+                        resultHEX60gensym86_486539885 = true;
+                        break Label11;
+                        }
+                        
+                        i_486540006 = addInt(i_486540006, 1);
+                        if (!(((c_486539762.body).length == L_486540007))) {
+                        failedAssertImpl_218103864(makeNimstrLit("iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+                        }
+                        
+                      }
+                  } while (false);
+                } while (false);
+              if (resultHEX60gensym86_486539885) {
+              console.log(("creep has ranged attack part: "), (c_486539762.id));
+              if ((0 < (enemyCreeps_486539660).length)) {
+              if ((c_486539762.rangedAttack(enemyCreeps_486539660[chckIndx(0, 0, (enemyCreeps_486539660).length - 1)]) == -9)) {
+              var _ = c_486539762.moveTo(enemyCreeps_486539660[chckIndx(0, 0, (enemyCreeps_486539660).length - 1)]);
+              }
+              
+              }
+              else {
+              console.log(("no other creeps to attack"));
+              }
+              
+              }
+              else {
+                var resultHEX60gensym96_486539930 = false;
+                Label14: do {
+                  var it_486539934 = null;
+                  var i_486540010 = 0;
+                  var L_486540011 = (c_486539762.body).length;
+                  Label15: do {
+                      Label16: while (true) {
+                      if (!(i_486540010 < L_486540011)) break Label16;
+                        it_486539934 = c_486539762.body[chckIndx(i_486540010, 0, (c_486539762.body).length - 1)];
+                        if ((it_486539934.type == "heal")) {
+                        resultHEX60gensym96_486539930 = true;
+                        break Label14;
+                        }
+                        
+                        i_486540010 = addInt(i_486540010, 1);
+                        if (!(((c_486539762.body).length == L_486540011))) {
+                        failedAssertImpl_218103864(makeNimstrLit("iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+                        }
+                        
+                      }
+                  } while (false);
+                } while (false);
+              if (resultHEX60gensym96_486539930) {
+              console.log(("creep has heal part: "), (c_486539762.id));
+              if ((0 < (attackCreeps_486539726).length)) {
+              if ((c_486539762.heal(attackCreeps_486539726[chckIndx(0, 0, (attackCreeps_486539726).length - 1)]) == -9)) {
+              var _ = c_486539762.moveTo(attackCreeps_486539726[chckIndx(0, 0, (attackCreeps_486539726).length - 1)]);
+              }
+              
+              }
+              else {
+              if ((0 < (rangedCreeps_486539742).length)) {
+              if ((c_486539762.heal(rangedCreeps_486539742[chckIndx(0, 0, (rangedCreeps_486539742).length - 1)]) == -9)) {
+              var _ = c_486539762.moveTo(rangedCreeps_486539742[chckIndx(0, 0, (rangedCreeps_486539742).length - 1)]);
+              }
+              
+              }
+              else {
+              console.log(("no other creeps to heal"));
+              }
+              }
+              }
+              else {
+              console.log(("creep missing attack or heal part"));
+              }
+              }}
+              }
+              
+              i_486540021 = addInt(i_486540021, 1);
+            }
+        } while (false);
+      } while (false);
+    } while (false);
+
+  
+}
+export const loop = creepsBodies;
 

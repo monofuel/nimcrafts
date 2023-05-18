@@ -1,13 +1,25 @@
 
-type BodyPart* = enum
-  WORK = "work"
-  CARRY = "carry"
-  MOVE = "move"
-  ATTACK = "attack"
-  RANGED_ATTACK = "ranged_attack"
-  HEAL = "heal"
-  CLAIM = "claim"
-  TOUGH = "tough"
+## NB. enum type of strings doesn't work very well
+## when compiled to JS
+# type BodyPartType* = enum
+#   WORK = "work"
+#   CARRY = "carry"
+#   MOVE = "move"
+#   ATTACK = "attack"
+#   RANGED_ATTACK = "ranged_attack"
+#   HEAL = "heal"
+#   CLAIM = "claim"
+#   TOUGH = "tough"
+
+const WORK* = "work"
+const CARRY* = "carry"
+const MOVE* = "move"
+const ATTACK* = "attack"
+const RANGED_ATTACK* = "ranged_attack"
+const HEAL* = "heal"
+const CLAIM* = "claim"
+const TOUGH* = "tough"
+
 
 
 type FindTargetsType* = enum

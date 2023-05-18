@@ -29,6 +29,9 @@ type
     x*: int
     y*: int
     roomName*: cstring
+  Structure* {.exportc.} = ref object of GameObject
+    hits*: int
+    hitsMax*: int
   StructureSpawn* {.exportc.} = object # https://docs.screeps.com/api/#StructureSpawn
     hits*: int
     hitsMax*: int
@@ -39,6 +42,9 @@ type
     energyAvailable*: int
     energyCapacityAvailable*: int
     name*: cstring
+  BodyPart* {.exportc.} = ref object
+    `type`*: cstring
+    hits*: int
   Creep* {.exportc.} = ref object of GameObject
     body*: seq[BodyPart]
     fatigue*: float64
@@ -83,6 +89,12 @@ proc harvest*(c: Creep, s: Source): ReturnCode {.importcpp.}
 
 proc moveTo*(c: Creep, target: ref GameObject): ReturnCode {.importcpp.}
 
+proc attack*(c: Creep, target: Creep): ReturnCode {.importcpp.}
+proc attack*(c: Creep, target: Structure): ReturnCode {.importcpp.}
 
+proc rangedAttack*(c: Creep, target: Creep): ReturnCode {.importcpp.}
+proc rangedAttack*(c: Creep, target: Structure): ReturnCode {.importcpp.}
+
+proc heal*(c: Creep, target: Creep): ReturnCode {.importcpp.}
 
 proc getTicks*(g: GameUtil): int {.importcpp.}
