@@ -1,7 +1,7 @@
 
-import "./types", "./consts"
+import "./types", "./consts", "./shims"
 
-export types, consts
+export types, consts, shims
 
 # interface for Screeps Arena
 # the Screeps Arena API relies on importing modules
@@ -13,11 +13,11 @@ export types, consts
 
 # adding comments for ts types ot help with debugging
 {.emit"""
-/// <reference path="./typings/game/constants.d.ts" />
-/// <reference path="./typings/game/index.d.ts" />
-/// <reference path="./typings/game/path-finder.d.ts" />
-/// <reference path="./typings/game/utils.d.ts" />
-/// <reference path="./typings/game/visual.d.ts" />
+/// <reference path="./node_modules/@types/screeps-arena/game/constants.d.ts" />
+/// <reference path="./node_modules/@types/screeps-arena/game/index.d.ts" />
+/// <reference path="./node_modules/@types/screeps-arena/game/path-finder.d.ts" />
+/// <reference path="./node_modules/@types/screeps-arena/game/utils.d.ts" />
+/// <reference path="./node_modules/@types/screeps-arena/game/visual.d.ts" />
 """.}
 
 # Loading modules into variables
@@ -28,7 +28,9 @@ var gameUtil* {.importJs.}: GameUtil
 import * as gameUtil from 'game/utils';
 import * as gameVisual from 'game/visual';
 import * as gamePathFinder from 'game/path-finder';
-// NB. not using gameConstants, can just copy them to nim
-// not sure what this arena type is but it's not in typings
-// import { } from 'arena';
+import * as game from 'game';
+import * as arena from 'arena';
+
+import { Creep } from 'game/prototypes';
+import { Flag } from 'arena/prototypes';
 """.}
