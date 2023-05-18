@@ -31,6 +31,6 @@ import * as gamePathFinder from 'game/path-finder';
 import * as game from 'game';
 import * as arena from 'arena';
 
-import { Creep } from 'game/prototypes';
+import { Creep, StructureContainer, StructureTower } from 'game/prototypes';
 // import { Flag } from 'arena/prototypes';
 """.}

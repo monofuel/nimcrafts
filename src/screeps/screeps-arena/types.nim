@@ -29,19 +29,18 @@ type
     x*: int
     y*: int
     roomName*: cstring
-  Structure* {.exportc.} = ref object of GameObject
+  Store* {.exportc.} = ref object
+  Structure* {.exportc.} = object of GameObject
     hits*: int
     hitsMax*: int
-  StructureSpawn* {.exportc.} = object # https://docs.screeps.com/api/#StructureSpawn
-    hits*: int
-    hitsMax*: int
-    id*: cstring
-    structureType*: cstring
-  StructureController* {.exportc.} = object
-  Room* {.exportc.} = object
-    energyAvailable*: int
-    energyCapacityAvailable*: int
-    name*: cstring
+  OwnedStructure* {.exportc.} = object of Structure
+    my*: bool
+  StructureContainer* {.exportc.} = ref object of OwnedStructure
+    capacity*: int
+    cost*: int
+    store*: Store
+  StructureTower* {.exportc.} = ref object of OwnedStructure
+    store*: Store
   BodyPart* {.exportc.} = ref object
     `type`*: cstring
     hits*: int
@@ -51,7 +50,7 @@ type
     hits*: int
     hitsMax*: int
     my*: bool
-    # store
+    store*: Store
   Flag* {.exportc.} = ref object of GameObject
     my*: bool
   Source* {.exportc.} = object
@@ -60,41 +59,40 @@ type
     energyCapacity*: int
     id*: cstring
     pos*: RoomPosition
-    room*: Room
     ticksToRegeneration*: int
-  GameType* {.exportc.} = object # https://docs.screeps.com/api/#Game
-    time*: int
-    spawns*: JsAssoc[cstring, StructureSpawn]
-    creeps*: JsAssoc[cstring, Creep]
   GameUtil* {.exportc.} = object
 
 
-type
-  SpawnCreepOpts* {.exportc.} = object
-    dryRun*: bool
-
-# TODO opts
-proc spawnCreep*(
-        g: StructureSpawn,
-        #body: openArray[BodyPart],
-        body: openArray[cstring],
-        name: cstring
-    ): ReturnCode {.importcpp.}
-
-# TODO return type depends on specified type
-proc find*(r: Room, t: FindTargetsType): seq[Source] {.importcpp.}
-
-# TODO Mineral or Deposit
-proc harvest*(c: Creep, s: Source): ReturnCode {.importcpp.}
 
 proc moveTo*(c: Creep, target: ref GameObject): ReturnCode {.importcpp.}
 
 proc attack*(c: Creep, target: Creep): ReturnCode {.importcpp.}
-proc attack*(c: Creep, target: Structure): ReturnCode {.importcpp.}
+proc attack*(c: Creep, target: ref Structure): ReturnCode {.importcpp.}
+proc attack*(t: StructureTower, target: Creep): ReturnCode {.importcpp.}
+proc attack*(t: StructureTower, target: ref Structure): ReturnCode {.importcpp.}
 
 proc rangedAttack*(c: Creep, target: Creep): ReturnCode {.importcpp.}
-proc rangedAttack*(c: Creep, target: Structure): ReturnCode {.importcpp.}
+proc rangedAttack*(c: Creep, target: ref Structure): ReturnCode {.importcpp.}
 
 proc heal*(c: Creep, target: Creep): ReturnCode {.importcpp.}
 
 proc getTicks*(g: GameUtil): int {.importcpp.}
+
+proc transfer*(c: Creep, target: Creep, resource: cstring): ReturnCode {.importcpp.}
+proc transfer*(c: Creep, target: ref Structure,
+    resource: cstring): ReturnCode {.importcpp.}
+proc withdraw*(c: Creep, target: ref Structure,
+    resource: cstring): ReturnCode {.importcpp.}
+
+proc transfer*(c: Creep, target: Creep, resource: cstring,
+    amount: int): ReturnCode {.importcpp.}
+proc transfer*(c: Creep, target: ref Structure, resource: cstring,
+    amount: int): ReturnCode {.importcpp.}
+proc withdraw*(c: Creep, target: ref Structure, resource: cstring,
+    amount: int): ReturnCode {.importcpp.}
+
+
+# NB. resource argument is optional, but RESOURCE_ENERGY is the default
+proc getCapacity*(s: Store): int {.importcpp.}
+proc getFreeCapacity*(s: Store): int {.importcpp.}
+proc getUsedCapacity*(s: Store): int {.importcpp.}

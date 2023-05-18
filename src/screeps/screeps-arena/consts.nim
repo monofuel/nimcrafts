@@ -20,7 +20,7 @@ const HEAL* = "heal"
 const CLAIM* = "claim"
 const TOUGH* = "tough"
 
-
+const RESOURCE_ENERGY* = "energy".cstring
 
 type FindTargetsType* = enum
   FIND_EXIT_TOP = 1

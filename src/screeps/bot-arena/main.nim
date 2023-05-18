@@ -104,18 +104,55 @@ proc creepsBodies() {.exportc.} =
     else:
       console.log("creep missing attack or heal part".cstring)
 
-proc storeAndTransfer() =
+proc storeAndTransfer() {.exportc.} =
   let currentTick = gameUtil.getTicks()
   console.log("Current tick: ".cstring, currentTick)
   let creeps = getAllCreeps()
   console.log("found creeps: ".cstring, len(creeps))
 
-  # fetch energy from container
 
-  # store energy in tower
+  for c in creeps.filter((c: Creep) => c.my):
+    console.log("creep: ".cstring, c.id)
+    console.log("body: ".cstring, c.body)
+
+    if c.store.getUsedCapacity() == 0:
+      let containers = getAllContainers()
+      console.log("found containers: ".cstring, len(containers))
+      if len(containers) > 0:
+        let container = containers[0]
+        if c.withdraw(container, RESOURCE_ENERGY) == ERR_NOT_IN_RANGE:
+          discard c.moveTo(container)
+      else:
+        console.log("no containers found".cstring)
+
+    else:
+      let towers = getAllTowers()
+      console.log("found towers: ".cstring, len(towers))
+      if len(towers) > 0:
+        let tower = towers[0]
+        if c.transfer(tower, RESOURCE_ENERGY) == ERR_NOT_IN_RANGE:
+          discard c.moveTo(tower)
+      else:
+        console.log("no towers found".cstring)
+
+
+  # tower shoot creeps
+  let towers = getAllTowers()
+  console.log("found towers: ".cstring, len(towers))
+  if len(towers) > 0:
+    let tower = towers[0]
+    let enemyCreeps = creeps.filter((c: Creep) => not c.my)
+    if len(enemyCreeps) > 0:
+      let enemyCreep = enemyCreeps[0]
+      let res = tower.attack(enemyCreep)
+      console.log("tower attack result: ".cstring, res)
+    else:
+      console.log("no enemy creeps found".cstring)
+  else:
+    console.log("no towers found".cstring)
 
 
 
 {.emit"""
-export const loop = creepsBodies;
+export const loop = storeAndTransfer;
 """.}

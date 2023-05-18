@@ -4,14 +4,16 @@ var excHandler = 0;
 var lastJSError = null;
 var NTI33555124 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI1006632963 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI1006632976 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI1006632966 = {size: 0, kind: 22, base: null, node: null, finalizer: null};
 var NTI33554466 = {size: 0,kind: 1,base: null,node: null,finalizer: null};
 var NTI33554437 = {size: 0,kind: 36,base: null,node: null,finalizer: null};
 var NTI33554456 = {size: 0,kind: 31,base: null,node: null,finalizer: null};
-var NTI1006632977 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
-var NTI1006632970 = {size: 0, kind: 22, base: null, node: null, finalizer: null};
-var NTI1006632979 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI1006632978 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI1006632979 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
 var NTI1006632971 = {size: 0, kind: 22, base: null, node: null, finalizer: null};
+var NTI1006632981 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI1006632980 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI1006632972 = {size: 0, kind: 22, base: null, node: null, finalizer: null};
 var NTI486539392 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
 var NTI33555128 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI33555130 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
@@ -50,17 +52,21 @@ NTI33555130.base = NTI33555113;
 var NNI33555128 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
 NTI33555128.node = NNI33555128;
 NTI33555128.base = NTI33555113;
-var NNI1006632977 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "type", len: 0, typ: NTI33554440, name: "type", sons: null}, 
+var NNI1006632979 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "type", len: 0, typ: NTI33554440, name: "type", sons: null}, 
 {kind: 1, offset: "hits", len: 0, typ: NTI33554456, name: "hits", sons: null}]};
-NTI1006632977.node = NNI1006632977;
-NTI1006632970.base = NTI1006632977;
-NTI1006632979.base = NTI1006632970;
-var NNI1006632978 = {kind: 2, len: 5, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "body", len: 0, typ: NTI1006632979, name: "body", sons: null}, 
+NTI1006632979.node = NNI1006632979;
+NTI1006632971.base = NTI1006632979;
+NTI1006632981.base = NTI1006632971;
+var NNI1006632976 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
+NTI1006632976.node = NNI1006632976;
+NTI1006632966.base = NTI1006632976;
+var NNI1006632980 = {kind: 2, len: 6, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "body", len: 0, typ: NTI1006632981, name: "body", sons: null}, 
 {kind: 1, offset: "fatigue", len: 0, typ: NTI33554437, name: "fatigue", sons: null}, 
 {kind: 1, offset: "hits", len: 0, typ: NTI33554456, name: "hits", sons: null}, 
 {kind: 1, offset: "hitsMax", len: 0, typ: NTI33554456, name: "hitsMax", sons: null}, 
-{kind: 1, offset: "my", len: 0, typ: NTI33554466, name: "my", sons: null}]};
-NTI1006632978.node = NNI1006632978;
+{kind: 1, offset: "my", len: 0, typ: NTI33554466, name: "my", sons: null}, 
+{kind: 1, offset: "store", len: 0, typ: NTI1006632966, name: "store", sons: null}]};
+NTI1006632980.node = NNI1006632980;
 var NNI1006632963 = {kind: 2, len: 5, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "exists", len: 0, typ: NTI33554466, name: "exists", sons: null}, 
 {kind: 1, offset: "id", len: 0, typ: NTI33554440, name: "id", sons: null}, 
 {kind: 1, offset: "ticksToDecay", len: 0, typ: NTI33554456, name: "ticksToDecay", sons: null}, 
@@ -68,9 +74,9 @@ var NNI1006632963 = {kind: 2, len: 5, offset: 0, typ: null, name: null, sons: [{
 {kind: 1, offset: "y", len: 0, typ: NTI33554456, name: "y", sons: null}]};
 NTI1006632963.node = NNI1006632963;
 NTI1006632963.base = NTI33555083;
-NTI1006632978.base = NTI1006632963;
-NTI1006632971.base = NTI1006632978;
-NTI486539392.base = NTI1006632971;
+NTI1006632980.base = NTI1006632963;
+NTI1006632972.base = NTI1006632980;
+NTI486539392.base = NTI1006632972;
 var NNI33555124 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
 NTI33555124.node = NNI33555124;
 NTI33555124.base = NTI33555113;
@@ -326,7 +332,7 @@ import * as gamePathFinder from 'game/path-finder';
 import * as game from 'game';
 import * as arena from 'arena';
 
-import { Creep } from 'game/prototypes';
+import { Creep, StructureContainer, StructureTower } from 'game/prototypes';
 // import { Flag } from 'arena/prototypes';
 
 
@@ -900,5 +906,131 @@ function HEX3Aanonymous_486539743(c_486539744) {
 
   
 }
-export const loop = creepsBodies;
+
+function getAllContainers_1040187398() {
+  var result_1040187399 = [];
+
+      return gameUtil.getObjectsByPrototype(StructureContainer);
+  
+
+  return result_1040187399;
+
+}
+
+function getAllTowers_1040187400() {
+  var result_1040187401 = [];
+
+      return gameUtil.getObjectsByPrototype(StructureTower);
+  
+
+  return result_1040187401;
+
+}
+
+function storeAndTransfer() {
+      
+function HEX3Aanonymous_486540073(c_486540074) {
+        var result_486540075 = false;
+
+          result_486540075 = c_486540074.my;
+
+        return result_486540075;
+
+      }
+    var Temporary5;
+    
+function HEX3Aanonymous_486540240(c_486540241) {
+      var result_486540242 = false;
+
+        result_486540242 = !(c_486540241.my);
+
+      return result_486540242;
+
+    }
+    var Temporary6;
+
+    var currentTick_486540032 = gameUtil.getTicks();
+    console.log(("Current tick: "), (currentTick_486540032));
+    var creeps_486540051 = getAllCreeps_1040187394();
+    console.log(("found creeps: "), ((creeps_486540051).length));
+    Label1: do {
+      var c_486540084 = null;
+      var colontmp__486540344 = null;
+      colontmp__486540344 = HEX3Aanonymous_486540073;
+      Label2: do {
+        var i_486540346 = 0;
+        var colontmp__486540347 = 0;
+        colontmp__486540347 = (creeps_486540051).length;
+        var i_486540348 = 0;
+        Label3: do {
+            Label4: while (true) {
+            if (!(i_486540348 < colontmp__486540347)) break Label4;
+              i_486540346 = i_486540348;
+              if (colontmp__486540344(creeps_486540051[chckIndx(i_486540346, 0, (creeps_486540051).length - 1)])) {
+              c_486540084 = creeps_486540051[chckIndx(i_486540346, 0, (creeps_486540051).length - 1)];
+              console.log(("creep: "), (c_486540084.id));
+              console.log(("body: "), (c_486540084.body));
+              if ((c_486540084.store.getUsedCapacity() == 0)) {
+              var containers_486540121 = getAllContainers_1040187398();
+              console.log(("found containers: "), ((containers_486540121).length));
+              if ((0 < (containers_486540121).length)) {
+              var container_486540150 = containers_486540121[chckIndx(0, 0, (containers_486540121).length - 1)];
+              if ((c_486540084.withdraw(container_486540150, "energy") == -9)) {
+              var _ = c_486540084.moveTo(container_486540150);
+              }
+              
+              }
+              else {
+              console.log(("no containers found"));
+              }
+              
+              }
+              else {
+                var towers_486540166 = getAllTowers_1040187400();
+                console.log(("found towers: "), ((towers_486540166).length));
+                if ((0 < (towers_486540166).length)) {
+                var tower_486540195 = towers_486540166[chckIndx(0, 0, (towers_486540166).length - 1)];
+                if ((c_486540084.transfer(tower_486540195, "energy") == -9)) {
+                var _ = c_486540084.moveTo(tower_486540195);
+                }
+                
+                }
+                else {
+                console.log(("no towers found"));
+                }
+                
+              }
+              
+              }
+              
+              i_486540348 = addInt(i_486540348, 1);
+            }
+        } while (false);
+      } while (false);
+    } while (false);
+    var towers_486540211 = getAllTowers_1040187400();
+    console.log(("found towers: "), ((towers_486540211).length));
+    if ((0 < (towers_486540211).length)) {
+    var tower_486540239 = towers_486540211[chckIndx(0, 0, (towers_486540211).length - 1)];
+    var enemyCreeps_486540249 = filter_486539506(creeps_486540051, HEX3Aanonymous_486540240);
+    if ((0 < (enemyCreeps_486540249).length)) {
+    var enemyCreep_486540256 = enemyCreeps_486540249[chckIndx(0, 0, (enemyCreeps_486540249).length - 1)];
+    var res_486540257 = tower_486540239.attack(enemyCreep_486540256);
+    Temporary6 = console.log(("tower attack result: "), (res_486540257));
+    }
+    else {
+    Temporary6 = console.log(("no enemy creeps found"));
+    }
+    
+    Temporary5 = Temporary6;
+    }
+    else {
+    Temporary5 = console.log(("no towers found"));
+    }
+    
+    Temporary5;
+
+  
+}
+export const loop = storeAndTransfer;
 
