@@ -2,6 +2,9 @@ import std/jsffi
 
 import "./consts"
 
+# js examples
+# https://github.com/nim-lang/Nim/blob/ddce5559981ac5dedd3a5dfb210eb25296e69307/lib/js/dom.nim#L77-L108
+
 # use cstrings over strings for js code
 # strings are intended for nim
 

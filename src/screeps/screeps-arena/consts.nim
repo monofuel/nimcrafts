@@ -3,6 +3,12 @@ type BodyPart* = enum
   WORK = "work"
   CARRY = "carry"
   MOVE = "move"
+  ATTACK = "attack"
+  RANGED_ATTACK = "ranged_attack"
+  HEAL = "heal"
+  CLAIM = "claim"
+  TOUGH = "tough"
+
 
 type FindTargetsType* = enum
   FIND_EXIT_TOP = 1

@@ -1,6 +1,6 @@
 import std/jsffi
 
-import "../screeps/main"
+import "../screeps-world/main"
 
 var console {.importc, nodecl.}: JsObject
 var module {.importc, nodecl.}: JsObject
