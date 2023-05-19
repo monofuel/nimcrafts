@@ -3,17 +3,17 @@ var framePtr = null;
 var excHandler = 0;
 var lastJSError = null;
 var NTI33555124 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
-var NTI1006632963 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
-var NTI1006632976 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
-var NTI1006632966 = {size: 0, kind: 22, base: null, node: null, finalizer: null};
+var NTI1006632965 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI1006632979 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI1006632969 = {size: 0, kind: 22, base: null, node: null, finalizer: null};
 var NTI33554466 = {size: 0,kind: 1,base: null,node: null,finalizer: null};
 var NTI33554437 = {size: 0,kind: 36,base: null,node: null,finalizer: null};
 var NTI33554456 = {size: 0,kind: 31,base: null,node: null,finalizer: null};
-var NTI1006632979 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
-var NTI1006632971 = {size: 0, kind: 22, base: null, node: null, finalizer: null};
-var NTI1006632981 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI1006632980 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
-var NTI1006632972 = {size: 0, kind: 22, base: null, node: null, finalizer: null};
+var NTI1006632984 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI1006632974 = {size: 0, kind: 22, base: null, node: null, finalizer: null};
+var NTI1006632986 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI1006632985 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI1006632975 = {size: 0, kind: 22, base: null, node: null, finalizer: null};
 var NTI486539392 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
 var NTI33555128 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI33555130 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
@@ -52,31 +52,31 @@ NTI33555130.base = NTI33555113;
 var NNI33555128 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
 NTI33555128.node = NNI33555128;
 NTI33555128.base = NTI33555113;
-var NNI1006632979 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "type", len: 0, typ: NTI33554440, name: "type", sons: null}, 
+var NNI1006632984 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "type", len: 0, typ: NTI33554440, name: "type", sons: null}, 
 {kind: 1, offset: "hits", len: 0, typ: NTI33554456, name: "hits", sons: null}]};
+NTI1006632984.node = NNI1006632984;
+NTI1006632974.base = NTI1006632984;
+NTI1006632986.base = NTI1006632974;
+var NNI1006632979 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
 NTI1006632979.node = NNI1006632979;
-NTI1006632971.base = NTI1006632979;
-NTI1006632981.base = NTI1006632971;
-var NNI1006632976 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
-NTI1006632976.node = NNI1006632976;
-NTI1006632966.base = NTI1006632976;
-var NNI1006632980 = {kind: 2, len: 6, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "body", len: 0, typ: NTI1006632981, name: "body", sons: null}, 
+NTI1006632969.base = NTI1006632979;
+var NNI1006632985 = {kind: 2, len: 6, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "body", len: 0, typ: NTI1006632986, name: "body", sons: null}, 
 {kind: 1, offset: "fatigue", len: 0, typ: NTI33554437, name: "fatigue", sons: null}, 
 {kind: 1, offset: "hits", len: 0, typ: NTI33554456, name: "hits", sons: null}, 
 {kind: 1, offset: "hitsMax", len: 0, typ: NTI33554456, name: "hitsMax", sons: null}, 
 {kind: 1, offset: "my", len: 0, typ: NTI33554466, name: "my", sons: null}, 
-{kind: 1, offset: "store", len: 0, typ: NTI1006632966, name: "store", sons: null}]};
-NTI1006632980.node = NNI1006632980;
-var NNI1006632963 = {kind: 2, len: 5, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "exists", len: 0, typ: NTI33554466, name: "exists", sons: null}, 
+{kind: 1, offset: "store", len: 0, typ: NTI1006632969, name: "store", sons: null}]};
+NTI1006632985.node = NNI1006632985;
+var NNI1006632965 = {kind: 2, len: 5, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "exists", len: 0, typ: NTI33554466, name: "exists", sons: null}, 
 {kind: 1, offset: "id", len: 0, typ: NTI33554440, name: "id", sons: null}, 
 {kind: 1, offset: "ticksToDecay", len: 0, typ: NTI33554456, name: "ticksToDecay", sons: null}, 
 {kind: 1, offset: "x", len: 0, typ: NTI33554456, name: "x", sons: null}, 
 {kind: 1, offset: "y", len: 0, typ: NTI33554456, name: "y", sons: null}]};
-NTI1006632963.node = NNI1006632963;
-NTI1006632963.base = NTI33555083;
-NTI1006632980.base = NTI1006632963;
-NTI1006632972.base = NTI1006632980;
-NTI486539392.base = NTI1006632972;
+NTI1006632965.node = NNI1006632965;
+NTI1006632965.base = NTI33555083;
+NTI1006632985.base = NTI1006632965;
+NTI1006632975.base = NTI1006632985;
+NTI486539392.base = NTI1006632975;
 var NNI33555124 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
 NTI33555124.node = NNI33555124;
 NTI33555124.base = NTI33555113;
@@ -333,7 +333,7 @@ import * as game from 'game';
 import * as arena from 'arena';
 
 import { Creep, StructureContainer, StructureTower } from 'game/prototypes';
-// import { Flag } from 'arena/prototypes';
+import { Flag } from 'arena/prototypes';
 
 
 function getAllCreeps_1040187394() {
@@ -1032,5 +1032,44 @@ function HEX3Aanonymous_486540240(c_486540241) {
 
   
 }
-export const loop = storeAndTransfer;
+
+function terrainMove() {
+            var Temporary4;
+
+    var currentTick_486540351 = gameUtil.getTicks();
+    console.log(("Current tick: "), (currentTick_486540351));
+    var creeps_486540370 = getAllCreeps_1040187394();
+    console.log(("found creeps: "), ((creeps_486540370).length));
+    var flags_486540392 = getAllFlags_1040187396();
+    console.log(("found flags: "), ((flags_486540392).length));
+    Label1: do {
+      var c_486540434 = null;
+      var i_486540485 = 0;
+      var L_486540486 = (creeps_486540370).length;
+      Label2: do {
+          Label3: while (true) {
+          if (!(i_486540485 < L_486540486)) break Label3;
+            c_486540434 = creeps_486540370[chckIndx(i_486540485, 0, (creeps_486540370).length - 1)];
+            var closestFlag_486540439 = c_486540434.findClosestByPath(flags_486540392);
+            if (!((closestFlag_486540439 == null))) {
+            var res_486540444 = c_486540434.moveTo(closestFlag_486540439);
+            Temporary4 = console.log(("move result: "), (res_486540444));
+            }
+            else {
+            Temporary4 = console.log(("no flags found"));
+            }
+            
+            Temporary4;
+            i_486540485 = addInt(i_486540485, 1);
+            if (!(((creeps_486540370).length == L_486540486))) {
+            failedAssertImpl_218103864(makeNimstrLit("iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+            }
+            
+          }
+      } while (false);
+    } while (false);
+
+  
+}
+export const loop = terrainMove;
 

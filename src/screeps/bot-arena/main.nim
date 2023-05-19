@@ -151,8 +151,25 @@ proc storeAndTransfer() {.exportc.} =
   else:
     console.log("no towers found".cstring)
 
+proc terrainMove() {.exportc.} =
+  let currentTick = gameUtil.getTicks()
+  console.log("Current tick: ".cstring, currentTick)
+
+  let creeps = getAllCreeps()
+  console.log("found creeps: ".cstring, len(creeps))
+
+  let flags = getAllFlags()
+  console.log("found flags: ".cstring, len(flags))
+
+  for c in creeps:
+    let closestFlag = c.findClosestByPath(flags)
+    if closestFlag != nil:
+      let res = c.moveTo(closestFlag)
+      console.log("move result: ".cstring, res)
+    else:
+      console.log("no flags found".cstring)
 
 
 {.emit"""
-export const loop = storeAndTransfer;
+export const loop = terrainMove;
 """.}

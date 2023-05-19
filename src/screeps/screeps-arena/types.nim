@@ -13,10 +13,13 @@ import "./consts"
 # TODO some of these types are not complete as I figure things out
 
 type
-  GameObject* {.exportc.} = object of RootObj
+  GameObject* {.exportc.} = ref object of RootObj
     exists*: bool
     id*: cstring
     ticksToDecay*: int
+    x*: int
+    y*: int
+  Position* {.exportc.} = ref object
     x*: int
     y*: int
 
@@ -30,10 +33,10 @@ type
     y*: int
     roomName*: cstring
   Store* {.exportc.} = ref object
-  Structure* {.exportc.} = object of GameObject
+  Structure* {.exportc.} = ref object of GameObject
     hits*: int
     hitsMax*: int
-  OwnedStructure* {.exportc.} = object of Structure
+  OwnedStructure* {.exportc.} = ref object of Structure
     my*: bool
   StructureContainer* {.exportc.} = ref object of OwnedStructure
     capacity*: int
@@ -64,31 +67,31 @@ type
 
 
 
-proc moveTo*(c: Creep, target: ref GameObject): ReturnCode {.importcpp.}
+proc moveTo*(c: Creep, target: GameObject): ReturnCode {.importcpp.}
 
 proc attack*(c: Creep, target: Creep): ReturnCode {.importcpp.}
-proc attack*(c: Creep, target: ref Structure): ReturnCode {.importcpp.}
+proc attack*(c: Creep, target: Structure): ReturnCode {.importcpp.}
 proc attack*(t: StructureTower, target: Creep): ReturnCode {.importcpp.}
-proc attack*(t: StructureTower, target: ref Structure): ReturnCode {.importcpp.}
+proc attack*(t: StructureTower, target: Structure): ReturnCode {.importcpp.}
 
 proc rangedAttack*(c: Creep, target: Creep): ReturnCode {.importcpp.}
-proc rangedAttack*(c: Creep, target: ref Structure): ReturnCode {.importcpp.}
+proc rangedAttack*(c: Creep, target: Structure): ReturnCode {.importcpp.}
 
 proc heal*(c: Creep, target: Creep): ReturnCode {.importcpp.}
 
 proc getTicks*(g: GameUtil): int {.importcpp.}
 
 proc transfer*(c: Creep, target: Creep, resource: cstring): ReturnCode {.importcpp.}
-proc transfer*(c: Creep, target: ref Structure,
+proc transfer*(c: Creep, target: Structure,
     resource: cstring): ReturnCode {.importcpp.}
-proc withdraw*(c: Creep, target: ref Structure,
+proc withdraw*(c: Creep, target: Structure,
     resource: cstring): ReturnCode {.importcpp.}
 
 proc transfer*(c: Creep, target: Creep, resource: cstring,
     amount: int): ReturnCode {.importcpp.}
-proc transfer*(c: Creep, target: ref Structure, resource: cstring,
+proc transfer*(c: Creep, target: Structure, resource: cstring,
     amount: int): ReturnCode {.importcpp.}
-proc withdraw*(c: Creep, target: ref Structure, resource: cstring,
+proc withdraw*(c: Creep, target: Structure, resource: cstring,
     amount: int): ReturnCode {.importcpp.}
 
 
@@ -96,3 +99,8 @@ proc withdraw*(c: Creep, target: ref Structure, resource: cstring,
 proc getCapacity*(s: Store): int {.importcpp.}
 proc getFreeCapacity*(s: Store): int {.importcpp.}
 proc getUsedCapacity*(s: Store): int {.importcpp.}
+
+proc findClosestByPath*[T: GameObject](c: Creep, targets: seq[
+    T]): T {.importcpp.}
+proc findClosestByRange*(c: Creep, targets: seq[
+    Position]): GameObject {.importcpp.}
