@@ -22,6 +22,8 @@ type
   Position* {.exportc.} = ref object
     x*: int
     y*: int
+  ErrorRes* {.exportc.} = object
+    error*: int
 
 type
   Effects* {.exportc.} = object
@@ -38,6 +40,13 @@ type
     hitsMax*: int
   OwnedStructure* {.exportc.} = ref object of Structure
     my*: bool
+  Spawning* {.exportc.} = ref object
+    creep*: Creep
+    needTime*: int
+    remainingTime*: int
+  StructureSpawn* {.exportc.} = ref object of OwnedStructure
+    store*: Store
+    spawning*: Spawning
   StructureContainer* {.exportc.} = ref object of OwnedStructure
     capacity*: int
     cost*: int
@@ -64,8 +73,6 @@ type
     pos*: RoomPosition
     ticksToRegeneration*: int
   GameUtil* {.exportc.} = object
-
-
 
 proc moveTo*(c: Creep, target: GameObject): ReturnCode {.importcpp.}
 

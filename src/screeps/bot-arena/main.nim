@@ -170,6 +170,54 @@ proc terrainMove() {.exportc.} =
       console.log("no flags found".cstring)
 
 
+var creep1: Creep;
+var creep2: Creep;
+var flag1: Flag;
+var flag2: Flag;
+
+proc spawnCreeps() {.exportc.} =
+  let currentTick = gameUtil.getTicks()
+  console.log("Current tick: ".cstring, currentTick)
+
+  let creeps = getAllCreeps()
+  console.log("found creeps: ".cstring, len(creeps))
+  if isNil(creep1) and len(creeps) > 0:
+    creep1 = creeps[0]
+  if isNil(creep2) and len(creeps) > 1:
+    creep2 = creeps[1]
+
+  let flags = getAllFlags()
+  console.log("found flags: ".cstring, len(flags))
+  if isNil(flag1):
+    flag1 = flags[0]
+  if isNil(flag2):
+    flag2 = flags[1]
+
+  let spawns = getAllSpawns()
+  console.log("found spawns: ".cstring, len(spawns))
+
+  if isNil(creep1) or isNil(creep2):
+    if len(spawns) > 0:
+      let spawn = spawns[0]
+      var res = spawn.spawnCreep(@[WORK, MOVE])
+      if isNil(res.creep):
+        console.log("spawn creep error: ".cstring, res)
+      else:
+        console.log("spawn creep result: ".cstring, res)
+
+    else:
+      console.log("no spawns found".cstring)
+
+  if not isNil(creep1):
+    let res = creep1.moveTo(flag1)
+    console.log("move result: ".cstring, res)
+
+  if not isNil(creep2):
+    let res = creep2.moveTo(flag2)
+    console.log("move result: ".cstring, res)
+
+
+
 {.emit"""
-export const loop = terrainMove;
+export const loop = spawnCreeps;
 """.}

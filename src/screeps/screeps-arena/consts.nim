@@ -11,14 +11,14 @@
 #   CLAIM = "claim"
 #   TOUGH = "tough"
 
-const WORK* = "work"
-const CARRY* = "carry"
-const MOVE* = "move"
-const ATTACK* = "attack"
-const RANGED_ATTACK* = "ranged_attack"
-const HEAL* = "heal"
-const CLAIM* = "claim"
-const TOUGH* = "tough"
+const WORK* = "work".cstring
+const CARRY* = "carry".cstring
+const MOVE* = "move".cstring
+const ATTACK* = "attack".cstring
+const RANGED_ATTACK* = "ranged_attack".cstring
+const HEAL* = "heal".cstring
+const CLAIM* = "claim".cstring
+const TOUGH* = "tough".cstring
 
 const RESOURCE_ENERGY* = "energy".cstring
 
