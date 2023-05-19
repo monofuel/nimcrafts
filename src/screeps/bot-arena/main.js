@@ -2,19 +2,19 @@
 var framePtr = null;
 var excHandler = 0;
 var lastJSError = null;
-var NTI1040187407 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI1040187411 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
 var NTI33555124 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI1006632966 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
-var NTI1006632982 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI1006632983 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
 var NTI1006632970 = {size: 0, kind: 22, base: null, node: null, finalizer: null};
 var NTI33554466 = {size: 0,kind: 1,base: null,node: null,finalizer: null};
 var NTI33554437 = {size: 0,kind: 36,base: null,node: null,finalizer: null};
 var NTI33554456 = {size: 0,kind: 31,base: null,node: null,finalizer: null};
-var NTI1006632989 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
-var NTI1006632977 = {size: 0, kind: 22, base: null, node: null, finalizer: null};
-var NTI1006632991 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI1006632990 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI1006632991 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
 var NTI1006632978 = {size: 0, kind: 22, base: null, node: null, finalizer: null};
+var NTI1006632994 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI1006632993 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI1006632980 = {size: 0, kind: 22, base: null, node: null, finalizer: null};
 var NTI486539392 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
 var NTI33555128 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI33555130 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
@@ -53,21 +53,21 @@ NTI33555130.base = NTI33555113;
 var NNI33555128 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
 NTI33555128.node = NNI33555128;
 NTI33555128.base = NTI33555113;
-var NNI1006632989 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "type", len: 0, typ: NTI33554440, name: "type", sons: null}, 
+var NNI1006632991 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "type", len: 0, typ: NTI33554440, name: "type", sons: null}, 
 {kind: 1, offset: "hits", len: 0, typ: NTI33554456, name: "hits", sons: null}]};
-NTI1006632989.node = NNI1006632989;
-NTI1006632977.base = NTI1006632989;
-NTI1006632991.base = NTI1006632977;
-var NNI1006632982 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
-NTI1006632982.node = NNI1006632982;
-NTI1006632970.base = NTI1006632982;
-var NNI1006632990 = {kind: 2, len: 6, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "body", len: 0, typ: NTI1006632991, name: "body", sons: null}, 
+NTI1006632991.node = NNI1006632991;
+NTI1006632978.base = NTI1006632991;
+NTI1006632994.base = NTI1006632978;
+var NNI1006632983 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
+NTI1006632983.node = NNI1006632983;
+NTI1006632970.base = NTI1006632983;
+var NNI1006632993 = {kind: 2, len: 6, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "body", len: 0, typ: NTI1006632994, name: "body", sons: null}, 
 {kind: 1, offset: "fatigue", len: 0, typ: NTI33554437, name: "fatigue", sons: null}, 
 {kind: 1, offset: "hits", len: 0, typ: NTI33554456, name: "hits", sons: null}, 
 {kind: 1, offset: "hitsMax", len: 0, typ: NTI33554456, name: "hitsMax", sons: null}, 
 {kind: 1, offset: "my", len: 0, typ: NTI33554466, name: "my", sons: null}, 
 {kind: 1, offset: "store", len: 0, typ: NTI1006632970, name: "store", sons: null}]};
-NTI1006632990.node = NNI1006632990;
+NTI1006632993.node = NNI1006632993;
 var NNI1006632966 = {kind: 2, len: 5, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "exists", len: 0, typ: NTI33554466, name: "exists", sons: null}, 
 {kind: 1, offset: "id", len: 0, typ: NTI33554440, name: "id", sons: null}, 
 {kind: 1, offset: "ticksToDecay", len: 0, typ: NTI33554456, name: "ticksToDecay", sons: null}, 
@@ -75,13 +75,13 @@ var NNI1006632966 = {kind: 2, len: 5, offset: 0, typ: null, name: null, sons: [{
 {kind: 1, offset: "y", len: 0, typ: NTI33554456, name: "y", sons: null}]};
 NTI1006632966.node = NNI1006632966;
 NTI1006632966.base = NTI33555083;
-NTI1006632990.base = NTI1006632966;
-NTI1006632978.base = NTI1006632990;
-NTI486539392.base = NTI1006632978;
+NTI1006632993.base = NTI1006632966;
+NTI1006632980.base = NTI1006632993;
+NTI486539392.base = NTI1006632980;
 var NNI33555124 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
 NTI33555124.node = NNI33555124;
 NTI33555124.base = NTI33555113;
-NTI1040187407.base = NTI33554440;
+NTI1040187411.base = NTI33554440;
 
 function makeNimstrLit(c_33556801) {
       var result = [];
@@ -334,8 +334,11 @@ import * as gamePathFinder from 'game/path-finder';
 import * as game from 'game';
 import * as arena from 'arena';
 
-import { Creep, StructureContainer, StructureTower, StructureSpawn } from 'game/prototypes';
-import { Flag } from 'arena/prototypes';
+import { 
+  Creep, Source, StructureContainer, StructureTower, StructureSpawn,
+  ConstructionSite
+ } from 'game/prototypes';
+// import { Flag } from 'arena/prototypes';
 
 
 function getAllCreeps_1040187394() {
@@ -1088,11 +1091,11 @@ function getAllSpawns_1040187402() {
 
 }
 
-function spawnCreep_1040187407(sArg_1040187408, bodyArg_1040187409) {
-  var result_1040187410 = ({error: ({error: 0}), creep: null});
+function spawnCreep_1040187411(sArg_1040187412, bodyArg_1040187413) {
+  var result_1040187414 = ({error: ({error: 0}), creep: null});
 
-    var s = sArg_1040187408;
-    var body = nimCopy(null, bodyArg_1040187409, NTI1040187407);
+    var s = sArg_1040187412;
+    var body = nimCopy(null, bodyArg_1040187413, NTI1040187411);
       const result = s.spawnCreep(body);
   if (result.error) {
     return {error: result.error};
@@ -1101,7 +1104,7 @@ function spawnCreep_1040187407(sArg_1040187408, bodyArg_1040187409) {
   }
   
 
-  return result_1040187410;
+  return result_1040187414;
 
 }
 
@@ -1138,7 +1141,7 @@ function spawnCreeps() {
     if (((creep1_486540488[0] == null) || (creep2_486540489[0] == null))) {
     if ((0 < (spawns_486540580).length)) {
     var spawn_486540615 = spawns_486540580[chckIndx(0, 0, (spawns_486540580).length - 1)];
-    var res_486540620 = spawnCreep_1040187407(spawn_486540615, ["work", "move"]);
+    var res_486540620 = spawnCreep_1040187411(spawn_486540615, ["work", "move"]);
     if ((res_486540620.creep == null)) {
     Temporary4 = console.log(("spawn creep error: "), (res_486540620));
     }
@@ -1168,5 +1171,408 @@ function spawnCreeps() {
 
   
 }
-export const loop = spawnCreeps;
+
+function getAllSources_1040187404() {
+  var result_1040187405 = [];
+
+      return gameUtil.getObjectsByPrototype(Source);
+  
+
+  return result_1040187405;
+
+}
+
+function harvestEnergy() {
+    var currentTick_486540743 = gameUtil.getTicks();
+    console.log(("Current tick: "), (currentTick_486540743));
+    var creeps_486540762 = getAllCreeps_1040187394();
+    console.log(("found creeps: "), ((creeps_486540762).length));
+    var sources_486540784 = getAllSources_1040187404();
+    console.log(("found sources: "), ((sources_486540784).length));
+    var spawns_486540807 = getAllSpawns_1040187402();
+    console.log(("found spawns: "), ((spawns_486540807).length));
+    Label1: do {
+      var c_486540832 = null;
+      var i_486540900 = 0;
+      var L_486540901 = (creeps_486540762).length;
+      Label2: do {
+          Label3: while (true) {
+          if (!(i_486540900 < L_486540901)) break Label3;
+            c_486540832 = creeps_486540762[chckIndx(i_486540900, 0, (creeps_486540762).length - 1)];
+            if ((c_486540832.store.getCapacity() == c_486540832.store.getUsedCapacity())) {
+            if ((0 < (spawns_486540807).length)) {
+            var spawn_486540839 = spawns_486540807[chckIndx(0, 0, (spawns_486540807).length - 1)];
+            if ((c_486540832.transfer(spawn_486540839, "energy") == -9)) {
+            var _ = c_486540832.moveTo(spawn_486540839);
+            }
+            
+            }
+            else {
+            console.log(("no spawns found"));
+            }
+            
+            }
+            else {
+              if ((0 < (sources_486540784).length)) {
+              var source_486540865 = c_486540832.findClosestByPath(sources_486540784);
+              if ((c_486540832.harvest(source_486540865) == -9)) {
+              var _ = c_486540832.moveTo(source_486540865);
+              }
+              
+              }
+              else {
+              console.log(("no sources found"));
+              }
+              
+            }
+            
+            i_486540900 = addInt(i_486540900, 1);
+            if (!(((creeps_486540762).length == L_486540901))) {
+            failedAssertImpl_218103864(makeNimstrLit("iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+            }
+            
+          }
+      } while (false);
+    } while (false);
+
+  
+}
+var constructionSite1_486540903 = [null];
+var goBuild_486540904 = [false];
+
+function getAllConstructionSites_1040187406() {
+  var result_1040187407 = [];
+
+      return gameUtil.getObjectsByPrototype(ConstructionSite);
+  
+
+  return result_1040187407;
+
+}
+
+function createStructureTower_1040187429(posArg_1040187430) {
+  var result_1040187431 = ({error: ({error: 0}), constructionSite: null});
+
+    var pos = posArg_1040187430;
+      const result = gameUtil.createConstructionSite(pos, StructureTower);
+  if (result.error) {
+    return {error: result.error};
+  } else {
+    return {constructionSite: result};
+  }
+  
+
+  return result_1040187431;
+
+}
+
+function towerConstruction() {
+    var Temporary1;
+
+    var currentTick_486540915 = gameUtil.getTicks();
+    console.log(("Current tick: "), (currentTick_486540915));
+    var creeps_486540934 = getAllCreeps_1040187394();
+    console.log(("found creeps: "), ((creeps_486540934).length));
+    var containers_486540956 = getAllContainers_1040187398();
+    console.log(("found sources: "), ((containers_486540956).length));
+    var spawns_486540978 = getAllSpawns_1040187402();
+    console.log(("found spawns: "), ((spawns_486540978).length));
+    var sites_486541000 = getAllConstructionSites_1040187406();
+    console.log(("found construction sites: "), ((sites_486541000).length));
+    if ((constructionSite1_486540903[0] == null)) {
+    var res_486541026 = createStructureTower_1040187429({x: 50, y: 55});
+    if (!((res_486541026.constructionSite == null))) {
+    constructionSite1_486540903[0] = res_486541026.constructionSite;
+    Temporary1 = console.log(("created construction site"));
+    }
+    else {
+    Temporary1 = console.log(("createStructureTower error: "), (res_486541026.error));
+    }
+    
+    Temporary1;
+    }
+    
+    Label2: do {
+      var c_486541062 = null;
+      var i_486541220 = 0;
+      var L_486541221 = (creeps_486540934).length;
+      Label3: do {
+          Label4: while (true) {
+          if (!(i_486541220 < L_486541221)) break Label4;
+            c_486541062 = creeps_486540934[chckIndx(i_486541220, 0, (creeps_486540934).length - 1)];
+            console.log(("goBuild: "), (goBuild_486540904[0]));
+            console.log(("constructionSite1: "), (constructionSite1_486540903[0]));
+            if (goBuild_486540904[0]) {
+            console.log(("gobuild!!!"));
+            if ((c_486541062.store.getUsedCapacity() == 0)) {
+            console.log(("no go build"));
+            goBuild_486540904[0] = false;
+            }
+            else {
+              console.log(("log1"));
+              var res_486541132 = c_486541062.build(sites_486541000[chckIndx(0, 0, (sites_486541000).length - 1)]);
+              console.log(("build result: "), (res_486541132));
+              if (!((res_486541132 == 0))) {
+              console.log(("log2"));
+              var _ = c_486541062.moveTo(sites_486541000[chckIndx(0, 0, (sites_486541000).length - 1)]);
+              }
+              
+            }
+            
+            }
+            else {
+              if ((c_486541062.store.getFreeCapacity() == 0)) {
+              goBuild_486540904[0] = true;
+              }
+              else {
+                if ((0 < (containers_486540956).length)) {
+                var container_486541176 = c_486541062.findClosestByPath(containers_486540956);
+                if ((c_486541062.withdraw(container_486541176, "energy") == -9)) {
+                var _ = c_486541062.moveTo(container_486541176);
+                }
+                
+                }
+                else {
+                console.log(("no sources found"));
+                }
+                
+              }
+              
+            }
+            
+            i_486541220 = addInt(i_486541220, 1);
+            if (!(((creeps_486540934).length == L_486541221))) {
+            failedAssertImpl_218103864(makeNimstrLit("iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+            }
+            
+          }
+      } while (false);
+    } while (false);
+
+  
+}
+
+function finalTest() {
+              var Temporary7;
+              var Temporary14;
+    var Temporary18;
+    var Temporary19;
+
+    var currentTick_486541224 = gameUtil.getTicks();
+    console.log(("Current tick: "), (currentTick_486541224));
+    var creeps_486541243 = getAllCreeps_1040187394();
+    console.log(("found creeps: "), ((creeps_486541243).length));
+    var spawns_486541265 = getAllSpawns_1040187402();
+    console.log(("found spawns: "), ((spawns_486541265).length));
+    var spawn_486541287 = spawns_486541265[chckIndx(0, 0, (spawns_486541265).length - 1)];
+    var resultHEX60gensym354_486541292 = newSeq_486539512(0);
+    Label1: do {
+      var it_486541296 = null;
+      var i_486541550 = 0;
+      var L_486541551 = (creeps_486541243).length;
+      Label2: do {
+          Label3: while (true) {
+          if (!(i_486541550 < L_486541551)) break Label3;
+            it_486541296 = creeps_486541243[chckIndx(i_486541550, 0, (creeps_486541243).length - 1)];
+            if ((it_486541296.my == false)) {
+            resultHEX60gensym354_486541292.push(it_486541296);;
+            }
+            
+            i_486541550 = addInt(i_486541550, 1);
+            if (!(((creeps_486541243).length == L_486541551))) {
+            failedAssertImpl_218103864(makeNimstrLit("iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+            }
+            
+          }
+      } while (false);
+    } while (false);
+    var enemyCreeps_486541301 = nimCopy(null, resultHEX60gensym354_486541292, NTI486539392);
+    var resultHEX60gensym355_486541306 = newSeq_486539512(0);
+    Label4: do {
+      var it_486541310 = null;
+      var i_486541558 = 0;
+      var L_486541559 = (creeps_486541243).length;
+      Label5: do {
+          Label6: while (true) {
+          if (!(i_486541558 < L_486541559)) break Label6;
+            it_486541310 = creeps_486541243[chckIndx(i_486541558, 0, (creeps_486541243).length - 1)];
+              if (!(it_486541310.my == true)) Temporary7 = false; else {                var resultHEX60gensym356_486541312 = false;
+                Label8: do {
+                  var it_486541316 = null;
+                  var i_486541555 = 0;
+                  var L_486541556 = (it_486541310.body).length;
+                  Label9: do {
+                      Label10: while (true) {
+                      if (!(i_486541555 < L_486541556)) break Label10;
+                        it_486541316 = it_486541310.body[chckIndx(i_486541555, 0, (it_486541310.body).length - 1)];
+                        if ((it_486541316.type == "work")) {
+                        resultHEX60gensym356_486541312 = true;
+                        break Label8;
+                        }
+                        
+                        i_486541555 = addInt(i_486541555, 1);
+                        if (!(((it_486541310.body).length == L_486541556))) {
+                        failedAssertImpl_218103864(makeNimstrLit("iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+                        }
+                        
+                      }
+                  } while (false);
+                } while (false);
+                Temporary7 = resultHEX60gensym356_486541312;              }            if (Temporary7) {
+            resultHEX60gensym355_486541306.push(it_486541310);;
+            }
+            
+            i_486541558 = addInt(i_486541558, 1);
+            if (!(((creeps_486541243).length == L_486541559))) {
+            failedAssertImpl_218103864(makeNimstrLit("iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+            }
+            
+          }
+      } while (false);
+    } while (false);
+    var workerCreeps_486541321 = nimCopy(null, resultHEX60gensym355_486541306, NTI486539392);
+    var resultHEX60gensym357_486541326 = newSeq_486539512(0);
+    Label11: do {
+      var it_486541330 = null;
+      var i_486541566 = 0;
+      var L_486541567 = (creeps_486541243).length;
+      Label12: do {
+          Label13: while (true) {
+          if (!(i_486541566 < L_486541567)) break Label13;
+            it_486541330 = creeps_486541243[chckIndx(i_486541566, 0, (creeps_486541243).length - 1)];
+              if (!(it_486541330.my == true)) Temporary14 = false; else {                var resultHEX60gensym358_486541332 = false;
+                Label15: do {
+                  var it_486541336 = null;
+                  var i_486541563 = 0;
+                  var L_486541564 = (it_486541330.body).length;
+                  Label16: do {
+                      Label17: while (true) {
+                      if (!(i_486541563 < L_486541564)) break Label17;
+                        it_486541336 = it_486541330.body[chckIndx(i_486541563, 0, (it_486541330.body).length - 1)];
+                        if ((it_486541336.type == "attack")) {
+                        resultHEX60gensym358_486541332 = true;
+                        break Label15;
+                        }
+                        
+                        i_486541563 = addInt(i_486541563, 1);
+                        if (!(((it_486541330.body).length == L_486541564))) {
+                        failedAssertImpl_218103864(makeNimstrLit("iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+                        }
+                        
+                      }
+                  } while (false);
+                } while (false);
+                Temporary14 = resultHEX60gensym358_486541332;              }            if (Temporary14) {
+            resultHEX60gensym357_486541326.push(it_486541330);;
+            }
+            
+            i_486541566 = addInt(i_486541566, 1);
+            if (!(((creeps_486541243).length == L_486541567))) {
+            failedAssertImpl_218103864(makeNimstrLit("iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+            }
+            
+          }
+      } while (false);
+    } while (false);
+    var combatCreeps_486541341 = nimCopy(null, resultHEX60gensym357_486541326, NTI486539392);
+    console.log(("store capacity"), (spawn_486541287.store.getUsedCapacity()));
+    if (((workerCreeps_486541321).length < 2)) {
+    var res_486541367 = spawnCreep_1040187411(spawn_486541287, ["work", "move", "carry"]);
+    if ((res_486541367.creep == null)) {
+    Temporary18 = console.log(("spawn creep error: "), (res_486541367));
+    }
+    else {
+    Temporary18 = console.log(("spawn creep result: "), (res_486541367));
+    }
+    
+    Temporary18;
+    }
+    
+    if ((2 <= (workerCreeps_486541321).length)) {
+    var res_486541417 = spawnCreep_1040187411(spawn_486541287, ["move", "attack"]);
+    if ((res_486541417.creep == null)) {
+    Temporary19 = console.log(("spawn creep error: "), (res_486541417));
+    }
+    else {
+    Temporary19 = console.log(("spawn creep result: "), (res_486541417));
+    }
+    
+    Temporary19;
+    }
+    
+    Label20: do {
+      var worker_486541460 = null;
+      var i_486541570 = 0;
+      var L_486541571 = (workerCreeps_486541321).length;
+      Label21: do {
+          Label22: while (true) {
+          if (!(i_486541570 < L_486541571)) break Label22;
+            worker_486541460 = workerCreeps_486541321[chckIndx(i_486541570, 0, (workerCreeps_486541321).length - 1)];
+            if ((0 < worker_486541460.store.getFreeCapacity())) {
+            var sources_486541461 = getAllSources_1040187404();
+            if ((0 < (sources_486541461).length)) {
+            var source_486541472 = worker_486541460.findClosestByPath(sources_486541461);
+            if ((worker_486541460.harvest(source_486541472) == -9)) {
+            var _ = worker_486541460.moveTo(source_486541472);
+            }
+            
+            }
+            else {
+            console.log(("no sources found"));
+            }
+            
+            }
+            else {
+              if ((0 < (spawns_486541265).length)) {
+              var spawn_486541494 = spawns_486541265[chckIndx(0, 0, (spawns_486541265).length - 1)];
+              if ((worker_486541460.transfer(spawn_486541494, "energy") == -9)) {
+              var _ = worker_486541460.moveTo(spawn_486541494);
+              }
+              
+              }
+              else {
+              console.log(("no spawns found"));
+              }
+              
+            }
+            
+            i_486541570 = addInt(i_486541570, 1);
+            if (!(((workerCreeps_486541321).length == L_486541571))) {
+            failedAssertImpl_218103864(makeNimstrLit("iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+            }
+            
+          }
+      } while (false);
+    } while (false);
+    Label23: do {
+      var combat_486541513 = null;
+      var i_486541574 = 0;
+      var L_486541575 = (combatCreeps_486541341).length;
+      Label24: do {
+          Label25: while (true) {
+          if (!(i_486541574 < L_486541575)) break Label25;
+            combat_486541513 = combatCreeps_486541341[chckIndx(i_486541574, 0, (combatCreeps_486541341).length - 1)];
+            if ((0 < (enemyCreeps_486541301).length)) {
+            var enemy_486541524 = combat_486541513.findClosestByPath(enemyCreeps_486541301);
+            if ((combat_486541513.attack(enemy_486541524) == -9)) {
+            var _ = combat_486541513.moveTo(enemy_486541524);
+            }
+            
+            }
+            else {
+            console.log(("no enemy creeps found"));
+            }
+            
+            i_486541574 = addInt(i_486541574, 1);
+            if (!(((combatCreeps_486541341).length == L_486541575))) {
+            failedAssertImpl_218103864(makeNimstrLit("iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+            }
+            
+          }
+      } while (false);
+    } while (false);
+
+  
+}
+export const loop = finalTest;
 

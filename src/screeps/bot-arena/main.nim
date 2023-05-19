@@ -216,8 +216,148 @@ proc spawnCreeps() {.exportc.} =
     let res = creep2.moveTo(flag2)
     console.log("move result: ".cstring, res)
 
+proc harvestEnergy() {.exportc.} =
+  let currentTick = gameUtil.getTicks()
+  console.log("Current tick: ".cstring, currentTick)
 
+  let creeps = getAllCreeps()
+  console.log("found creeps: ".cstring, len(creeps))
+
+  let sources = getAllSources()
+  console.log("found sources: ".cstring, len(sources))
+
+  let spawns = getAllSpawns()
+  console.log("found spawns: ".cstring, len(spawns))
+
+  for c in creeps:
+    # check if creep is full
+    if c.store.getCapacity() == c.store.getUsedCapacity():
+      # if so, return to spawn
+      if len(spawns) > 0:
+        let spawn = spawns[0]
+        if c.transfer(spawn, RESOURCE_ENERGY) == ERR_NOT_IN_RANGE:
+          discard c.moveTo(spawn)
+      else:
+        console.log("no spawns found".cstring)
+    else:
+      # otherwise, get more energy
+      if len(sources) > 0:
+        let source = c.findClosestByPath(sources)
+        if c.harvest(source) == ERR_NOT_IN_RANGE:
+          discard c.moveTo(source)
+      else:
+        console.log("no sources found".cstring)
+
+var constructionSite1: ConstructionSite
+var goBuild = false
+
+proc towerConstruction() {.exportc.} =
+  let currentTick = gameUtil.getTicks()
+  console.log("Current tick: ".cstring, currentTick)
+  let creeps = getAllCreeps()
+  console.log("found creeps: ".cstring, len(creeps))
+  let containers = getAllContainers()
+  console.log("found sources: ".cstring, len(containers))
+  let spawns = getAllSpawns()
+  console.log("found spawns: ".cstring, len(spawns))
+
+  let sites = getAllConstructionSites()
+  console.log("found construction sites: ".cstring, len(sites))
+
+  if isNil(constructionSite1):
+    let res = createStructureTower(Position(x: 50, y: 55))
+    if not isNil(res.constructionSite):
+      constructionSite1 = res.constructionSite
+      console.log("created construction site")
+    else:
+      console.log("createStructureTower error: ".cstring, res.error)
+
+  for c in creeps:
+    console.log("goBuild: ".cstring, goBuild)
+    console.log("constructionSite1: ".cstring, constructionSite1)
+    if goBuild:
+      console.log("gobuild!!!")
+      if c.store.getUsedCapacity() == 0:
+        console.log("no go build")
+        goBuild = false
+      else:
+        console.log("log1")
+        let res = c.build(sites[0])
+        console.log("build result: ".cstring, res)
+        if res != OK:
+          console.log("log2")
+          discard c.moveTo(sites[0])
+    else:
+      if c.store.getFreeCapacity() == 0:
+        goBuild = true
+      else:
+        if len(containers) > 0:
+          let container = c.findClosestByPath(containers)
+          if c.withdraw(container, RESOURCE_ENERGY) == ERR_NOT_IN_RANGE:
+            discard c.moveTo(container)
+        else:
+          console.log("no sources found".cstring)
+
+
+proc finalTest() {.exportc.} =
+  # we start with a spawn and a source
+  # we have to spawn some worker creeps and combat creeps
+  # and defend our spawn
+  let currentTick = gameUtil.getTicks()
+  console.log("Current tick: ".cstring, currentTick)
+  let creeps = getAllCreeps()
+  console.log("found creeps: ".cstring, len(creeps))
+  let spawns = getAllSpawns()
+  console.log("found spawns: ".cstring, len(spawns))
+  let spawn = spawns[0]
+
+  let enemyCreeps = creeps.filterIt(it.my == false)
+  let workerCreeps = creeps.filterIt(it.my == true and it.body.anyIt(it.type == WORK))
+  let combatCreeps = creeps.filterIt(it.my == true and it.body.anyIt(it.type == ATTACK))
+
+  console.log("store capacity", spawn.store.getUsedCapacity())
+
+  if len(workerCreeps) < 2:
+    let res = spawn.spawnCreep(@[WORK, MOVE, CARRY])
+    if isNil(res.creep):
+      console.log("spawn creep error: ".cstring, res)
+    else:
+      console.log("spawn creep result: ".cstring, res)
+
+  if len(workerCreeps) >= 2:
+    let res = spawn.spawnCreep(@[MOVE, ATTACK])
+    if isNil(res.creep):
+      console.log("spawn creep error: ".cstring, res)
+    else:
+      console.log("spawn creep result: ".cstring, res)
+
+  for worker in workerCreeps:
+    if worker.store.getFreeCapacity() > 0:
+      let sources = getAllSources()
+      if len(sources) > 0:
+        let source = worker.findClosestByPath(sources)
+        if worker.harvest(source) == ERR_NOT_IN_RANGE:
+          discard worker.moveTo(source)
+      else:
+        console.log("no sources found".cstring)
+    else:
+      if len(spawns) > 0:
+        let spawn = spawns[0]
+        if worker.transfer(spawn, RESOURCE_ENERGY) == ERR_NOT_IN_RANGE:
+          discard worker.moveTo(spawn)
+      else:
+        console.log("no spawns found".cstring)
+
+  for combat in combatCreeps:
+    if len(enemyCreeps) > 0:
+      let enemy = combat.findClosestByPath(enemyCreeps)
+      if combat.attack(enemy) == ERR_NOT_IN_RANGE:
+        discard combat.moveTo(enemy)
+    else:
+      console.log("no enemy creeps found".cstring)
+
+  
 
 {.emit"""
-export const loop = spawnCreeps;
+export const loop = finalTest;
 """.}

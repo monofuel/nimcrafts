@@ -47,15 +47,21 @@ type
   StructureSpawn* {.exportc.} = ref object of OwnedStructure
     store*: Store
     spawning*: Spawning
+  Source* {.exportc.} = ref object of GameObject
+    energy*: int
+    energyCapacity*: int
   StructureContainer* {.exportc.} = ref object of OwnedStructure
-    capacity*: int
-    cost*: int
     store*: Store
   StructureTower* {.exportc.} = ref object of OwnedStructure
     store*: Store
   BodyPart* {.exportc.} = ref object
     `type`*: cstring
     hits*: int
+  ConstructionSite* {.exportc.} = ref object of GameObject
+    my*: bool
+    progress*: int
+    progressTotal*: int
+    structure*: Structure
   Creep* {.exportc.} = ref object of GameObject
     body*: seq[BodyPart]
     fatigue*: float64
@@ -65,13 +71,6 @@ type
     store*: Store
   Flag* {.exportc.} = ref object of GameObject
     my*: bool
-  Source* {.exportc.} = object
-    effects*: seq[Effects]
-    energy*: int
-    energyCapacity*: int
-    id*: cstring
-    pos*: RoomPosition
-    ticksToRegeneration*: int
   GameUtil* {.exportc.} = object
 
 proc moveTo*(c: Creep, target: GameObject): ReturnCode {.importcpp.}
@@ -85,6 +84,9 @@ proc rangedAttack*(c: Creep, target: Creep): ReturnCode {.importcpp.}
 proc rangedAttack*(c: Creep, target: Structure): ReturnCode {.importcpp.}
 
 proc heal*(c: Creep, target: Creep): ReturnCode {.importcpp.}
+
+proc harvest*(c: Creep, target: Source): ReturnCode {.importcpp.}
+proc build*(c: Creep, target: ConstructionSite): ReturnCode {.importcpp.}
 
 proc getTicks*(g: GameUtil): int {.importcpp.}
 

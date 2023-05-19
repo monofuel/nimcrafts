@@ -28,6 +28,17 @@ proc getAllSpawns*(): seq[StructureSpawn] =
   return gameUtil.getObjectsByPrototype(StructureSpawn);
   """.}
 
+proc getAllSources*(): seq[Source] =
+  {.emit"""
+  return gameUtil.getObjectsByPrototype(Source);
+  """.}
+
+proc getAllConstructionSites*(): seq[ConstructionSite] =
+  {.emit"""
+  return gameUtil.getObjectsByPrototype(ConstructionSite);
+  """.}
+
+
 type SpawnCreepResult = object
   error*: ErrorRes
   creep*: Creep
@@ -46,5 +57,21 @@ proc spawnCreep*(sArg: StructureSpawn, bodyArg: seq[
     return {error: result.error};
   } else {
     return {creep: result};
+  }
+  """.}
+
+type CreateStructureTowerResult = object
+  error*: ErrorRes
+  constructionSite*: ConstructionSite
+
+# NB. createConstructionSite takes a prototype
+proc createStructureTower*(posArg: Position): CreateStructureTowerResult =
+  let pos {.exportc.} = posArg
+  {.emit"""
+  const result = gameUtil.createConstructionSite(pos, StructureTower);
+  if (result.error) {
+    return {error: result.error};
+  } else {
+    return {constructionSite: result};
   }
   """.}
