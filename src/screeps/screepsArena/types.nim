@@ -1,6 +1,4 @@
-import std/jsffi
-
-import "./consts"
+import ./consts
 
 # js examples
 # https://github.com/nim-lang/Nim/blob/ddce5559981ac5dedd3a5dfb210eb25296e69307/lib/js/dom.nim#L77-L108
@@ -15,7 +13,7 @@ import "./consts"
 type
   GameObject* {.exportc.} = ref object of RootObj
     exists*: bool
-    id*: cstring
+    id*: int # docs say it is a string but it looks like an int in reality
     ticksToDecay*: int
     x*: int
     y*: int
@@ -64,7 +62,7 @@ type
     structure*: Structure
   Creep* {.exportc.} = ref object of GameObject
     body*: seq[BodyPart]
-    fatigue*: float64
+    fatigue*: int
     hits*: int
     hitsMax*: int
     my*: bool
@@ -74,6 +72,7 @@ type
   GameUtil* {.exportc.} = object
 
 proc moveTo*(c: Creep, target: GameObject): ReturnCode {.importcpp.}
+proc moveTo*(c: Creep, target: Position): ReturnCode {.importcpp.}
 
 proc attack*(c: Creep, target: Creep): ReturnCode {.importcpp.}
 proc attack*(c: Creep, target: Structure): ReturnCode {.importcpp.}
@@ -105,11 +104,22 @@ proc withdraw*(c: Creep, target: Structure, resource: cstring,
 
 
 # NB. resource argument is optional, but RESOURCE_ENERGY is the default
-proc getCapacity*(s: Store): int {.importcpp.}
-proc getFreeCapacity*(s: Store): int {.importcpp.}
-proc getUsedCapacity*(s: Store): int {.importcpp.}
+proc getCapacity*(s: Store, resource: cstring): int {.importcpp.}
+proc getFreeCapacity*(s: Store, resource: cstring): int {.importcpp.}
+proc getUsedCapacity*(s: Store, resource: cstring): int {.importcpp.}
 
 proc findClosestByPath*[T: GameObject](c: Creep, targets: seq[
     T]): T {.importcpp.}
 proc findClosestByRange*(c: Creep, targets: seq[
     Position]): GameObject {.importcpp.}
+
+type SpawnCreepResult = object
+  error*: ErrorRes
+  `object`*: Creep
+
+proc spawnCreep*(s: StructureSpawn, body: seq[cstring]): SpawnCreepResult {.importcpp.}
+
+type CreateStructureTowerResult = object
+  error*: ErrorRes
+  `object`*: ConstructionSite
+proc createStructureTower*(posArg: Position): CreateStructureTowerResult {.importcpp.}

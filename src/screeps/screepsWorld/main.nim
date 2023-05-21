@@ -3,6 +3,9 @@ import "./types", "./consts"
 
 export types, consts
 
+when defined(screepsArena):
+    raise newException(Exception, "don't import screeps world from screeps arena")
+
 # API https://docs.screeps.com/api/
 
 # Reference

@@ -2,16 +2,10 @@
 
 ## Building
 
-`nim js -d:nodejs -d:release bot/main.nim`
-
-## TODO
-
-- [ ] get a bot started
-- [ ] define screeps interface
-- [ ] uploading js bot
-- [ ] uploading a wasm bot
-
-- [ ] minify / tree shake
+- screeps arena
+  - run `nim c -r arenaBuild.nim`
+- screeps world
+  - TODO
 
 ## Deps
 
@@ -21,6 +15,7 @@
 ## References
 
 - https://docs.screeps.com/third-party.html
+- screeps arena docs are in-app
 
 - api
 

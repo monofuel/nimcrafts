@@ -1,15 +1,13 @@
 
 import "./types", "./consts", "./shims"
+import std/jsffi
 
 export types, consts, shims
 
+when defined(screepsWorld):
+    raise newException(Exception, "don't import screeps arena from screeps world")
+
 # interface for Screeps Arena
-# the Screeps Arena API relies on importing modules
-# we can't really do that from nim, so I have an init.ts shim that
-# imports all the modules as objects we can use from nim
-
-# TODO could I just call require() from nim?
-
 
 # adding comments for ts types ot help with debugging
 {.emit"""
@@ -21,7 +19,8 @@ export types, consts, shims
 """.}
 
 # Loading modules into variables
-
+# TODO should probably use objects instead of individual imports
+# need to figure out which one does what
 var gameUtil* {.importJs.}: GameUtil
 
 {.emit"""
@@ -37,3 +36,14 @@ import {
  } from 'game/prototypes';
 // import { Flag } from 'arena/prototypes';
 """.}
+
+when defined(screepsFlag):
+    {.emit"""
+    import * as arena from 'arena';
+    import { Flag } from 'arena/prototypes';
+    """.}
+
+# Nodejs global objects
+# NB. use `echo` with nim js -d:nodejs
+# var console* {.importJs, nodecl.}: JsObject
+# var module* {.importJs, nodecl.}: JsObject
