@@ -6,37 +6,37 @@ import ./types
 proc getAllCreeps*(): seq[Creep] =
   # TODO nim type descriptions?
   {.emit"""
-  return gameUtil.getObjectsByPrototype(Creep);
+  return game.utils.getObjectsByPrototype(game.prototypes.Creep);
   """.}
 
 proc getAllFlags*(): seq[Flag] =
   {.emit"""
-  return gameUtil.getObjectsByPrototype(Flag);
+  return game.utils.getObjectsByPrototype(Flag);
   """.}
 
 proc getAllContainers*(): seq[StructureContainer] =
   {.emit"""
-  return gameUtil.getObjectsByPrototype(StructureContainer);
+  return game.utils.getObjectsByPrototype(game.prototypes.StructureContainer);
   """.}
 
 proc getAllTowers*(): seq[StructureTower] =
   {.emit"""
-  return gameUtil.getObjectsByPrototype(StructureTower);
+  return game.utils.getObjectsByPrototype(game.prototypes.StructureTower);
   """.}
 
 proc getAllSpawns*(): seq[StructureSpawn] =
   {.emit"""
-  return gameUtil.getObjectsByPrototype(StructureSpawn);
+  return game.utils.getObjectsByPrototype(game.prototypes.StructureSpawn);
   """.}
 
 proc getAllSources*(): seq[Source] =
   {.emit"""
-  return gameUtil.getObjectsByPrototype(Source);
+  return game.utils.getObjectsByPrototype(game.prototypes.Source);
   """.}
 
 proc getAllConstructionSites*(): seq[ConstructionSite] =
   {.emit"""
-  return gameUtil.getObjectsByPrototype(ConstructionSite);
+  return game.utils.getObjectsByPrototype(game.prototypes.ConstructionSite);
   """.}
 
 

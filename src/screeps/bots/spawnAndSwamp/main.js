@@ -2,28 +2,33 @@
 var framePtr = null;
 var excHandler = 0;
 var lastJSError = null;
-var NTI486539274 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI1006632984 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
-var NTI1006632985 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
-var NTI1006632986 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
-var NTI1006632973 = {size: 0, kind: 22, base: null, node: null, finalizer: null};
-var NTI1006632987 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
-var NTI1006632974 = {size: 0, kind: 22, base: null, node: null, finalizer: null};
-var NTI1056964677 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI452984842 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI1040187414 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI1040187415 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI1040187416 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI1040187407 = {size: 0, kind: 22, base: null, node: null, finalizer: null};
+var NTI1040187417 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI1040187408 = {size: 0, kind: 22, base: null, node: null, finalizer: null};
+var NTI452984914 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI33555132 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI33555114 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI33555124 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
-var NTI1006632966 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
-var NTI1006632983 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
-var NTI1006632970 = {size: 0, kind: 22, base: null, node: null, finalizer: null};
+var NTI1040187401 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI1040187403 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI1040187399 = {size: 0, kind: 22, base: null, node: null, finalizer: null};
 var NTI33554466 = {size: 0,kind: 1,base: null,node: null,finalizer: null};
-var NTI33554456 = {size: 0,kind: 31,base: null,node: null,finalizer: null};
-var NTI1006632991 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
-var NTI1006632978 = {size: 0, kind: 22, base: null, node: null, finalizer: null};
-var NTI1006632994 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
-var NTI1006632993 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
-var NTI1006632980 = {size: 0, kind: 22, base: null, node: null, finalizer: null};
-var NTI1056964642 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI1040187404 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
+var NTI1040187400 = {size: 0, kind: 22, base: null, node: null, finalizer: null};
+var NTI1040187423 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI1040187422 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI1040187413 = {size: 0, kind: 22, base: null, node: null, finalizer: null};
+var NTI1090519076 = {size: 0, kind: 24, base: null, node: null, finalizer: null};
+var NTI620756995 = {size: 0,kind: 43,base: null,node: null,finalizer: null};
+var NTI620756996 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
 var NTI33555128 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI33555130 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
+var NTI33554456 = {size: 0,kind: 31,base: null,node: null,finalizer: null};
+var NTI33555919 = {size: 0, kind: 18, base: null, node: null, finalizer: null};
 var NTI33555083 = {size: 0, kind: 17, base: null, node: null, finalizer: null};
 var NTI33555165 = {size: 0, kind: 22, base: null, node: null, finalizer: null};
 var NTI33554439 = {size: 0,kind: 28,base: null,node: null,finalizer: null};
@@ -53,137 +58,73 @@ NTI33555112.base = NTI33555083;
 NTI33555113.base = NTI33555112;
 NTI33555120.base = NTI33555113;
 NTI33555122.base = NTI33555120;
+var NNI33555919 = {kind: 2, len: 3, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "Field0", len: 0, typ: NTI33554440, name: "Field0", sons: null}, 
+{kind: 1, offset: "Field1", len: 0, typ: NTI33554456, name: "Field1", sons: null}, 
+{kind: 1, offset: "Field2", len: 0, typ: NTI33554440, name: "Field2", sons: null}]};
+NTI33555919.node = NNI33555919;
 var NNI33555130 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
 NTI33555130.node = NNI33555130;
 NTI33555130.base = NTI33555113;
 var NNI33555128 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
 NTI33555128.node = NNI33555128;
 NTI33555128.base = NTI33555113;
-var NNI1006632991 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "type", len: 0, typ: NTI33554440, name: "type", sons: null}, 
+var NNI620756996 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "a0", len: 0, typ: NTI620756995, name: "a0", sons: null}, 
+{kind: 1, offset: "a1", len: 0, typ: NTI620756995, name: "a1", sons: null}]};
+NTI620756996.node = NNI620756996;
+var NNI1040187404 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "type", len: 0, typ: NTI33554440, name: "type", sons: null}, 
 {kind: 1, offset: "hits", len: 0, typ: NTI33554456, name: "hits", sons: null}]};
-NTI1006632991.node = NNI1006632991;
-NTI1006632978.base = NTI1006632991;
-NTI1006632994.base = NTI1006632978;
-var NNI1006632983 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
-NTI1006632983.node = NNI1006632983;
-NTI1006632970.base = NTI1006632983;
-var NNI1006632993 = {kind: 2, len: 6, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "body", len: 0, typ: NTI1006632994, name: "body", sons: null}, 
+NTI1040187404.node = NNI1040187404;
+NTI1040187400.base = NTI1040187404;
+NTI1040187423.base = NTI1040187400;
+var NNI1040187403 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
+NTI1040187403.node = NNI1040187403;
+NTI1040187399.base = NTI1040187403;
+var NNI1040187422 = {kind: 2, len: 6, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "body", len: 0, typ: NTI1040187423, name: "body", sons: null}, 
 {kind: 1, offset: "fatigue", len: 0, typ: NTI33554456, name: "fatigue", sons: null}, 
 {kind: 1, offset: "hits", len: 0, typ: NTI33554456, name: "hits", sons: null}, 
 {kind: 1, offset: "hitsMax", len: 0, typ: NTI33554456, name: "hitsMax", sons: null}, 
 {kind: 1, offset: "my", len: 0, typ: NTI33554466, name: "my", sons: null}, 
-{kind: 1, offset: "store", len: 0, typ: NTI1006632970, name: "store", sons: null}]};
-NTI1006632993.node = NNI1006632993;
-var NNI1006632966 = {kind: 2, len: 5, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "exists", len: 0, typ: NTI33554466, name: "exists", sons: null}, 
+{kind: 1, offset: "store", len: 0, typ: NTI1040187399, name: "store", sons: null}]};
+NTI1040187422.node = NNI1040187422;
+var NNI1040187401 = {kind: 2, len: 5, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "exists", len: 0, typ: NTI33554466, name: "exists", sons: null}, 
 {kind: 1, offset: "id", len: 0, typ: NTI33554456, name: "id", sons: null}, 
 {kind: 1, offset: "ticksToDecay", len: 0, typ: NTI33554456, name: "ticksToDecay", sons: null}, 
 {kind: 1, offset: "x", len: 0, typ: NTI33554456, name: "x", sons: null}, 
 {kind: 1, offset: "y", len: 0, typ: NTI33554456, name: "y", sons: null}]};
-NTI1006632966.node = NNI1006632966;
-NTI1006632966.base = NTI33555083;
-NTI1006632993.base = NTI1006632966;
-NTI1006632980.base = NTI1006632993;
-NTI1056964642.base = NTI1006632980;
+NTI1040187401.node = NNI1040187401;
+NTI1040187401.base = NTI33555083;
+NTI1040187422.base = NTI1040187401;
+NTI1040187413.base = NTI1040187422;
+NTI1090519076.base = NTI1040187413;
 var NNI33555124 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
 NTI33555124.node = NNI33555124;
 NTI33555124.base = NTI33555113;
-var NNI1006632986 = {kind: 2, len: 3, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "creep", len: 0, typ: NTI1006632980, name: "creep", sons: null}, 
+var NNI33555114 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
+NTI33555114.node = NNI33555114;
+NTI33555114.base = NTI33555112;
+var NNI33555132 = {kind: 2, len: 0, offset: 0, typ: null, name: null, sons: []};
+NTI33555132.node = NNI33555132;
+NTI33555132.base = NTI33555113;
+var NNI1040187416 = {kind: 2, len: 3, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "creep", len: 0, typ: NTI1040187413, name: "creep", sons: null}, 
 {kind: 1, offset: "needTime", len: 0, typ: NTI33554456, name: "needTime", sons: null}, 
 {kind: 1, offset: "remainingTime", len: 0, typ: NTI33554456, name: "remainingTime", sons: null}]};
-NTI1006632986.node = NNI1006632986;
-NTI1006632973.base = NTI1006632986;
-var NNI1006632987 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "store", len: 0, typ: NTI1006632970, name: "store", sons: null}, 
-{kind: 1, offset: "spawning", len: 0, typ: NTI1006632973, name: "spawning", sons: null}]};
-NTI1006632987.node = NNI1006632987;
-var NNI1006632985 = {kind: 1, offset: "my", len: 0, typ: NTI33554466, name: "my", sons: null};
-NTI1006632985.node = NNI1006632985;
-var NNI1006632984 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "hits", len: 0, typ: NTI33554456, name: "hits", sons: null}, 
+NTI1040187416.node = NNI1040187416;
+NTI1040187407.base = NTI1040187416;
+var NNI1040187417 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "store", len: 0, typ: NTI1040187399, name: "store", sons: null}, 
+{kind: 1, offset: "spawning", len: 0, typ: NTI1040187407, name: "spawning", sons: null}]};
+NTI1040187417.node = NNI1040187417;
+var NNI1040187415 = {kind: 1, offset: "my", len: 0, typ: NTI33554466, name: "my", sons: null};
+NTI1040187415.node = NNI1040187415;
+var NNI1040187414 = {kind: 2, len: 2, offset: 0, typ: null, name: null, sons: [{kind: 1, offset: "hits", len: 0, typ: NTI33554456, name: "hits", sons: null}, 
 {kind: 1, offset: "hitsMax", len: 0, typ: NTI33554456, name: "hitsMax", sons: null}]};
-NTI1006632984.node = NNI1006632984;
-NTI1006632984.base = NTI1006632966;
-NTI1006632985.base = NTI1006632984;
-NTI1006632987.base = NTI1006632985;
-NTI1006632974.base = NTI1006632987;
-NTI1056964677.base = NTI1006632974;
-NTI486539274.base = NTI33554440;
-
-function toJSStr(s_33556807) {
-                    var Temporary5;
-            var Temporary7;
-
-  var result_33556808 = null;
-
-    var res_33556842 = newSeq_33556825((s_33556807).length);
-    var i_33556843 = 0;
-    var j_33556844 = 0;
-    Label1: do {
-        Label2: while (true) {
-        if (!(i_33556843 < (s_33556807).length)) break Label2;
-          var c_33556845 = s_33556807[i_33556843];
-          if ((c_33556845 < 128)) {
-          res_33556842[j_33556844] = String.fromCharCode(c_33556845);
-          i_33556843 += 1;
-          }
-          else {
-            var helper_33556857 = newSeq_33556825(0);
-            Label3: do {
-                Label4: while (true) {
-                if (!true) break Label4;
-                  var code_33556858 = c_33556845.toString(16);
-                  if ((((code_33556858) == null ? 0 : (code_33556858).length) == 1)) {
-                  helper_33556857.push("%0");;
-                  }
-                  else {
-                  helper_33556857.push("%");;
-                  }
-                  
-                  helper_33556857.push(code_33556858);;
-                  i_33556843 += 1;
-                    if (((s_33556807).length <= i_33556843)) Temporary5 = true; else {                      Temporary5 = (s_33556807[i_33556843] < 128);                    }                  if (Temporary5) {
-                  break Label3;
-                  }
-                  
-                  c_33556845 = s_33556807[i_33556843];
-                }
-            } while (false);
-++excHandler;
-            Temporary7 = framePtr;
-            try {
-            res_33556842[j_33556844] = decodeURIComponent(helper_33556857.join(""));
---excHandler;
-} catch (EXCEPTION) {
- var prevJSError = lastJSError;
- lastJSError = EXCEPTION;
- --excHandler;
-            framePtr = Temporary7;
-            res_33556842[j_33556844] = helper_33556857.join("");
-            lastJSError = prevJSError;
-            } finally {
-            framePtr = Temporary7;
-            }
-          }
-          
-          j_33556844 += 1;
-        }
-    } while (false);
-    if (res_33556842.length < j_33556844) { for (var i = res_33556842.length ; i < j_33556844 ; ++i) res_33556842.push(null); }
-               else { res_33556842.length = j_33556844; };
-    result_33556808 = res_33556842.join("");
-
-  return result_33556808;
-
-}
-
-function rawEcho() {
-          var buf = "";
-      for (var i = 0; i < arguments.length; ++i) {
-        buf += toJSStr(arguments[i]);
-      }
-      console.log(buf);
-    
-
-  
-}
+NTI1040187414.node = NNI1040187414;
+NTI1040187414.base = NTI1040187401;
+NTI1040187415.base = NTI1040187414;
+NTI1040187417.base = NTI1040187415;
+NTI1040187408.base = NTI1040187417;
+NTI452984914.base = NTI1040187408;
+NTI452984842.base = NTI33554440;
+                      var helper_620757046 = new Uint32Array([3198944359, 3630892171]);
 
 function makeNimstrLit(c_33556801) {
       var result = [];
@@ -203,44 +144,13 @@ function mnewString(len_33556893) {
   
 }
 
-function raiseException(e_33556667, ename_33556668) {
-    e_33556667.name = ename_33556668;
-    if ((excHandler == 0)) {
-    unhandledException(e_33556667);
-    }
-    
-    throw e_33556667;
-
-  
-}
-
-function addInt(a_33556940, b_33556941) {
-        var result = a_33556940 + b_33556941;
-    checkOverflowInt(result);
+function arrayConstr(len_33557179, value_33557180, typ_33557181) {
+        var result = new Array(len_33557179);
+    for (var i = 0; i < len_33557179; ++i) result[i] = nimCopy(null, value_33557180, typ_33557181);
     return result;
   
 
   
-}
-
-function chckRange(i_33557189, a_33557190, b_33557191) {
-      var Temporary1;
-
-  var result_33557192 = 0;
-
-  BeforeRet: do {
-      if (!(a_33557190 <= i_33557189)) Temporary1 = false; else {        Temporary1 = (i_33557189 <= b_33557191);      }    if (Temporary1) {
-    result_33557192 = i_33557189;
-    break BeforeRet;
-    }
-    else {
-    raiseRangeError();
-    }
-    
-  } while (false);
-
-  return result_33557192;
-
 }
 
 function setConstr() {
@@ -337,6 +247,153 @@ function nimCopy(dest_33557140, src_33557141, ti_33557142) {
 
 }
 
+function cstrToNimstr(c_33556804) {
+      var ln = c_33556804.length;
+  var result = new Array(ln);
+  var r = 0;
+  for (var i = 0; i < ln; ++i) {
+    var ch = c_33556804.charCodeAt(i);
+
+    if (ch < 128) {
+      result[r] = ch;
+    }
+    else {
+      if (ch < 2048) {
+        result[r] = (ch >> 6) | 192;
+      }
+      else {
+        if (ch < 55296 || ch >= 57344) {
+          result[r] = (ch >> 12) | 224;
+        }
+        else {
+            ++i;
+            ch = 65536 + (((ch & 1023) << 10) | (c_33556804.charCodeAt(i) & 1023));
+            result[r] = (ch >> 18) | 240;
+            ++r;
+            result[r] = ((ch >> 12) & 63) | 128;
+        }
+        ++r;
+        result[r] = ((ch >> 6) & 63) | 128;
+      }
+      ++r;
+      result[r] = (ch & 63) | 128;
+    }
+    ++r;
+  }
+  return result;
+  
+
+  
+}
+
+function toJSStr(s_33556807) {
+                    var Temporary5;
+            var Temporary7;
+
+  var result_33556808 = null;
+
+    var res_33556842 = newSeq_33556825((s_33556807).length);
+    var i_33556843 = 0;
+    var j_33556844 = 0;
+    Label1: do {
+        Label2: while (true) {
+        if (!(i_33556843 < (s_33556807).length)) break Label2;
+          var c_33556845 = s_33556807[i_33556843];
+          if ((c_33556845 < 128)) {
+          res_33556842[j_33556844] = String.fromCharCode(c_33556845);
+          i_33556843 += 1;
+          }
+          else {
+            var helper_33556857 = newSeq_33556825(0);
+            Label3: do {
+                Label4: while (true) {
+                if (!true) break Label4;
+                  var code_33556858 = c_33556845.toString(16);
+                  if ((((code_33556858) == null ? 0 : (code_33556858).length) == 1)) {
+                  helper_33556857.push("%0");;
+                  }
+                  else {
+                  helper_33556857.push("%");;
+                  }
+                  
+                  helper_33556857.push(code_33556858);;
+                  i_33556843 += 1;
+                    if (((s_33556807).length <= i_33556843)) Temporary5 = true; else {                      Temporary5 = (s_33556807[i_33556843] < 128);                    }                  if (Temporary5) {
+                  break Label3;
+                  }
+                  
+                  c_33556845 = s_33556807[i_33556843];
+                }
+            } while (false);
+++excHandler;
+            Temporary7 = framePtr;
+            try {
+            res_33556842[j_33556844] = decodeURIComponent(helper_33556857.join(""));
+--excHandler;
+} catch (EXCEPTION) {
+ var prevJSError = lastJSError;
+ lastJSError = EXCEPTION;
+ --excHandler;
+            framePtr = Temporary7;
+            res_33556842[j_33556844] = helper_33556857.join("");
+            lastJSError = prevJSError;
+            } finally {
+            framePtr = Temporary7;
+            }
+          }
+          
+          j_33556844 += 1;
+        }
+    } while (false);
+    if (res_33556842.length < j_33556844) { for (var i = res_33556842.length ; i < j_33556844 ; ++i) res_33556842.push(null); }
+               else { res_33556842.length = j_33556844; };
+    result_33556808 = res_33556842.join("");
+
+  return result_33556808;
+
+}
+
+function raiseException(e_33556667, ename_33556668) {
+    e_33556667.name = ename_33556668;
+    if ((excHandler == 0)) {
+    unhandledException(e_33556667);
+    }
+    
+    e_33556667.trace = nimCopy(null, rawWriteStackTrace_33556631(), NTI33554439);
+    throw e_33556667;
+
+  
+}
+
+function addInt(a_33556940, b_33556941) {
+        var result = a_33556940 + b_33556941;
+    checkOverflowInt(result);
+    return result;
+  
+
+  
+}
+
+function chckRange(i_33557189, a_33557190, b_33557191) {
+      var Temporary1;
+
+  var result_33557192 = 0;
+
+  BeforeRet: do {
+      if (!(a_33557190 <= i_33557189)) Temporary1 = false; else {        Temporary1 = (i_33557189 <= b_33557191);      }    if (Temporary1) {
+    result_33557192 = i_33557189;
+    break BeforeRet;
+    }
+    else {
+    raiseRangeError();
+    }
+    
+  } while (false);
+
+  return result_33557192;
+
+}
+
 function chckIndx(i_33557184, a_33557185, b_33557186) {
       var Temporary1;
 
@@ -356,9 +413,83 @@ function chckIndx(i_33557184, a_33557185, b_33557186) {
   return result_33557187;
 
 }
-        var workerBody_486539277 = ["carry", "carry", "move"];
-          var healerBody_486539282 = ["heal", "move", "move"];
-            var combatBody_486539287 = ["attack", "attack", "move", "move", "move"];
+
+function rawEcho() {
+          var buf = "";
+      for (var i = 0; i < arguments.length; ++i) {
+        buf += toJSStr(arguments[i]);
+      }
+      console.log(buf);
+    
+
+  
+}
+
+function nimBoolToStr(x_33556514) {
+  var result_33556515 = [];
+
+    if (x_33556514) {
+    result_33556515 = nimCopy(null, makeNimstrLit("true"), NTI33554439);
+    }
+    else {
+      result_33556515 = nimCopy(null, makeNimstrLit("false"), NTI33554439);
+    }
+    
+
+  return result_33556515;
+
+}
+
+function isObj(obj_33557238, subclass_33557239) {
+  var result_33557240 = false;
+
+  BeforeRet: do {
+    var x_33557241 = obj_33557238;
+    if ((x_33557241 == subclass_33557239)) {
+    result_33557240 = true;
+    break BeforeRet;
+    }
+    
+    Label1: do {
+        Label2: while (true) {
+        if (!!((x_33557241 == subclass_33557239))) break Label2;
+          if ((x_33557241 == null)) {
+          result_33557240 = false;
+          break BeforeRet;
+          }
+          
+          x_33557241 = x_33557241.base;
+        }
+    } while (false);
+    result_33557240 = true;
+    break BeforeRet;
+  } while (false);
+
+  return result_33557240;
+
+}
+
+function reraiseException() {
+    if ((lastJSError == null)) {
+    raiseException({message: makeNimstrLit("no exception to reraise"), parent: null, m_type: NTI33555132, name: null, trace: [], up: null}, "ReraiseDefect");
+    }
+    else {
+      if ((excHandler == 0)) {
+      if (isNimException_33556519()) {
+      unhandledException(lastJSError);
+      }
+      
+      }
+      
+      throw lastJSError;
+    }
+    
+
+  
+}
+        var workerBody_452984844 = ["carry", "carry", "move"];
+          var healerBody_452984849 = ["heal", "move", "move"];
+            var combatBody_452984854 = ["attack", "attack", "move", "move", "move"];
 
 function subInt(a_33556944, b_33556945) {
         var result = a_33556944 - b_33556945;
@@ -368,36 +499,4316 @@ function subInt(a_33556944, b_33556945) {
 
   
 }
-var objectID_687866018 = [0];
-/// <reference path="./node_modules/@types/screeps-arena/game/constants.d.ts" />
-/// <reference path="./node_modules/@types/screeps-arena/game/index.d.ts" />
-/// <reference path="./node_modules/@types/screeps-arena/game/path-finder.d.ts" />
-/// <reference path="./node_modules/@types/screeps-arena/game/utils.d.ts" />
-/// <reference path="./node_modules/@types/screeps-arena/game/visual.d.ts" />
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module macros", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/core/macros.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sequtils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module random", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/random.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module algorithm", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/algorithm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module algorithm", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/algorithm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module algorithm", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/algorithm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module algorithm", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/algorithm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module algorithm", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/algorithm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module algorithm", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/algorithm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module algorithm", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/algorithm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module algorithm", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/algorithm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module algorithm", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/algorithm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module algorithm", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/algorithm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module algorithm", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/algorithm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module algorithm", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/algorithm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module algorithm", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/algorithm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module algorithm", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/algorithm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module algorithm", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/algorithm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module algorithm", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/algorithm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module algorithm", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/algorithm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module algorithm", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/algorithm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module algorithm", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/algorithm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module algorithm", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/algorithm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module algorithm", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/algorithm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module algorithm", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/algorithm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module algorithm", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/algorithm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module algorithm", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/algorithm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module algorithm", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/algorithm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module algorithm", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/algorithm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module algorithm", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/algorithm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module algorithm", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/algorithm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module algorithm", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/algorithm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module algorithm", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/algorithm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module algorithm", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/algorithm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module algorithm", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/algorithm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module algorithm", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/algorithm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module algorithm", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/algorithm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module algorithm", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/algorithm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module algorithm", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/algorithm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module algorithm", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/algorithm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module algorithm", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/algorithm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module algorithm", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/algorithm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module algorithm", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/algorithm.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module math", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/math.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module math", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/math.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module math", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/math.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops_utils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/std/private/bitops_utils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops_utils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/std/private/bitops_utils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops_utils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/std/private/bitops_utils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops_utils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/std/private/bitops_utils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops_utils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/std/private/bitops_utils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops_utils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/std/private/bitops_utils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops_utils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/std/private/bitops_utils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module countbits_impl", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/system/countbits_impl.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module countbits_impl", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/system/countbits_impl.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module countbits_impl", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/system/countbits_impl.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module countbits_impl", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/system/countbits_impl.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module countbits_impl", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/system/countbits_impl.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module countbits_impl", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/system/countbits_impl.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module countbits_impl", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/system/countbits_impl.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module countbits_impl", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/system/countbits_impl.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module countbits_impl", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/system/countbits_impl.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module countbits_impl", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/system/countbits_impl.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module bitops", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/bitops.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module fenv", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/fenv.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module fenv", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/fenv.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module fenv", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/fenv.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module fenv", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/fenv.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module fenv", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/fenv.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module fenv", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/fenv.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module fenv", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/fenv.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module fenv", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/fenv.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module fenv", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/fenv.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module fenv", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/fenv.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module fenv", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/fenv.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module fenv", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/fenv.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module fenv", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/fenv.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module fenv", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/fenv.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module fenv", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/fenv.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module fenv", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/fenv.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module fenv", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/fenv.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module fenv", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/fenv.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module fenv", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/fenv.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module fenv", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/fenv.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module fenv", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/fenv.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module fenv", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/fenv.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module fenv", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/fenv.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module fenv", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/fenv.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module fenv", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/fenv.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module fenv", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/fenv.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module fenv", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/fenv.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module fenv", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/fenv.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module fenv", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/fenv.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module fenv", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/fenv.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module fenv", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/fenv.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module fenv", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/fenv.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module fenv", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/fenv.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module math", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/math.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module math", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/math.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module math", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/math.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module math", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/math.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module math", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/math.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module math", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/math.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module math", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/math.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module math", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/math.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module math", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/math.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module math", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/math.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module math", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/math.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module math", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/math.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module math", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/math.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module math", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/math.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module math", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/math.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module random", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/random.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module random", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/random.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module random", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/random.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module random", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/random.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module random", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/random.nim", line: 0};
+framePtr = F;
+F.line = 107;
+var state_620757005 = [{a0: 1773455756, a1: 4275166512}];
+framePtr = F.prev;
+var F = {procname: "module random", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/random.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module random", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/random.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module random", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/random.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module random", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/random.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module random", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/random.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module random", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/random.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module random", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/random.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module random", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/random.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module random", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/random.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module random", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/random.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module random", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/random.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module random", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/random.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module random", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/random.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module random", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/random.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module random", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/random.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module random", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/random.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module random", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/random.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module random", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/random.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module random", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/random.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module random", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/random.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module random", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/random.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module random", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/random.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module random", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/random.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module random", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/random.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module random", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/random.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module parseutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/parseutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module parseutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/parseutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module parseutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/parseutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module parseutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/parseutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module parseutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/parseutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module parseutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/parseutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module parseutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/parseutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module parseutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/parseutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module parseutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/parseutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module parseutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/parseutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module parseutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/parseutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module parseutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/parseutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module parseutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/parseutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module parseutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/parseutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module parseutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/parseutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module parseutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/parseutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module parseutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/parseutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module parseutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/parseutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module parseutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/parseutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module parseutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/parseutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module parseutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/parseutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module parseutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/parseutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module parseutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/parseutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module parseutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/parseutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module parseutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/parseutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module parseutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/parseutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module parseutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/parseutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module parseutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/parseutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module parseutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/parseutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module parseutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/parseutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module parseutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/parseutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module parseutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/parseutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module parseutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/parseutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module parseutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/parseutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module parseutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/parseutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module parseutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/parseutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module parseutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/parseutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module parseutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/parseutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module parseutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/parseutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module parseutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/parseutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module enumutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/std/enumutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module typetraits", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/typetraits.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module typetraits", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/typetraits.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module typetraits", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/typetraits.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module typetraits", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/typetraits.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module typetraits", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/typetraits.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module typetraits", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/typetraits.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module typetraits", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/typetraits.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module typetraits", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/typetraits.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module typetraits", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/typetraits.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module typetraits", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/typetraits.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module typetraits", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/typetraits.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module typetraits", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/typetraits.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module typetraits", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/typetraits.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module typetraits", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/typetraits.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module typetraits", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/typetraits.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module typetraits", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/typetraits.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module typetraits", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/typetraits.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module typetraits", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/typetraits.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module typetraits", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/typetraits.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module typetraits", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/typetraits.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module enumutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/std/enumutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module enumutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/std/enumutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module enumutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/std/enumutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module enumutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/std/enumutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module enumutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/std/enumutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module enumutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/std/enumutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module enumutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/std/enumutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module enumutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/std/enumutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module enumutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/std/enumutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module enumutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/std/enumutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module enumutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/std/enumutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module enumutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/std/enumutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module unicode", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/unicode.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strimpl", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/std/private/strimpl.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strimpl", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/std/private/strimpl.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strimpl", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/std/private/strimpl.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strimpl", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/std/private/strimpl.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strimpl", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/std/private/strimpl.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strimpl", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/std/private/strimpl.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strimpl", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/std/private/strimpl.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strimpl", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/std/private/strimpl.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strimpl", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/std/private/strimpl.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strimpl", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/std/private/strimpl.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strimpl", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/std/private/strimpl.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strimpl", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/std/private/strimpl.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module strutils", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/strutils.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module options", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/options.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module options", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/options.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module options", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/options.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module options", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/options.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module options", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/options.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module options", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/options.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module options", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/options.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module options", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/options.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module options", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/options.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module options", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/options.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module options", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/options.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module options", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/options.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module options", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/options.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module options", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/options.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module options", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/options.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module options", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/options.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module options", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/options.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module options", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/options.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module options", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/options.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module options", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/options.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module options", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/options.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jscore", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jscore.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+F.line = 1290;
+if (globalThis.utcInstance_771753354 === undefined) {
+  globalThis.utcInstance_771753354 = [null];
+}
+F.line = 1291;
+if (globalThis.localInstance_771753355 === undefined) {
+  globalThis.localInstance_771753355 = [null];
+}
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module times", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module random", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/random.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module random", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/random.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module random", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/random.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module main", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/bots/spawnAndSwamp/main.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module hashes", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/hashes.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module hashes", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/hashes.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module hashes", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/hashes.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module hashes", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/hashes.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module hashes", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/hashes.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module hashes", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/hashes.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module hashes", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/hashes.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module hashes", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/hashes.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module hashes", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/hashes.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module hashes", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/hashes.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module hashes", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/hashes.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module hashes", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/hashes.nim", line: 0};
+framePtr = F;
+F.line = 214;
+var objectID_989855906 = [0];
+framePtr = F.prev;
+var F = {procname: "module hashes", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/hashes.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module hashes", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/hashes.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module hashes", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/hashes.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module hashes", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/hashes.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module hashes", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/hashes.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module hashes", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/hashes.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module hashes", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/hashes.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module hashes", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/hashes.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module hashes", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/hashes.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module hashes", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/hashes.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module hashes", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/hashes.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module hashes", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/hashes.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module hashes", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/hashes.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module hashes", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/hashes.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module hashes", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/hashes.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module hashes", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/hashes.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module hashes", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/hashes.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module hashes", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/hashes.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module hashes", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/hashes.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module hashes", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/hashes.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module hashes", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/hashes.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module hashes", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/hashes.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module hashes", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/hashes.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module hashes", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/hashes.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module hashes", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/hashes.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module tables", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/tables.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+F.line = 45;
+F.line = 46;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module jsffi", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/js/jsffi.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module consts", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/consts.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module consts", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/consts.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module consts", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/consts.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module types", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/types.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module types", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/types.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module types", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/types.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module types", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/types.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module types", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/types.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module types", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/types.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module types", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/types.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module types", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/types.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module types", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/types.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module types", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/types.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module types", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/types.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module types", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/types.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module types", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/types.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module types", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/types.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module types", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/types.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module types", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/types.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module types", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/types.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module types", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/types.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module types", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/types.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module types", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/types.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module types", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/types.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module types", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/types.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module types", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/types.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module types", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/types.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module types", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/types.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module types", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/types.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module types", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/types.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module types", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/types.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module types", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/types.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module types", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/types.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module types", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/types.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module types", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/types.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module types", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/types.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module types", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/types.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module types", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/types.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module types", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/types.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module types", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/types.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module types", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/types.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module types", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/types.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module shims", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/shims.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module shims", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/shims.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module shims", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/shims.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module shims", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/shims.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module shims", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/shims.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module shims", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/shims.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module shims", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/shims.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module shims", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/shims.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module shims", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/shims.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module shims", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/shims.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module main", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/main.nim", line: 0};
+framePtr = F;
+F.line = 14;
+    /// <reference path="./node_modules/@types/screeps-arena/game/index.d.ts" />
+    /// <reference path="./node_modules/@types/screeps-arena/arena/index.d.ts" />
+    
+F.line = 24;
+    import * as game from 'game';
+    import * as arena from 'arena';
+    
+framePtr = F.prev;
+var F = {procname: "module main", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/main.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module main", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/main.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module main", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/bots/spawnAndSwamp/main.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sugar", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/sugar.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sugar", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/sugar.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sugar", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/sugar.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sugar", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/sugar.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sugar", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/sugar.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sugar", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/sugar.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sugar", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/sugar.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sugar", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/sugar.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sugar", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/sugar.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sugar", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/sugar.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sugar", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/sugar.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sugar", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/sugar.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module underscored_calls", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/std/private/underscored_calls.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module underscored_calls", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/std/private/underscored_calls.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module underscored_calls", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/std/private/underscored_calls.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module underscored_calls", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/std/private/underscored_calls.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module underscored_calls", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/std/private/underscored_calls.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sugar", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/sugar.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sugar", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/sugar.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sugar", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/sugar.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sugar", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/sugar.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sugar", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/sugar.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module sugar", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/sugar.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module debug", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsLib/debug.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module blocks", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsLib/blocks.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module blocks", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsLib/blocks.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module blocks", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsLib/blocks.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module debug", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsLib/debug.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module debug", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsLib/debug.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module debug", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsLib/debug.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module debug", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsLib/debug.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module screeps", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsLib/screeps.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module screeps", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsLib/screeps.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module screeps", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsLib/screeps.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module main", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/bots/spawnAndSwamp/main.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
 
-import * as gameUtil from 'game/utils';
-import * as gameVisual from 'game/visual';
-import * as gamePathFinder from 'game/path-finder';
-import * as game from 'game';
-import * as arena from 'arena';
+function toFloat_33556001(i_33556002) {
+  var result_33556003 = 0.0;
 
-import { 
-  Creep, Source, StructureContainer, StructureTower, StructureSpawn,
-  ConstructionSite
- } from 'game/prototypes';
-// import { Flag } from 'arena/prototypes';
+  var F = {procname: "system.toFloat", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/system.nim", line: 0};
+  framePtr = F;
+    F.line = 1453;
+    result_33556003 = i_33556002;
+  framePtr = F.prev;
 
-var workers_486539293 = [[]];
-var combats_486539298 = [[]];
-var healers_486539303 = [[]];
-var combatStagingArea_486539304 = [null];
-var doAttack_486539305 = [false];
+  return result_33556003;
 
-function newSeq_33556825(len_33556827) {
-  var result_33556828 = [];
+}
 
-    result_33556828 = new Array(len_33556827); for (var i = 0 ; i < len_33556827 ; ++i) { result_33556828[i] = null; }
-  return result_33556828;
+function HEX2F_33557575(x_33557576, y_33557577) {
+  var result_33557578 = 0.0;
+
+  var F = {procname: "system./", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/system.nim", line: 0};
+  framePtr = F;
+    F.line = 2489;
+    result_33557578 = (toFloat_33556001(x_33557576) / toFloat_33556001(y_33557577));
+  framePtr = F.prev;
+
+  return result_33557578;
+
+}
+
+function epochTime_771755336() {
+  var result_771755337 = 0.0;
+
+  var F = {procname: "times.epochTime", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/times.nim", line: 0};
+  framePtr = F;
+    F.line = 2612;
+    result_771755337 = HEX2F_33557575(new Date().getTime(), 1000);
+  framePtr = F.prev;
+
+  return result_771755337;
 
 }
 
@@ -409,51 +4820,6 @@ function add_33556419(x_33556420, x_33556420_Idx, y_33556421) {
         x_33556420[x_33556420_Idx][off+i] = y_33556421.charCodeAt(i);
       }
     
-
-  
-}
-
-function unhandledException(e_33556663) {
-    var buf_33556664 = [[]];
-    if (!(((e_33556663.message).length == 0))) {
-    buf_33556664[0].push.apply(buf_33556664[0], makeNimstrLit("Error: unhandled exception: "));;
-    buf_33556664[0].push.apply(buf_33556664[0], e_33556663.message);;
-    }
-    else {
-    buf_33556664[0].push.apply(buf_33556664[0], makeNimstrLit("Error: unhandled exception"));;
-    }
-    
-    buf_33556664[0].push.apply(buf_33556664[0], makeNimstrLit(" ["));;
-    add_33556419(buf_33556664, 0, e_33556663.name);
-    buf_33556664[0].push.apply(buf_33556664[0], makeNimstrLit("]\x0A"));;
-    var cbuf_33556665 = toJSStr(buf_33556664[0]);
-    framePtr = null;
-      if (typeof(Error) !== "undefined") {
-    throw new Error(cbuf_33556665);
-  }
-  else {
-    throw cbuf_33556665;
-  }
-  
-
-  
-}
-
-function raiseOverflow() {
-    raiseException({message: makeNimstrLit("over- or underflow"), parent: null, m_type: NTI33555122, name: null, trace: [], up: null}, "OverflowDefect");
-
-  
-}
-
-function checkOverflowInt(a_33556938) {
-        if (a_33556938 > 2147483647 || a_33556938 < -2147483648) raiseOverflow();
-  
-
-  
-}
-
-function raiseRangeError() {
-    raiseException({message: makeNimstrLit("value out of range"), parent: null, m_type: NTI33555130, name: null, trace: [], up: null}, "RangeDefect");
 
   
 }
@@ -496,6 +4862,219 @@ function nimCopyAux(dest_33557144, src_33557145, n_33557146) {
   
 }
 
+function auxWriteStackTrace_33556559(f_33556560) {
+          var Temporary3;
+
+  var result_33556561 = [[]];
+
+    var it_33556569 = f_33556560;
+    var i_33556570 = 0;
+    var total_33556571 = 0;
+    var tempFrames_33556572 = arrayConstr(64, {Field0: null, Field1: 0, Field2: null}, NTI33555919);
+    Label1: do {
+        Label2: while (true) {
+          if (!!((it_33556569 == null))) Temporary3 = false; else {            Temporary3 = (i_33556570 <= 63);          }        if (!Temporary3) break Label2;
+          tempFrames_33556572[i_33556570].Field0 = it_33556569.procname;
+          tempFrames_33556572[i_33556570].Field1 = it_33556569.line;
+          tempFrames_33556572[i_33556570].Field2 = it_33556569.filename;
+          i_33556570 += 1;
+          total_33556571 += 1;
+          it_33556569 = it_33556569.prev;
+        }
+    } while (false);
+    Label4: do {
+        Label5: while (true) {
+        if (!!((it_33556569 == null))) break Label5;
+          total_33556571 += 1;
+          it_33556569 = it_33556569.prev;
+        }
+    } while (false);
+    result_33556561[0] = nimCopy(null, [], NTI33554439);
+    if (!((total_33556571 == i_33556570))) {
+    result_33556561[0].push.apply(result_33556561[0], makeNimstrLit("("));;
+    result_33556561[0].push.apply(result_33556561[0], HEX24_335544323((total_33556571 - i_33556570)));;
+    result_33556561[0].push.apply(result_33556561[0], makeNimstrLit(" calls omitted) ...\x0A"));;
+    }
+    
+    Label6: do {
+      var j_33556602 = 0;
+      var colontmp__452984885 = 0;
+      colontmp__452984885 = (i_33556570 - 1);
+      var res_452984887 = colontmp__452984885;
+      Label7: do {
+          Label8: while (true) {
+          if (!(0 <= res_452984887)) break Label8;
+            j_33556602 = res_452984887;
+            result_33556561[0].push.apply(result_33556561[0], cstrToNimstr(tempFrames_33556572[j_33556602].Field2));;
+            if ((0 < tempFrames_33556572[j_33556602].Field1)) {
+            result_33556561[0].push.apply(result_33556561[0], makeNimstrLit("("));;
+            addInt_251658457(result_33556561, 0, tempFrames_33556572[j_33556602].Field1);
+            if (false) {
+            result_33556561[0].push.apply(result_33556561[0], makeNimstrLit(", "));;
+            addInt_251658457(result_33556561, 0, 0);
+            }
+            
+            result_33556561[0].push.apply(result_33556561[0], makeNimstrLit(")"));;
+            }
+            
+            result_33556561[0].push.apply(result_33556561[0], makeNimstrLit(" at "));;
+            add_33556419(result_33556561, 0, tempFrames_33556572[j_33556602].Field0);
+            result_33556561[0].push.apply(result_33556561[0], makeNimstrLit("\x0A"));;
+            res_452984887 -= 1;
+          }
+      } while (false);
+    } while (false);
+
+  return result_33556561[0];
+
+}
+
+function rawWriteStackTrace_33556631() {
+  var result_33556632 = [];
+
+    if (!((framePtr == null))) {
+    result_33556632 = nimCopy(null, (makeNimstrLit("Traceback (most recent call last)\x0A") || []).concat(auxWriteStackTrace_33556559(framePtr) || []), NTI33554439);
+    }
+    else {
+      result_33556632 = nimCopy(null, makeNimstrLit("No stack traceback available\x0A"), NTI33554439);
+    }
+    
+
+  return result_33556632;
+
+}
+
+function newSeq_33556825(len_33556827) {
+  var result_33556828 = [];
+
+  var F = {procname: "newSeq.newSeq", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/system.nim", line: 0};
+  framePtr = F;
+    F.line = 680;
+    result_33556828 = new Array(len_33556827); for (var i = 0 ; i < len_33556827 ; ++i) { result_33556828[i] = null; }  framePtr = F.prev;
+
+  return result_33556828;
+
+}
+
+function unhandledException(e_33556663) {
+    var buf_33556664 = [[]];
+    if (!(((e_33556663.message).length == 0))) {
+    buf_33556664[0].push.apply(buf_33556664[0], makeNimstrLit("Error: unhandled exception: "));;
+    buf_33556664[0].push.apply(buf_33556664[0], e_33556663.message);;
+    }
+    else {
+    buf_33556664[0].push.apply(buf_33556664[0], makeNimstrLit("Error: unhandled exception"));;
+    }
+    
+    buf_33556664[0].push.apply(buf_33556664[0], makeNimstrLit(" ["));;
+    add_33556419(buf_33556664, 0, e_33556663.name);
+    buf_33556664[0].push.apply(buf_33556664[0], makeNimstrLit("]\x0A"));;
+    buf_33556664[0].push.apply(buf_33556664[0], rawWriteStackTrace_33556631());;
+    var cbuf_33556665 = toJSStr(buf_33556664[0]);
+    framePtr = null;
+      if (typeof(Error) !== "undefined") {
+    throw new Error(cbuf_33556665);
+  }
+  else {
+    throw cbuf_33556665;
+  }
+  
+
+  
+}
+
+function raiseOverflow() {
+    raiseException({message: makeNimstrLit("over- or underflow"), parent: null, m_type: NTI33555122, name: null, trace: [], up: null}, "OverflowDefect");
+
+  
+}
+
+function checkOverflowInt(a_33556938) {
+        if (a_33556938 > 2147483647 || a_33556938 < -2147483648) raiseOverflow();
+  
+
+  
+}
+
+function raiseRangeError() {
+    raiseException({message: makeNimstrLit("value out of range"), parent: null, m_type: NTI33555130, name: null, trace: [], up: null}, "RangeDefect");
+
+  
+}
+
+function addChars_251658415(result_251658417, result_251658417_Idx, x_251658418, start_251658419, n_251658420) {
+  var F = {procname: "addChars.addChars", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/std/private/digitsutils.nim", line: 0};
+  framePtr = F;
+    F.line = 43;
+    var old_251658421 = (result_251658417[result_251658417_Idx]).length;
+    F.line = 44;
+    (result_251658417[result_251658417_Idx].length = chckRange(addInt(old_251658421, n_251658420), 0, 2147483647));
+    Label1: do {
+      F.line = 46;
+      var iHEX60gensym4_251658435 = 0;
+      F.line = 119;
+      var i_452984880 = 0;
+      Label2: do {
+        F.line = 120;
+          Label3: while (true) {
+          if (!(i_452984880 < n_251658420)) break Label3;
+            F.line = 49;
+            iHEX60gensym4_251658435 = i_452984880;
+            F.line = 49;
+            result_251658417[result_251658417_Idx][chckIndx(addInt(old_251658421, iHEX60gensym4_251658435), 0, (result_251658417[result_251658417_Idx]).length - 1)] = x_251658418.charCodeAt(chckIndx(addInt(start_251658419, iHEX60gensym4_251658435), 0, (x_251658418).length - 1));
+            F.line = 122;
+            i_452984880 = addInt(i_452984880, 1);
+          }
+      } while (false);
+    } while (false);
+  framePtr = F.prev;
+
+  
+}
+
+function addChars_251658411(result_251658413, result_251658413_Idx, x_251658414) {
+  var F = {procname: "addChars.addChars", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/std/private/digitsutils.nim", line: 0};
+  framePtr = F;
+    F.line = 55;
+    addChars_251658415(result_251658413, result_251658413_Idx, x_251658414, 0, ((x_251658414) == null ? 0 : (x_251658414).length));
+  framePtr = F.prev;
+
+  
+}
+
+function addInt_251658436(result_251658437, result_251658437_Idx, x_251658438) {
+  var F = {procname: "digitsutils.addInt", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/std/private/digitsutils.nim", line: 0};
+  framePtr = F;
+    F.line = 113;
+    addChars_251658411(result_251658437, result_251658437_Idx, ((x_251658438) + ""));
+  framePtr = F.prev;
+
+  
+}
+
+function addInt_251658457(result_251658458, result_251658458_Idx, x_251658459) {
+  var F = {procname: "digitsutils.addInt", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/std/private/digitsutils.nim", line: 0};
+  framePtr = F;
+    F.line = 117;
+    addInt_251658436(result_251658458, result_251658458_Idx, x_251658459);
+  framePtr = F.prev;
+
+  
+}
+
+function HEX24_335544323(x_335544324) {
+  var result_335544325 = [[]];
+
+  var F = {procname: "dollars.$", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/system/dollars.nim", line: 0};
+  framePtr = F;
+    F.line = 12;
+    addInt_251658457(result_335544325, 0, x_335544324);
+  framePtr = F.prev;
+
+  return result_335544325[0];
+
+}
+
 function raiseIndexError(i_33556754, a_33556755, b_33556756) {
     var Temporary1;
 
@@ -503,7 +5082,7 @@ function raiseIndexError(i_33556754, a_33556755, b_33556756) {
     Temporary1 = makeNimstrLit("index out of bounds, the container is empty");
     }
     else {
-    Temporary1 = (makeNimstrLit("index ") || []).concat(HEX24_352321539(i_33556754) || [],makeNimstrLit(" not in ") || [],HEX24_352321539(a_33556755) || [],makeNimstrLit(" .. ") || [],HEX24_352321539(b_33556756) || []);
+    Temporary1 = (makeNimstrLit("index ") || []).concat(HEX24_335544323(i_33556754) || [],makeNimstrLit(" not in ") || [],HEX24_335544323(a_33556755) || [],makeNimstrLit(" .. ") || [],HEX24_335544323(b_33556756) || []);
     }
     
     raiseException({message: nimCopy(null, Temporary1, NTI33554439), parent: null, m_type: NTI33555128, name: null, trace: [], up: null}, "IndexDefect");
@@ -511,601 +5090,1182 @@ function raiseIndexError(i_33556754, a_33556755, b_33556756) {
   
 }
 
-function addChars_251658415(result_251658417, result_251658417_Idx, x_251658418, start_251658419, n_251658420) {
-    var old_251658421 = (result_251658417[result_251658417_Idx]).length;
-    (result_251658417[result_251658417_Idx].length = chckRange(addInt(old_251658421, n_251658420), 0, 2147483647));
+function rotl_620757023(x_620757024, k_620757025) {
+  var result_620757026 = 0;
+
+  var F = {procname: "random.rotl", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/random.nim", line: 0};
+  framePtr = F;
+    F.line = 132;
+    result_620757026 = ((x_620757024 << k_620757025) | (x_620757024 >>> ((64 - k_620757025) >>> 0)));
+  framePtr = F.prev;
+
+  return result_620757026;
+
+}
+
+function next_620757035(r_620757036) {
+  var result_620757037 = 0;
+
+  var F = {procname: "random.next", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/random.nim", line: 0};
+  framePtr = F;
+    F.line = 150;
+    var s0_620757038 = r_620757036.a0;
+    F.line = 151;
+    var s1_620757039 = r_620757036.a1;
+    F.line = 152;
+    result_620757037 = ((s0_620757038 + s1_620757039) >>> 0);
+    F.line = 153;
+    s1_620757039 = (s1_620757039 ^ s0_620757038);
+    F.line = 154;
+    r_620757036.a0 = ((rotl_620757023(s0_620757038, 55) ^ s1_620757039) ^ (s1_620757039 << 14));
+    F.line = 155;
+    r_620757036.a1 = rotl_620757023(s1_620757039, 36);
+  framePtr = F.prev;
+
+  return result_620757037;
+
+}
+
+function skipRandomNumbers_620757044(s_620757045) {
+  var F = {procname: "random.skipRandomNumbers", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/random.nim", line: 0};
+  framePtr = F;
+    F.line = 205;
+    var s0_620757047 = 0;
+    F.line = 206;
+    var s1_620757048 = 0;
     Label1: do {
-      var iHEX60gensym4_251658435 = 0;
-      var i_486539675 = 0;
+      F.line = 207;
+      var i_620757057 = 0;
+      F.line = 90;
+      var res_452984874 = 0;
       Label2: do {
+        F.line = 91;
           Label3: while (true) {
-          if (!(i_486539675 < n_251658420)) break Label3;
-            iHEX60gensym4_251658435 = i_486539675;
-            result_251658417[result_251658417_Idx][chckIndx(addInt(old_251658421, iHEX60gensym4_251658435), 0, (result_251658417[result_251658417_Idx]).length - 1)] = x_251658418.charCodeAt(chckIndx(addInt(start_251658419, iHEX60gensym4_251658435), 0, (x_251658418).length - 1));
-            i_486539675 = addInt(i_486539675, 1);
+          if (!(res_452984874 <= 1)) break Label3;
+            F.line = 207;
+            i_620757057 = res_452984874;
+            Label4: do {
+              F.line = 208;
+              var b_620757062 = 0;
+              F.line = 119;
+              var i_452984872 = 0;
+              Label5: do {
+                F.line = 120;
+                  Label6: while (true) {
+                  if (!(i_452984872 < 64)) break Label6;
+                    F.line = 208;
+                    b_620757062 = i_452984872;
+                    if (!(((helper_620757046[chckIndx(i_620757057, 0, (helper_620757046).length - 1)] & (1 << b_620757062)) == 0))) {
+                    F.line = 210;
+                    s0_620757047 = (s0_620757047 ^ s_620757045.a0);
+                    F.line = 211;
+                    s1_620757048 = (s1_620757048 ^ s_620757045.a1);
+                    }
+                    
+                    F.line = 208;
+                    var _ = next_620757035(s_620757045);
+                    F.line = 122;
+                    i_452984872 = addInt(i_452984872, 1);
+                  }
+              } while (false);
+            } while (false);
+            F.line = 93;
+            res_452984874 = addInt(res_452984874, 1);
           }
       } while (false);
     } while (false);
+    F.line = 213;
+    s_620757045.a0 = s0_620757047;
+    F.line = 214;
+    s_620757045.a1 = s1_620757048;
+  framePtr = F.prev;
 
   
 }
 
-function addChars_251658411(result_251658413, result_251658413_Idx, x_251658414) {
-    addChars_251658415(result_251658413, result_251658413_Idx, x_251658414, 0, ((x_251658414) == null ? 0 : (x_251658414).length));
+function initRand_620757211(seed_620757212) {
+    var Temporary1;
+
+  var result_620757213 = [({a0: 0, a1: 0})];
+
+  var F = {procname: "random.initRand", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/random.nim", line: 0};
+  framePtr = F;
+    F.line = 564;
+    if (!((seed_620757212 == 0))) {
+    Temporary1 = seed_620757212;
+    }
+    else {
+    Temporary1 = 2147483647;
+    }
+    
+    var seed_620757219 = Temporary1;
+    F.line = 565;
+    result_620757213[0].a0 = Math.floor(seed_620757219 / Math.pow(2, 16));
+    F.line = 566;
+    result_620757213[0].a1 = (seed_620757219 & 65535);
+    F.line = 570;
+    skipRandomNumbers_620757044(result_620757213[0]);
+    F.line = 571;
+    var _ = next_620757035(result_620757213[0]);
+  framePtr = F.prev;
+
+  return result_620757213[0];
+
+}
+
+function initRand_620757236() {
+  var result_620757237 = ({a0: 0, a1: 0});
+
+  var F = {procname: "random.initRand", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/random.nim", line: 0};
+  framePtr = F;
+    F.line = 657;
+    var time_620757238 = ((epochTime_771755336() * 1000.0) & 2147483647);
+    F.line = 658;
+    result_620757237 = nimCopy(result_620757237, initRand_620757211(time_620757238), NTI620756996);
+  framePtr = F.prev;
+
+  return result_620757237;
+
+}
+
+function randomize_620757243() {
+  var F = {procname: "random.randomize", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/random.nim", line: 0};
+  framePtr = F;
+    F.line = 711;
+    state_620757005[0] = nimCopy(state_620757005[0], initRand_620757236(), NTI620756996);
+  framePtr = F.prev;
 
   
 }
+var F = {procname: "module main", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/bots/spawnAndSwamp/main.nim", line: 0};
+framePtr = F;
+F.line = 16;
+var workers_452984856 = [[]];
+F.line = 17;
+var combats_452984857 = [[]];
+F.line = 18;
+var healers_452984858 = [[]];
+F.line = 19;
+var combatStagingArea_452984859 = [null];
+F.line = 20;
+var doAttack_452984860 = [false];
+F.line = 31;
+randomize_620757243();
+framePtr = F.prev;
 
-function addInt_251658436(result_251658437, result_251658437_Idx, x_251658438) {
-    addChars_251658411(result_251658437, result_251658437_Idx, ((x_251658438) + ""));
+function getAllCreeps_1073741826() {
+  var result_1073741827 = [];
 
+  var F = {procname: "shims.getAllCreeps", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/shims.nim", line: 0};
+  framePtr = F;
+    F.line = 8;
+      return game.utils.getObjectsByPrototype(game.prototypes.Creep);
   
-}
+  framePtr = F.prev;
 
-function addInt_251658457(result_251658458, result_251658458_Idx, x_251658459) {
-    addInt_251658436(result_251658458, result_251658458_Idx, x_251658459);
-
-  
-}
-
-function HEX24_352321539(x_352321540) {
-  var result_352321541 = [[]];
-
-    addInt_251658457(result_352321541, 0, x_352321540);
-
-  return result_352321541[0];
+  return result_1073741827;
 
 }
 
-function getAllCreeps_1040187394() {
-  var result_1040187395 = [];
+function newSeq_1090519091(len_1090519093) {
+  var result_1090519094 = [];
 
-      return gameUtil.getObjectsByPrototype(Creep);
-  
+  var F = {procname: "newSeq.newSeq", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/system.nim", line: 0};
+  framePtr = F;
+    F.line = 680;
+    result_1090519094 = new Array(len_1090519093); for (var i = 0 ; i < len_1090519093 ; ++i) { result_1090519094[i] = null; }  framePtr = F.prev;
 
-  return result_1040187395;
-
-}
-
-function getAllSpawns_1040187402() {
-  var result_1040187403 = [];
-
-      return gameUtil.getObjectsByPrototype(StructureSpawn);
-  
-
-  return result_1040187403;
+  return result_1090519094;
 
 }
 
-function newSeq_1056964661(len_1056964663) {
-  var result_1056964664 = [];
+function filter_1090519085(s_1090519087, pred_1090519089) {
+  var result_1090519090 = [];
 
-    result_1056964664 = new Array(len_1056964663); for (var i = 0 ; i < len_1056964663 ; ++i) { result_1056964664[i] = null; }
-  return result_1056964664;
-
-}
-
-function filter_1056964655(s_1056964657, pred_1056964659) {
-  var result_1056964660 = [];
-
-    result_1056964660 = nimCopy(null, newSeq_1056964661(0), NTI1056964642);
+  var F = {procname: "filter.filter", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/collections/sequtils.nim", line: 0};
+  framePtr = F;
+    F.line = 482;
+    result_1090519090 = nimCopy(null, newSeq_1090519091(0), NTI1090519076);
     Label1: do {
-      var i_1056964695 = 0;
-      var colontmp__486539678 = 0;
-      colontmp__486539678 = (s_1056964657).length;
-      var i_486539679 = 0;
+      F.line = 483;
+      var i_1090519125 = 0;
+      F.line = 117;
+      var colontmp__452985246 = 0;
+      F.line = 483;
+      colontmp__452985246 = (s_1090519087).length;
+      F.line = 119;
+      var i_452985247 = 0;
       Label2: do {
+        F.line = 120;
           Label3: while (true) {
-          if (!(i_486539679 < colontmp__486539678)) break Label3;
-            i_1056964695 = i_486539679;
-            if (pred_1056964659(s_1056964657[chckIndx(i_1056964695, 0, (s_1056964657).length - 1)])) {
-            result_1056964660.push(s_1056964657[chckIndx(i_1056964695, 0, (s_1056964657).length - 1)]);;
+          if (!(i_452985247 < colontmp__452985246)) break Label3;
+            F.line = 483;
+            i_1090519125 = i_452985247;
+            if (pred_1090519089(s_1090519087[chckIndx(i_1090519125, 0, (s_1090519087).length - 1)])) {
+            F.line = 485;
+            result_1090519090.push(s_1090519087[chckIndx(i_1090519125, 0, (s_1090519087).length - 1)]);;
             }
             
-            i_486539679 = addInt(i_486539679, 1);
+            F.line = 122;
+            i_452985247 = addInt(i_452985247, 1);
           }
       } while (false);
     } while (false);
+  framePtr = F.prev;
 
-  return result_1056964660;
+  return result_1090519090;
 
 }
 
-function newSeq_1056964705(len_1056964707) {
-  var result_1056964708 = [];
+function getAllSpawns_1073741834() {
+  var result_1073741835 = [];
 
-    result_1056964708 = new Array(len_1056964707); for (var i = 0 ; i < len_1056964707 ; ++i) { result_1056964708[i] = null; }
-  return result_1056964708;
+  var F = {procname: "shims.getAllSpawns", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/shims.nim", line: 0};
+  framePtr = F;
+    F.line = 28;
+      return game.utils.getObjectsByPrototype(game.prototypes.StructureSpawn);
+  
+  framePtr = F.prev;
+
+  return result_1073741835;
 
 }
 
 function sysFatal_218103842(message_218103845) {
+  var F = {procname: "sysFatal.sysFatal", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/system/fatal.nim", line: 0};
+  framePtr = F;
+    F.line = 54;
     raiseException({message: nimCopy(null, message_218103845, NTI33554439), m_type: NTI33555124, parent: null, name: null, trace: [], up: null}, "AssertionDefect");
+  framePtr = F.prev;
 
   
 }
 
 function raiseAssert_218103840(msg_218103841) {
+  var F = {procname: "assertions.raiseAssert", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/system/assertions.nim", line: 0};
+  framePtr = F;
+    F.line = 28;
     sysFatal_218103842(msg_218103841);
+  framePtr = F.prev;
 
   
 }
 
 function failedAssertImpl_218103864(msg_218103865) {
+  var F = {procname: "assertions.failedAssertImpl", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/system/assertions.nim", line: 0};
+  framePtr = F;
+    F.line = 38;
     raiseAssert_218103840(msg_218103865);
+  framePtr = F.prev;
 
   
 }
 
-function debugPrintCounts_1056964612() {
-    
-function HEX3Aanonymous_1056964647(c_1056964650) {
-      var result_1056964653 = false;
-
-        result_1056964653 = c_1056964650.my;
-
-      return result_1056964653;
-
-    }
-
-    var currentTick_1056964613 = gameUtil.getTicks();
-    rawEcho(makeNimstrLit("Current tick: "), HEX24_352321539(currentTick_1056964613));
-    var creeps_1056964614 = getAllCreeps_1040187394();
-    rawEcho(makeNimstrLit("found creeps: "), HEX24_352321539((creeps_1056964614).length));
-    var spawns_1056964619 = getAllSpawns_1040187402();
-    rawEcho(makeNimstrLit("found spawns: "), HEX24_352321539((spawns_1056964619).length));
-    var myCreeps_1056964700 = filter_1056964655(creeps_1056964614, HEX3Aanonymous_1056964647);
-    rawEcho(makeNimstrLit("my creeps: "), HEX24_352321539((myCreeps_1056964700).length));
-    var resultHEX60gensym0_1056964731 = newSeq_1056964705(0);
-    Label1: do {
-      var it_1056964752 = null;
-      var i_486539662 = 0;
-      var L_486539663 = (spawns_1056964619).length;
-      Label2: do {
-          Label3: while (true) {
-          if (!(i_486539662 < L_486539663)) break Label3;
-            it_1056964752 = spawns_1056964619[chckIndx(i_486539662, 0, (spawns_1056964619).length - 1)];
-            if ((it_1056964752.my == true)) {
-            resultHEX60gensym0_1056964731.push(it_1056964752);;
-            }
-            
-            i_486539662 = addInt(i_486539662, 1);
-            if (!(((spawns_1056964619).length == L_486539663))) {
-            failedAssertImpl_218103864(makeNimstrLit("iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
-            }
-            
-          }
-      } while (false);
-    } while (false);
-    var mySpawns_1056964757 = nimCopy(null, resultHEX60gensym0_1056964731, NTI1056964677);
-    Label4: do {
-      var s_1056964761 = null;
-      var i_486539666 = 0;
-      var L_486539667 = (mySpawns_1056964757).length;
-      Label5: do {
-          Label6: while (true) {
-          if (!(i_486539666 < L_486539667)) break Label6;
-            s_1056964761 = mySpawns_1056964757[chckIndx(i_486539666, 0, (mySpawns_1056964757).length - 1)];
-            rawEcho(makeNimstrLit("spawn ID: "), HEX24_352321539(s_1056964761.id));
-            rawEcho(makeNimstrLit("spawn capacity: "), HEX24_352321539(s_1056964761.store.getCapacity("energy")));
-            rawEcho(makeNimstrLit("spawn free capacity: "), HEX24_352321539(s_1056964761.store.getFreeCapacity("energy")));
-            rawEcho(makeNimstrLit("spawn used capacity: "), HEX24_352321539(s_1056964761.store.getUsedCapacity("energy")));
-            i_486539666 = addInt(i_486539666, 1);
-            if (!(((mySpawns_1056964757).length == L_486539667))) {
-            failedAssertImpl_218103864(makeNimstrLit("iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
-            }
-            
-          }
-      } while (false);
-    } while (false);
+function isNimException_33556519() {
+    return lastJSError && lastJSError.m_type;
 
   
 }
 
-function getAllContainers_1040187398() {
-  var result_1040187399 = [];
+function getCurrentException() {
+  var result_33556522 = null;
 
-      return gameUtil.getObjectsByPrototype(StructureContainer);
-  
-
-  return result_1040187399;
-
-}
-
-function HEX24_1040187408(p_1040187409) {
-  var result_1040187410 = [];
-
-  BeforeRet: do {
-    result_1040187410 = nimCopy(null, (HEX24_352321539(p_1040187409.x) || []).concat(makeNimstrLit(",") || [],HEX24_352321539(p_1040187409.y) || []), NTI33554439);
-    break BeforeRet;
-  } while (false);
-
-  return result_1040187410;
-
-}
-
-function addQuoted_486539440(s_486539442, s_486539442_Idx, x_486539443) {
-    addInt_251658457(s_486539442, s_486539442_Idx, x_486539443);
-
-  
-}
-
-function HEX24_486539420(x_486539422) {
-  var result_486539423 = [[]];
-
-    result_486539423[0] = nimCopy(null, makeNimstrLit("("), NTI33554439);
-    var count_486539429 = 0;
-    if ((0 < count_486539429)) {
-    result_486539423[0].push.apply(result_486539423[0], makeNimstrLit(", "));;
+    if (isNimException_33556519()) {
+    result_33556522 = lastJSError;
     }
     
-    result_486539423[0].push.apply(result_486539423[0], makeNimstrLit("error"));;
-    result_486539423[0].push.apply(result_486539423[0], makeNimstrLit(": "));;
-    count_486539429 += 1;
-    addQuoted_486539440(result_486539423, 0, x_486539422.error);
-    result_486539423[0].push.apply(result_486539423[0], makeNimstrLit(")"));;
 
-  return result_486539423[0];
+  return result_33556522;
 
 }
 
-function toFloat_33556001(i_33556002) {
-  var result_33556003 = 0.0;
+function debugPrintCounts_1090519045() {
+    
+function HEX3Aanonymous_1090519048() {
+        
+function HEX3Aanonymous_1090519077(c_1090519080) {
+          var result_1090519083 = false;
 
-    result_33556003 = i_33556002;
+          var F = {procname: ":anonymous.:anonymous", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsLib/debug.nim", line: 0};
+          framePtr = F;
+            F.line = 16;
+            result_1090519083 = c_1090519080.my;
+          framePtr = F.prev;
 
-  return result_33556003;
+          return result_1090519083;
+
+        }
+
+      var F = {procname: "debugPrintCounts.:anonymous", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsLib/blocks.nim", line: 0};
+      framePtr = F;
+        F.line = 8;
+++excHandler;
+        try {
+        F.line = 11;
+        var currentTick_1090519049 = game.utils.getTicks();
+        F.line = 12;
+        rawEcho(makeNimstrLit("- Current tick: "), HEX24_335544323(currentTick_1090519049));
+        F.line = 14;
+        var creeps_1090519050 = getAllCreeps_1073741826();
+        F.line = 15;
+        rawEcho(makeNimstrLit("- found creeps: "), HEX24_335544323((creeps_1090519050).length));
+        F.line = 16;
+        var myCreeps_1090519130 = filter_1090519085(creeps_1090519050, HEX3Aanonymous_1090519077);
+        F.line = 17;
+        rawEcho(makeNimstrLit("- my creeps: "), HEX24_335544323((myCreeps_1090519130).length));
+        F.line = 19;
+        var spawns_1090519134 = getAllSpawns_1073741834();
+        F.line = 20;
+        rawEcho(makeNimstrLit("- found spawns: "), HEX24_335544323((spawns_1090519134).length));
+        Label2: do {
+          F.line = 22;
+          var s_1090519159 = null;
+          F.line = 235;
+          var i_452985242 = 0;
+          F.line = 236;
+          var L_452985243 = (spawns_1090519134).length;
+          Label3: do {
+            F.line = 237;
+              Label4: while (true) {
+              if (!(i_452985242 < L_452985243)) break Label4;
+                F.line = 22;
+                s_1090519159 = spawns_1090519134[chckIndx(i_452985242, 0, (spawns_1090519134).length - 1)];
+                F.line = 22;
+                rawEcho(makeNimstrLit("  - spawn ID: "), HEX24_335544323(s_1090519159.id));
+                F.line = 22;
+                rawEcho(makeNimstrLit("    spawn my: "), nimBoolToStr(s_1090519159.my));
+                F.line = 22;
+                rawEcho(makeNimstrLit("    spawn capacity: "), HEX24_335544323(s_1090519159.store.getCapacity("energy")));
+                F.line = 22;
+                rawEcho(makeNimstrLit("    spawn free capacity: "), HEX24_335544323(s_1090519159.store.getFreeCapacity("energy")));
+                F.line = 22;
+                rawEcho(makeNimstrLit("    spawn used capacity: "), HEX24_335544323(s_1090519159.store.getUsedCapacity("energy")));
+                F.line = 239;
+                i_452985242 = addInt(i_452985242, 1);
+                if (!(((spawns_1090519134).length == L_452985243))) {
+                F.line = 240;
+                failedAssertImpl_218103864(makeNimstrLit("/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/system/iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+                }
+                
+              }
+          } while (false);
+        } while (false);
+--excHandler;
+} catch (EXCEPTION) {
+ var prevJSError = lastJSError;
+ lastJSError = EXCEPTION;
+ --excHandler;
+        framePtr = F;
+        if (lastJSError && (isObj(lastJSError.m_type, NTI33555114))) {
+        F.line = 11;
+        var eHEX60gensym0_1090519160 = getCurrentException();
+        F.line = 11;
+        rawEcho([]);
+        F.line = 12;
+        rawEcho(makeNimstrLit("# debugPrintCounts Block Error"));
+        F.line = 13;
+        rawEcho(eHEX60gensym0_1090519160.message);
+        F.line = 14;
+        rawEcho([]);
+        }
+        else {
+        	reraiseException();
+        }
+        lastJSError = prevJSError;
+        } finally {
+        framePtr = F;
+        }
+      framePtr = F.prev;
+
+      
+    }
+
+  var F = {procname: "debug.debugPrintCounts", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsLib/debug.nim", line: 0};
+  framePtr = F;
+    F.line = 4;
+    rawEcho([]);
+    F.line = 5;
+    rawEcho(makeNimstrLit("# debugPrintCounts Block"));
+    F.line = 7;
+    var doLogicHEX60gensym0_1090519215 = HEX3Aanonymous_1090519048;
+    F.line = 9;
+    doLogicHEX60gensym0_1090519215();
+  framePtr = F.prev;
+
+  
+}
+
+function newSeq_452984895(len_452984897) {
+  var result_452984898 = [];
+
+  var F = {procname: "newSeq.newSeq", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/system.nim", line: 0};
+  framePtr = F;
+    F.line = 680;
+    result_452984898 = new Array(len_452984897); for (var i = 0 ; i < len_452984897 ; ++i) { result_452984898[i] = null; }  framePtr = F.prev;
+
+  return result_452984898;
 
 }
 
-function HEX2F_33557575(x_33557576, y_33557577) {
-  var result_33557578 = 0.0;
+function getAllContainers_1073741830() {
+  var result_1073741831 = [];
 
-    result_33557578 = (toFloat_33556001(x_33557576) / toFloat_33556001(y_33557577));
+  var F = {procname: "shims.getAllContainers", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/shims.nim", line: 0};
+  framePtr = F;
+    F.line = 18;
+      return game.utils.getObjectsByPrototype(game.prototypes.StructureContainer);
+  
+  framePtr = F.prev;
 
-  return result_33557578;
+  return result_1073741831;
 
 }
 
-function getMostHurtCreep_1073741826(creeps_1073741827) {
-  var result_1073741828 = null;
+function rand_620757118(r_620757119, max_620757124) {
+  var result_620757125 = 0.0;
 
+  var F = {procname: "random.rand", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/random.nim", line: 0};
+  framePtr = F;
+    F.line = 281;
+    var x_620757126 = next_620757035(r_620757119);
+    F.line = 283;
+    result_620757125 = ((x_620757126 / 4294967295.0) * max_620757124);
+  framePtr = F.prev;
+
+  return result_620757125;
+
+}
+
+function rand_620757140(max_620757141) {
+  var result_620757142 = 0.0;
+
+  var F = {procname: "random.rand", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/pure/random.nim", line: 0};
+  framePtr = F;
+    F.line = 289;
+    result_620757142 = rand_620757118(state_620757005[0], chckRange(max_620757141, 0.0, Infinity));
+  framePtr = F.prev;
+
+  return result_620757142;
+
+}
+
+function HEX24_1073741840(p_1073741841) {
+  var result_1073741842 = [];
+
+  var F = {procname: "shims.$", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsArena/shims.nim", line: 0};
+  framePtr = F;
   BeforeRet: do {
-    var creep_1073741829 = creeps_1073741827[chckIndx(0, 0, (creeps_1073741827).length - 1)];
-    var delta_1073741830 = subInt(creep_1073741829.hitsMax, creep_1073741829.hits);
+    F.line = 44;
+    result_1073741842 = nimCopy(null, (HEX24_335544323(p_1073741841.x) || []).concat(makeNimstrLit(",") || [],HEX24_335544323(p_1073741841.y) || []), NTI33554439);
+    break BeforeRet;
+  } while (false);
+  framePtr = F.prev;
+
+  return result_1073741842;
+
+}
+
+function nimFloatToString_352321654(a_352321655) {
+  var result_352321656 = null;
+
+  var F = {procname: "formatfloat.nimFloatToString", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/system/formatfloat.nim", line: 0};
+  framePtr = F;
+    F.line = 101;
+        function nimOnlyDigitsOrMinus(n) {
+      return n.toString().match(/^-?\d+$/);
+    }
+    if (Number.isSafeInteger(a_352321655))
+      result_352321656 = a_352321655 === 0 && 1 / a_352321655 < 0 ? "-0.0" : a_352321655+".0"
+    else {
+      result_352321656 = a_352321655+""
+      if(nimOnlyDigitsOrMinus(result_352321656)){
+        result_352321656 = a_352321655+".0"
+      }
+    }
+  
+  framePtr = F.prev;
+
+  return result_352321656;
+
+}
+
+function addFloat_33557372(result_33557374, result_33557374_Idx, x_33557375) {
+  var F = {procname: "addFloat.addFloat", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/system/formatfloat.nim", line: 0};
+  framePtr = F;
+    F.line = 131;
+    add_33556419(result_33557374, result_33557374_Idx, nimFloatToString_352321654(x_33557375));
+  framePtr = F.prev;
+
+  
+}
+
+function HEX24_33557368(x_33557370) {
+  var result_33557371 = [[]];
+
+  var F = {procname: "$.$", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/system/dollars.nim", line: 0};
+  framePtr = F;
+    F.line = 32;
+    addFloat_33557372(result_33557371, 0, x_33557370);
+  framePtr = F.prev;
+
+  return result_33557371[0];
+
+}
+
+function addQuoted_788530428(s_788530430, s_788530430_Idx, x_788530431) {
+  var F = {procname: "addQuoted.addQuoted", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/system.nim", line: 0};
+  framePtr = F;
+    F.line = 2913;
+    addInt_251658457(s_788530430, s_788530430_Idx, x_788530431);
+  framePtr = F.prev;
+
+  
+}
+
+function HEX24_452984978(x_452984980) {
+  var result_452984981 = [[]];
+
+  var F = {procname: "$.$", prev: framePtr, filename: "/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/system/dollars.nim", line: 0};
+  framePtr = F;
+    F.line = 97;
+    result_452984981[0] = nimCopy(null, makeNimstrLit("("), NTI33554439);
+    F.line = 99;
+    var count_452984987 = 0;
+    if ((0 < count_452984987)) {
+    F.line = 101;
+    result_452984981[0].push.apply(result_452984981[0], makeNimstrLit(", "));;
+    }
+    
+    F.line = 103;
+    result_452984981[0].push.apply(result_452984981[0], makeNimstrLit("error"));;
+    F.line = 104;
+    result_452984981[0].push.apply(result_452984981[0], makeNimstrLit(": "));;
+    F.line = 105;
+    count_452984987 += 1;
+    F.line = 111;
+    addQuoted_788530428(result_452984981, 0, x_452984980.error);
+    F.line = 117;
+    result_452984981[0].push.apply(result_452984981[0], makeNimstrLit(")"));;
+  framePtr = F.prev;
+
+  return result_452984981[0];
+
+}
+
+function getMostHurtCreep_1157627906(creeps_1157627907) {
+  var result_1157627908 = null;
+
+  var F = {procname: "screeps.getMostHurtCreep", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsLib/screeps.nim", line: 0};
+  framePtr = F;
+  BeforeRet: do {
+    F.line = 4;
+    var creep_1157627909 = creeps_1157627907[chckIndx(0, 0, (creeps_1157627907).length - 1)];
+    F.line = 5;
+    var delta_1157627910 = subInt(creep_1157627909.hitsMax, creep_1157627909.hits);
     Label1: do {
-      var c_1073741851 = null;
-      var i_486539682 = 0;
-      var L_486539683 = (creeps_1073741827).length;
+      F.line = 6;
+      var c_1157627931 = null;
+      F.line = 235;
+      var i_452985251 = 0;
+      F.line = 236;
+      var L_452985252 = (creeps_1157627907).length;
       Label2: do {
+        F.line = 237;
           Label3: while (true) {
-          if (!(i_486539682 < L_486539683)) break Label3;
-            c_1073741851 = creeps_1073741827[chckIndx(i_486539682, 0, (creeps_1073741827).length - 1)];
-            var d_1073741852 = subInt(c_1073741851.hitsMax, c_1073741851.hits);
-            if ((delta_1073741830 < d_1073741852)) {
-            creep_1073741829 = c_1073741851;
-            delta_1073741830 = d_1073741852;
+          if (!(i_452985251 < L_452985252)) break Label3;
+            F.line = 6;
+            c_1157627931 = creeps_1157627907[chckIndx(i_452985251, 0, (creeps_1157627907).length - 1)];
+            F.line = 7;
+            var d_1157627932 = subInt(c_1157627931.hitsMax, c_1157627931.hits);
+            if ((delta_1157627910 < d_1157627932)) {
+            F.line = 9;
+            creep_1157627909 = c_1157627931;
+            F.line = 10;
+            delta_1157627910 = d_1157627932;
             }
             
-            i_486539682 = addInt(i_486539682, 1);
-            if (!(((creeps_1073741827).length == L_486539683))) {
-            failedAssertImpl_218103864(makeNimstrLit("iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+            F.line = 239;
+            i_452985251 = addInt(i_452985251, 1);
+            if (!(((creeps_1157627907).length == L_452985252))) {
+            F.line = 240;
+            failedAssertImpl_218103864(makeNimstrLit("/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/system/iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
             }
             
           }
       } while (false);
     } while (false);
-    result_1073741828 = creep_1073741829;
+    F.line = 11;
+    result_1157627908 = creep_1157627909;
     break BeforeRet;
   } while (false);
+  framePtr = F.prev;
 
-  return result_1073741828;
+  return result_1157627908;
 
 }
 
 function spawnAndSwampLoop() {
-    var Temporary7;
+    var Temporary5;
     
-function doSpawning_486539384() {
-          var Temporary1;
+function HEX3Aanonymous_452984935() {
+          var Temporary2;
 
+      var F = {procname: "spawnAndSwampLoop.:anonymous", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsLib/blocks.nim", line: 0};
+      framePtr = F;
       BeforeRet: do {
-        rawEcho(makeNimstrLit("spawning block"));
-        if (!((mySpawn_486539349.spawning == null))) {
+        F.line = 8;
+++excHandler;
+        try {
+        if (!((mySpawn_452984926.spawning == null))) {
+        F.line = 63;
+        rawEcho(makeNimstrLit("spawn busy"));
+        F.line = 64;
         break BeforeRet;
         }
         
-        if (((workers_486539293[0]).length < 3)) {
-        var spawnResult_486539391 = mySpawn_486539349.spawnCreep(workerBody_486539277);
-        if ((spawnResult_486539391.object == null)) {
-        rawEcho(makeNimstrLit("Spawn error: "), HEX24_486539420(spawnResult_486539391.error));
+        F.line = 66;
+        var random_452984939 = rand_620757140(1.0);
+        F.line = 67;
+        rawEcho(makeNimstrLit("random: "), HEX24_33557368(random_452984939));
+        if ((random_452984939 < 0.8)) {
+        F.line = 69;
+        raiseException({message: makeNimstrLit("Random exception"), parent: null, m_type: NTI33555114, name: null, trace: [], up: null}, "CatchableError");
+        }
+        
+        if (((workers_452984856[0]).length < 3)) {
+        F.line = 73;
+        var spawnResult_452984950 = mySpawn_452984926.spawnCreep(workerBody_452984844);
+        if ((spawnResult_452984950.object == null)) {
+        F.line = 75;
+        rawEcho(makeNimstrLit("Spawn error: "), HEX24_452984978(spawnResult_452984950.error));
         }
         else {
-        workers_486539293[0].push(spawnResult_486539391.object);;
+          F.line = 77;
+        workers_452984856[0].push(spawnResult_452984950.object);;
         }
         
         }
         else {
-          var currentRatio_486539455 = HEX2F_33557575((healers_486539303[0]).length, (combats_486539298[0]).length);
-          var doHealer_486539456 = (currentRatio_486539455 < 0.2);
-          if (doHealer_486539456) {
-          Temporary1 = healerBody_486539282;
+          F.line = 80;
+          var currentRatio_452985012 = HEX2F_33557575((healers_452984858[0]).length, (combats_452984857[0]).length);
+          F.line = 81;
+          var doHealer_452985013 = (currentRatio_452985012 < 0.2);
+          F.line = 82;
+          if (doHealer_452985013) {
+          Temporary2 = healerBody_452984849;
           }
           else {
-          Temporary1 = combatBody_486539287;
+          Temporary2 = combatBody_452984854;
           }
           
-          var body_486539457 = nimCopy(null, Temporary1, NTI486539274);
-          var spawnResult_486539458 = mySpawn_486539349.spawnCreep(body_486539457);
-          if ((spawnResult_486539458.object == null)) {
-          rawEcho(makeNimstrLit("Spawn error: "), HEX24_486539420(spawnResult_486539458.error));
+          var body_452985014 = nimCopy(null, Temporary2, NTI452984842);
+          F.line = 83;
+          var spawnResult_452985015 = mySpawn_452984926.spawnCreep(body_452985014);
+          if ((spawnResult_452985015.object == null)) {
+          F.line = 85;
+          rawEcho(makeNimstrLit("Spawn error: "), HEX24_452984978(spawnResult_452985015.error));
           }
           else {
-            if (doHealer_486539456) {
-            healers_486539303[0].push(spawnResult_486539458.object);;
+            if (doHealer_452985013) {
+            F.line = 88;
+            healers_452984858[0].push(spawnResult_452985015.object);;
             }
             else {
-            combats_486539298[0].push(spawnResult_486539458.object);;
+              F.line = 90;
+            combats_452984857[0].push(spawnResult_452985015.object);;
             }
             
           }
           
         }
         
-      } while (false);
-
-      
-    }
-          var Temporary23;
-
-    debugPrintCounts_1056964612();
-    var spawns_486539330 = getAllSpawns_1040187402();
-    var resultHEX60gensym0_486539335 = newSeq_1056964705(0);
-    Label1: do {
-      var it_486539339 = null;
-      var i_486539628 = 0;
-      var L_486539629 = (spawns_486539330).length;
-      Label2: do {
-          Label3: while (true) {
-          if (!(i_486539628 < L_486539629)) break Label3;
-            it_486539339 = spawns_486539330[chckIndx(i_486539628, 0, (spawns_486539330).length - 1)];
-            if ((it_486539339.my == true)) {
-            resultHEX60gensym0_486539335.push(it_486539339);;
-            }
-            
-            i_486539628 = addInt(i_486539628, 1);
-            if (!(((spawns_486539330).length == L_486539629))) {
-            failedAssertImpl_218103864(makeNimstrLit("iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
-            }
-            
-          }
-      } while (false);
-    } while (false);
-    var mySpawns_486539344 = nimCopy(null, resultHEX60gensym0_486539335, NTI1056964677);
-    if (((mySpawns_486539344).length == 0)) {
-    raiseException({message: makeNimstrLit("No spawns found!"), parent: null, m_type: NTI33555112, name: null, trace: [], up: null}, "Exception");
-    }
-    
-    var mySpawn_486539349 = mySpawns_486539344[chckIndx(0, 0, (mySpawns_486539344).length - 1)];
-    var containers_486539350 = getAllContainers_1040187398();
-    var creeps_486539351 = getAllCreeps_1040187394();
-    var resultHEX60gensym2_486539356 = newSeq_1056964661(0);
-    Label4: do {
-      var it_486539360 = null;
-      var i_486539633 = 0;
-      var L_486539634 = (creeps_486539351).length;
-      Label5: do {
-          Label6: while (true) {
-          if (!(i_486539633 < L_486539634)) break Label6;
-            it_486539360 = creeps_486539351[chckIndx(i_486539633, 0, (creeps_486539351).length - 1)];
-            if ((it_486539360.my == true)) {
-            resultHEX60gensym2_486539356.push(it_486539360);;
-            }
-            
-            i_486539633 = addInt(i_486539633, 1);
-            if (!(((creeps_486539351).length == L_486539634))) {
-            failedAssertImpl_218103864(makeNimstrLit("iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
-            }
-            
-          }
-      } while (false);
-    } while (false);
-    var myCreeps_486539365 = nimCopy(null, resultHEX60gensym2_486539356, NTI1056964642);
-    if ((combatStagingArea_486539304[0] == null)) {
-    var random_486539369 = Math.random();
-    if ((random_486539369 < 0.5)) {
-    Temporary7 = -5;
-    }
-    else {
-    Temporary7 = 5;
-    }
-    
-    var y_486539370 = Temporary7;
-    combatStagingArea_486539304[0] = {x: addInt(mySpawn_486539349.x, 2), y: addInt(mySpawn_486539349.y, y_486539370)};
-    rawEcho(makeNimstrLit("Combat staging area: "), HEX24_1040187408(combatStagingArea_486539304[0]));
-    }
-    
-    var workerCost_486539375 = 300;
-    var combatCost_486539379 = 500;
-    var healerCost_486539383 = 300;
-    doSpawning_486539384();
-    rawEcho(makeNimstrLit("worker block"));
-    Label8: do {
-      Label9: do {
-        var c_486539489 = null;
-        var i_486539638 = 0;
-        var L_486539639 = (workers_486539293[0]).length;
-        Label10: do {
-            Label11: while (true) {
-            if (!(i_486539638 < L_486539639)) break Label11;
-              c_486539489 = workers_486539293[0][chckIndx(i_486539638, 0, (workers_486539293[0]).length - 1)];
-              Label12: do {
-                if ((0 < c_486539489.store.getUsedCapacity("energy"))) {
-                var res_486539490 = c_486539489.transfer(mySpawn_486539349, "energy");
-                if ((res_486539490 == -9)) {
-                var _ = c_486539489.moveTo(mySpawn_486539349);
-                }
-                
-                break Label12;
-                }
-                
-                var closestContainer_486539500 = c_486539489.findClosestByPath(containers_486539350);
-                if ((closestContainer_486539500 == null)) {
-                rawEcho(makeNimstrLit("No containers found!"));
-                break Label12;
-                }
-                
-                var res_486539504 = c_486539489.withdraw(closestContainer_486539500, "energy");
-                if ((res_486539504 == -9)) {
-                var _ = c_486539489.moveTo(closestContainer_486539500);
-                }
-                
-              } while (false);
-              i_486539638 = addInt(i_486539638, 1);
-              if (!(((workers_486539293[0]).length == L_486539639))) {
-              failedAssertImpl_218103864(makeNimstrLit("iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
-              }
-              
-            }
-        } while (false);
-      } while (false);
-    } while (false);
-    rawEcho(makeNimstrLit("combat block"));
-    Label13: do {
-      if (!(doAttack_486539305[0])) {
-      Label14: do {
-        var c_486539513 = null;
-        var i_486539642 = 0;
-        var L_486539643 = (combats_486539298[0]).length;
-        Label15: do {
-            Label16: while (true) {
-            if (!(i_486539642 < L_486539643)) break Label16;
-              c_486539513 = combats_486539298[0][chckIndx(i_486539642, 0, (combats_486539298[0]).length - 1)];
-              var _ = c_486539513.moveTo(combatStagingArea_486539304[0]);
-              i_486539642 = addInt(i_486539642, 1);
-              if (!(((combats_486539298[0]).length == L_486539643))) {
-              failedAssertImpl_218103864(makeNimstrLit("iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
-              }
-              
-            }
-        } while (false);
-      } while (false);
-      Label17: do {
-        var c_486539517 = null;
-        var i_486539646 = 0;
-        var L_486539647 = (healers_486539303[0]).length;
-        Label18: do {
-            Label19: while (true) {
-            if (!(i_486539646 < L_486539647)) break Label19;
-              c_486539517 = healers_486539303[0][chckIndx(i_486539646, 0, (healers_486539303[0]).length - 1)];
-              var _ = c_486539517.moveTo(combatStagingArea_486539304[0]);
-              i_486539646 = addInt(i_486539646, 1);
-              if (!(((healers_486539303[0]).length == L_486539647))) {
-              failedAssertImpl_218103864(makeNimstrLit("iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
-              }
-              
-            }
-        } while (false);
-      } while (false);
-      if ((5 <= addInt((combats_486539298[0]).length, (healers_486539303[0]).length))) {
-      doAttack_486539305[0] = true;
-      }
-      
-      }
-      else {
-        if (((combats_486539298[0]).length == 0)) {
-        rawEcho(makeNimstrLit("No combat units left, stopping attack"));
-        doAttack_486539305[0] = false;
+--excHandler;
+} catch (EXCEPTION) {
+ var prevJSError = lastJSError;
+ lastJSError = EXCEPTION;
+ --excHandler;
+        framePtr = F;
+        if (lastJSError && (isObj(lastJSError.m_type, NTI33555114))) {
+        F.line = 11;
+        var eHEX60gensym3_452985033 = getCurrentException();
+        F.line = 11;
+        rawEcho([]);
+        F.line = 12;
+        rawEcho(makeNimstrLit("# spawning Block Error"));
+        F.line = 13;
+        rawEcho(eHEX60gensym3_452985033.message);
+        F.line = 14;
+        rawEcho([]);
         }
         else {
-          rawEcho(makeNimstrLit("attack!!"));
-          var resultHEX60gensym5_486539531 = newSeq_1056964705(0);
-          Label20: do {
-            var it_486539535 = null;
-            var i_486539650 = 0;
-            var L_486539651 = (spawns_486539330).length;
-            Label21: do {
-                Label22: while (true) {
-                if (!(i_486539650 < L_486539651)) break Label22;
-                  it_486539535 = spawns_486539330[chckIndx(i_486539650, 0, (spawns_486539330).length - 1)];
-                  if ((it_486539535.my == false)) {
-                  resultHEX60gensym5_486539531.push(it_486539535);;
+        	reraiseException();
+        }
+        lastJSError = prevJSError;
+        } finally {
+        framePtr = F;
+        }
+      } while (false);
+      framePtr = F.prev;
+
+      
+    }
+    
+function HEX3Aanonymous_452985055() {
+                    var Temporary6;
+
+      var F = {procname: "spawnAndSwampLoop.:anonymous", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsLib/blocks.nim", line: 0};
+      framePtr = F;
+        F.line = 8;
+++excHandler;
+        try {
+        Label2: do {
+          F.line = 95;
+          var c_452985059 = null;
+          F.line = 235;
+          var i_452985218 = 0;
+          F.line = 236;
+          var L_452985219 = (workers_452984856[0]).length;
+          Label3: do {
+            F.line = 237;
+              Label4: while (true) {
+              if (!(i_452985218 < L_452985219)) break Label4;
+                F.line = 95;
+                c_452985059 = workers_452984856[0][chckIndx(i_452985218, 0, (workers_452984856[0]).length - 1)];
+                Label5: do {
+                    if (!!((c_452985059.store == null))) Temporary6 = false; else {                      Temporary6 = (0 < c_452985059.store.getUsedCapacity("energy"));                    }                  if (Temporary6) {
+                  F.line = 98;
+                  var res_452985063 = c_452985059.transfer(mySpawn_452984926, "energy");
+                  if ((res_452985063 == -9)) {
+                  F.line = 100;
+                  var _ = c_452985059.moveTo(mySpawn_452984926);
                   }
                   
-                  i_486539650 = addInt(i_486539650, 1);
-                  if (!(((spawns_486539330).length == L_486539651))) {
-                  failedAssertImpl_218103864(makeNimstrLit("iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+                  F.line = 101;
+                  break Label5;
                   }
                   
+                  F.line = 106;
+                  var closestContainer_452985073 = c_452985059.findClosestByPath(containers_452984927);
+                  if ((closestContainer_452985073 == null)) {
+                  F.line = 108;
+                  rawEcho(makeNimstrLit("No containers found!"));
+                  F.line = 109;
+                  break Label5;
+                  }
+                  
+                  F.line = 110;
+                  var res_452985077 = c_452985059.withdraw(closestContainer_452985073, "energy");
+                  if ((res_452985077 == -9)) {
+                  F.line = 112;
+                  var _ = c_452985059.moveTo(closestContainer_452985073);
+                  }
+                  
+                } while (false);
+                F.line = 239;
+                i_452985218 = addInt(i_452985218, 1);
+                if (!(((workers_452984856[0]).length == L_452985219))) {
+                F.line = 240;
+                failedAssertImpl_218103864(makeNimstrLit("/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/system/iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
                 }
-            } while (false);
+                
+              }
           } while (false);
-          var enemySpawn_486539540 = (Temporary23 = resultHEX60gensym5_486539531, Temporary23)[chckIndx(0, 0, (Temporary23).length - 1)];
-          Label24: do {
-            var c_486539544 = null;
-            var i_486539654 = 0;
-            var L_486539655 = (combats_486539298[0]).length;
-            Label25: do {
-                Label26: while (true) {
-                if (!(i_486539654 < L_486539655)) break Label26;
-                  c_486539544 = combats_486539298[0][chckIndx(i_486539654, 0, (combats_486539298[0]).length - 1)];
-                  var res_486539545 = c_486539544.attack(enemySpawn_486539540);
-                  if ((res_486539545 == -9)) {
-                  var _ = c_486539544.moveTo(enemySpawn_486539540);
-                  }
-                  
-                  i_486539654 = addInt(i_486539654, 1);
-                  if (!(((combats_486539298[0]).length == L_486539655))) {
-                  failedAssertImpl_218103864(makeNimstrLit("iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
-                  }
-                  
+        } while (false);
+--excHandler;
+} catch (EXCEPTION) {
+ var prevJSError = lastJSError;
+ lastJSError = EXCEPTION;
+ --excHandler;
+        framePtr = F;
+        if (lastJSError && (isObj(lastJSError.m_type, NTI33555114))) {
+        F.line = 11;
+        var eHEX60gensym5_452985082 = getCurrentException();
+        F.line = 11;
+        rawEcho([]);
+        F.line = 12;
+        rawEcho(makeNimstrLit("# workers Block Error"));
+        F.line = 13;
+        rawEcho(eHEX60gensym5_452985082.message);
+        F.line = 14;
+        rawEcho([]);
+        }
+        else {
+        	reraiseException();
+        }
+        lastJSError = prevJSError;
+        } finally {
+        framePtr = F;
+        }
+      framePtr = F.prev;
+
+      
+    }
+    
+function HEX3Aanonymous_452985122() {
+            var Temporary11;
+
+      var F = {procname: "spawnAndSwampLoop.:anonymous", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/screepsLib/blocks.nim", line: 0};
+      framePtr = F;
+        F.line = 8;
+++excHandler;
+        try {
+        if (!(doAttack_452984860[0])) {
+        Label2: do {
+          F.line = 117;
+          var c_452985126 = null;
+          F.line = 235;
+          var i_452985222 = 0;
+          F.line = 236;
+          var L_452985223 = (combats_452984857[0]).length;
+          Label3: do {
+            F.line = 237;
+              Label4: while (true) {
+              if (!(i_452985222 < L_452985223)) break Label4;
+                F.line = 117;
+                c_452985126 = combats_452984857[0][chckIndx(i_452985222, 0, (combats_452984857[0]).length - 1)];
+                F.line = 117;
+                var _ = c_452985126.moveTo(combatStagingArea_452984859[0]);
+                F.line = 239;
+                i_452985222 = addInt(i_452985222, 1);
+                if (!(((combats_452984857[0]).length == L_452985223))) {
+                F.line = 240;
+                failedAssertImpl_218103864(makeNimstrLit("/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/system/iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
                 }
-            } while (false);
+                
+              }
           } while (false);
-          Label27: do {
-            var c_486539553 = null;
-            var i_486539658 = 0;
-            var L_486539659 = (healers_486539303[0]).length;
-            Label28: do {
-                Label29: while (true) {
-                if (!(i_486539658 < L_486539659)) break Label29;
-                  c_486539553 = healers_486539303[0][chckIndx(i_486539658, 0, (healers_486539303[0]).length - 1)];
-                  var mostHurtHealer_486539554 = getMostHurtCreep_1073741826(healers_486539303[0]);
-                  if ((mostHurtHealer_486539554.hits < mostHurtHealer_486539554.hitsMax)) {
-                  if ((c_486539553.heal(mostHurtHealer_486539554) == -9)) {
-                  var _ = c_486539553.moveTo(mostHurtHealer_486539554);
+        } while (false);
+        Label5: do {
+          F.line = 119;
+          var c_452985130 = null;
+          F.line = 235;
+          var i_452985226 = 0;
+          F.line = 236;
+          var L_452985227 = (healers_452984858[0]).length;
+          Label6: do {
+            F.line = 237;
+              Label7: while (true) {
+              if (!(i_452985226 < L_452985227)) break Label7;
+                F.line = 119;
+                c_452985130 = healers_452984858[0][chckIndx(i_452985226, 0, (healers_452984858[0]).length - 1)];
+                F.line = 119;
+                var _ = c_452985130.moveTo(combatStagingArea_452984859[0]);
+                F.line = 239;
+                i_452985226 = addInt(i_452985226, 1);
+                if (!(((healers_452984858[0]).length == L_452985227))) {
+                F.line = 240;
+                failedAssertImpl_218103864(makeNimstrLit("/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/system/iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+                }
+                
+              }
+          } while (false);
+        } while (false);
+        if ((5 <= addInt((combats_452984857[0]).length, (healers_452984858[0]).length))) {
+        F.line = 122;
+        doAttack_452984860[0] = true;
+        }
+        
+        }
+        else {
+          if (((combats_452984857[0]).length == 0)) {
+          F.line = 125;
+          rawEcho(makeNimstrLit("No combat units left, stopping attack"));
+          F.line = 126;
+          doAttack_452984860[0] = false;
+          }
+          else {
+            F.line = 129;
+            rawEcho(makeNimstrLit("attack!!"));
+            F.line = 130;
+            F.line = 640;
+            var resultHEX60gensym9_452985144 = newSeq_452984895(0);
+            Label8: do {
+              F.line = 641;
+              var it_452985148 = null;
+              F.line = 235;
+              var i_452985230 = 0;
+              F.line = 236;
+              var L_452985231 = (spawns_452984893).length;
+              Label9: do {
+                F.line = 237;
+                  Label10: while (true) {
+                  if (!(i_452985230 < L_452985231)) break Label10;
+                    F.line = 641;
+                    it_452985148 = spawns_452984893[chckIndx(i_452985230, 0, (spawns_452984893).length - 1)];
+                    if ((it_452985148.my == false)) {
+                    F.line = 642;
+                    resultHEX60gensym9_452985144.push(it_452985148);;
+                    }
+                    
+                    F.line = 239;
+                    i_452985230 = addInt(i_452985230, 1);
+                    if (!(((spawns_452984893).length == L_452985231))) {
+                    F.line = 240;
+                    failedAssertImpl_218103864(makeNimstrLit("/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/system/iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+                    }
+                    
                   }
-                  
+              } while (false);
+            } while (false);
+            var enemySpawn_452985153 = (Temporary11 = resultHEX60gensym9_452985144, Temporary11)[chckIndx(0, 0, (Temporary11).length - 1)];
+            Label12: do {
+              F.line = 131;
+              var c_452985157 = null;
+              F.line = 235;
+              var i_452985234 = 0;
+              F.line = 236;
+              var L_452985235 = (combats_452984857[0]).length;
+              Label13: do {
+                F.line = 237;
+                  Label14: while (true) {
+                  if (!(i_452985234 < L_452985235)) break Label14;
+                    F.line = 131;
+                    c_452985157 = combats_452984857[0][chckIndx(i_452985234, 0, (combats_452984857[0]).length - 1)];
+                    F.line = 132;
+                    var res_452985158 = c_452985157.attack(enemySpawn_452985153);
+                    if ((res_452985158 == -9)) {
+                    F.line = 134;
+                    var _ = c_452985157.moveTo(enemySpawn_452985153);
+                    }
+                    
+                    F.line = 239;
+                    i_452985234 = addInt(i_452985234, 1);
+                    if (!(((combats_452984857[0]).length == L_452985235))) {
+                    F.line = 240;
+                    failedAssertImpl_218103864(makeNimstrLit("/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/system/iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+                    }
+                    
                   }
-                  else {
-                    if ((0 < (combats_486539298[0]).length)) {
-                    var mostHurtCombat_486539565 = getMostHurtCreep_1073741826(combats_486539298[0]);
-                    if ((c_486539553.heal(mostHurtCombat_486539565) == -9)) {
-                    var _ = c_486539553.moveTo(mostHurtCombat_486539565);
+              } while (false);
+            } while (false);
+            Label15: do {
+              F.line = 135;
+              var c_452985166 = null;
+              F.line = 235;
+              var i_452985238 = 0;
+              F.line = 236;
+              var L_452985239 = (healers_452984858[0]).length;
+              Label16: do {
+                F.line = 237;
+                  Label17: while (true) {
+                  if (!(i_452985238 < L_452985239)) break Label17;
+                    F.line = 135;
+                    c_452985166 = healers_452984858[0][chckIndx(i_452985238, 0, (healers_452984858[0]).length - 1)];
+                    F.line = 136;
+                    var mostHurtHealer_452985167 = getMostHurtCreep_1157627906(healers_452984858[0]);
+                    if ((mostHurtHealer_452985167.hits < mostHurtHealer_452985167.hitsMax)) {
+                    if ((c_452985166.heal(mostHurtHealer_452985167) == -9)) {
+                    F.line = 139;
+                    var _ = c_452985166.moveTo(mostHurtHealer_452985167);
                     }
                     
                     }
                     else {
-                    rawEcho(makeNimstrLit("No combat units left, to heal"));
+                      if ((0 < (combats_452984857[0]).length)) {
+                      F.line = 142;
+                      var mostHurtCombat_452985175 = getMostHurtCreep_1157627906(combats_452984857[0]);
+                      if ((c_452985166.heal(mostHurtCombat_452985175) == -9)) {
+                      F.line = 144;
+                      var _ = c_452985166.moveTo(mostHurtCombat_452985175);
+                      }
+                      
+                      }
+                      else {
+                        F.line = 146;
+                      rawEcho(makeNimstrLit("No combat units left, to heal"));
+                      }
+                      
+                    }
+                    
+                    F.line = 239;
+                    i_452985238 = addInt(i_452985238, 1);
+                    if (!(((healers_452984858[0]).length == L_452985239))) {
+                    F.line = 240;
+                    failedAssertImpl_218103864(makeNimstrLit("/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/system/iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
                     }
                     
                   }
-                  
-                  i_486539658 = addInt(i_486539658, 1);
-                  if (!(((healers_486539303[0]).length == L_486539659))) {
-                  failedAssertImpl_218103864(makeNimstrLit("iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
-                  }
-                  
-                }
+              } while (false);
             } while (false);
-          } while (false);
+          }
+          
         }
         
-      }
+--excHandler;
+} catch (EXCEPTION) {
+ var prevJSError = lastJSError;
+ lastJSError = EXCEPTION;
+ --excHandler;
+        framePtr = F;
+        if (lastJSError && (isObj(lastJSError.m_type, NTI33555114))) {
+        F.line = 11;
+        var eHEX60gensym7_452985180 = getCurrentException();
+        F.line = 11;
+        rawEcho([]);
+        F.line = 12;
+        rawEcho(makeNimstrLit("# combat Block Error"));
+        F.line = 13;
+        rawEcho(eHEX60gensym7_452985180.message);
+        F.line = 14;
+        rawEcho([]);
+        }
+        else {
+        	reraiseException();
+        }
+        lastJSError = prevJSError;
+        } finally {
+        framePtr = F;
+        }
+      framePtr = F.prev;
+
       
+    }
+
+  var F = {procname: "main.spawnAndSwampLoop", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/bots/spawnAndSwamp/main.nim", line: 0};
+  framePtr = F;
+    F.line = 19;
+    rawEcho(makeNimstrLit("----"));
+    F.line = 20;
+    rawEcho(makeNimstrLit("# Start Loop"));
+    F.line = 21;
+    rawEcho(makeNimstrLit("----"));
+    F.line = 34;
+++excHandler;
+    try {
+    F.line = 35;
+    debugPrintCounts_1090519045();
+    F.line = 38;
+    var spawns_452984893 = getAllSpawns_1073741834();
+    F.line = 39;
+    F.line = 640;
+    var resultHEX60gensym1_452984912 = newSeq_452984895(0);
+    Label2: do {
+      F.line = 641;
+      var it_452984916 = null;
+      F.line = 235;
+      var i_452985212 = 0;
+      F.line = 236;
+      var L_452985213 = (spawns_452984893).length;
+      Label3: do {
+        F.line = 237;
+          Label4: while (true) {
+          if (!(i_452985212 < L_452985213)) break Label4;
+            F.line = 641;
+            it_452984916 = spawns_452984893[chckIndx(i_452985212, 0, (spawns_452984893).length - 1)];
+            if ((it_452984916.my == true)) {
+            F.line = 642;
+            resultHEX60gensym1_452984912.push(it_452984916);;
+            }
+            
+            F.line = 239;
+            i_452985212 = addInt(i_452985212, 1);
+            if (!(((spawns_452984893).length == L_452985213))) {
+            F.line = 240;
+            failedAssertImpl_218103864(makeNimstrLit("/home/monofuel/.choosenim/toolchains/nim-1.6.12/lib/system/iterators.nim(240, 11) `len(a) == L` the length of the seq changed while iterating over it"));
+            }
+            
+          }
+      } while (false);
     } while (false);
+    var mySpawns_452984921 = nimCopy(null, resultHEX60gensym1_452984912, NTI452984914);
+    if (((mySpawns_452984921).length == 0)) {
+    F.line = 41;
+    raiseException({message: makeNimstrLit("No spawns found!"), parent: null, m_type: NTI33555114, name: null, trace: [], up: null}, "CatchableError");
+    }
+    
+    F.line = 42;
+    var mySpawn_452984926 = mySpawns_452984921[chckIndx(0, 0, (mySpawns_452984921).length - 1)];
+    F.line = 43;
+    var containers_452984927 = getAllContainers_1073741830();
+    if ((combatStagingArea_452984859[0] == null)) {
+    F.line = 51;
+    var random_452984931 = rand_620757140(1.0);
+    F.line = 52;
+    if ((random_452984931 < 0.5)) {
+    Temporary5 = -5;
+    }
+    else {
+    Temporary5 = 5;
+    }
+    
+    var y_452984932 = Temporary5;
+    F.line = 53;
+    combatStagingArea_452984859[0] = {x: addInt(mySpawn_452984926.x, 2), y: addInt(mySpawn_452984926.y, y_452984932)};
+    F.line = 54;
+    rawEcho(makeNimstrLit("Combat staging area: "), HEX24_1073741840(combatStagingArea_452984859[0]));
+    }
+    
+    F.line = 4;
+    rawEcho([]);
+    F.line = 5;
+    rawEcho(makeNimstrLit("# spawning Block"));
+    F.line = 7;
+    var doLogicHEX60gensym3_452985052 = HEX3Aanonymous_452984935;
+    F.line = 60;
+    doLogicHEX60gensym3_452985052();
+    F.line = 4;
+    rawEcho([]);
+    F.line = 5;
+    rawEcho(makeNimstrLit("# workers Block"));
+    F.line = 7;
+    var doLogicHEX60gensym5_452985119 = HEX3Aanonymous_452985055;
+    F.line = 93;
+    doLogicHEX60gensym5_452985119();
+    F.line = 4;
+    rawEcho([]);
+    F.line = 5;
+    rawEcho(makeNimstrLit("# combat Block"));
+    F.line = 7;
+    var doLogicHEX60gensym7_452985181 = HEX3Aanonymous_452985122;
+    F.line = 114;
+    doLogicHEX60gensym7_452985181();
+--excHandler;
+} catch (EXCEPTION) {
+ var prevJSError = lastJSError;
+ lastJSError = EXCEPTION;
+ --excHandler;
+    framePtr = F;
+    if (lastJSError && (isObj(lastJSError.m_type, NTI33555114))) {
+    F.line = 25;
+    var eHEX60gensym0_452985182 = getCurrentException();
+    F.line = 25;
+    rawEcho(makeNimstrLit("----"));
+    F.line = 26;
+    rawEcho(makeNimstrLit("# Main Loop Error"));
+    F.line = 27;
+    rawEcho(eHEX60gensym0_452985182.message);
+    F.line = 28;
+    rawEcho(makeNimstrLit("----"));
+    }
+    else {
+    	reraiseException();
+    }
+    lastJSError = prevJSError;
+    } finally {
+    framePtr = F;
+    F.line = 30;
+    rawEcho(makeNimstrLit("----"));
+    F.line = 31;
+    rawEcho(makeNimstrLit("# End Loop"));
+    F.line = 32;
+    rawEcho(makeNimstrLit("----"));
+    }
+  framePtr = F.prev;
 
   
 }
-export const loop = spawnAndSwampLoop;
-
+var F = {procname: "module main", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/bots/spawnAndSwamp/main.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module main", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/bots/spawnAndSwamp/main.nim", line: 0};
+framePtr = F;
+F.line = 149;
+  export const loop = spawnAndSwampLoop;
+  
+framePtr = F.prev;
+var F = {procname: "module main", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/bots/spawnAndSwamp/main.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;
+var F = {procname: "module main", prev: framePtr, filename: "/home/monofuel/Documents/src/monofuel34089/nimcrafts/src/screeps/bots/spawnAndSwamp/main.nim", line: 0};
+framePtr = F;
+framePtr = F.prev;

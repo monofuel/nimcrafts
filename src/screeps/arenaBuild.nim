@@ -16,11 +16,14 @@ let bots = @[
   )
 ]
 
-proc build(b: ArenaBot) =
+proc build(b: ArenaBot, release: bool) =
   echo &"Building {b.name}..."
 
   let mainFile = b.srcPath / "main.nim"
-  let shellCmd = &"nim js -d:nodejs -d:screepsArena -d:release {mainFile}"
+  # -d:release 
+  var shellCmd = &"nim js -d:nodejs -d:screepsArena {mainFile}"
+  if release:
+    shellCmd = &"nim js -d:nodejs -d:screepsArena -d:release {mainFile}"
   let res = execShellCmd(shellCmd)
   echo &"Build result: {res}"
   if res != 0:
@@ -37,7 +40,7 @@ proc copy(b: ArenaBot) =
 proc main() =
 
   var opts = initOptParser(quoteShellCommand(commandLineParams()))
-  var doBuild = true
+  var doRelease = false
   var doWatch = false
   for kind, key, val in opts.getopt():
     case kind
@@ -46,10 +49,13 @@ proc main() =
       of "help", "h":
         echo "Usage: nim c -r arenaBuild.nim"
         echo "  -h, --help: show this help"
+        echo "  -r  --release: build in release mode"
         echo "  -w, --watch: watch the bots for changes and rebuild"
         quit(0)
       of "watch", "w":
         doWatch = true
+      of "release", "r":
+        doRelease = true
       else:
         echo "Unknown option: {kind} {key}"
         quit(1)
@@ -64,7 +70,7 @@ proc main() =
   doAssert watchdog >= 0
 
   for b in bots:
-    build(b)
+    build(b, doRelease)
     copy(b)
   echo "Done!"
 

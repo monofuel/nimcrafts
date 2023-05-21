@@ -1,7 +1,7 @@
-import std/[jsffi, sequtils, sugar, math]
+import std/[sequtils, random]
 
 import ../../screepsArena/main
-import ../../screepsLib/[debug, screeps]
+import ../../screepsLib/[debug, screeps, blocks]
 
 # consts
 const desiredWorkers = 3
@@ -28,125 +28,124 @@ var
 # building walls
 # building ramparts
 
-
-# TODO could try `pretty`
-var console* {.importJs, nodecl.}: JsObject
-type MathObj {.importJs.} = object of RootObj
-  random: proc(): float {.nimcall.}
-var Math* {.importJs, nodecl.}: MathObj
+randomize()
 
 proc spawnAndSwampLoop() {.exportc.} =
-  debugPrintCounts()
+  mainLoop:
+    debugPrintCounts()
 
-  # read in the game state
-  let spawns = getAllSpawns()
-  let mySpawns = spawns.filterIt(it.my == true)
-  if mySpawns.len == 0:
-    raise newException(Exception, "No spawns found!")
-  let mySpawn = mySpawns[0]
-  let containers = getAllContainers()
-  let creeps = getAllCreeps()
+    # read in the game state
+    let spawns = getAllSpawns()
+    let mySpawns = spawns.filterIt(it.my == true)
+    if mySpawns.len == 0:
+      raise newException(CatchableError, "No spawns found!")
+    let mySpawn = mySpawns[0]
+    let containers = getAllContainers()
+    # let creeps = getAllCreeps()
 
-  let myCreeps = creeps.filterIt(it.my == true)
-  
-  # TODO remove dead creeps from lists
+    # let myCreeps = creeps.filterIt(it.my == true)
+    
+    # TODO remove dead creeps from lists
 
-  if combatStagingArea.isNil:
-    let random = Math.random()
-    let y = (if random < 0.5: -5 else: 5)
-    combatStagingArea = Position(x: mySpawn.x + 2,y: mySpawn.y + y)
-    echo "Combat staging area: ", combatStagingArea
+    if combatStagingArea.isNil:
+      let random = rand(1.0)
+      let y = (if random < 0.5: -5 else: 5)
+      combatStagingArea = Position(x: mySpawn.x + 2,y: mySpawn.y + y)
+      echo "Combat staging area: ", combatStagingArea
 
-  let workerCost = len(workerBody) * 100
-  let combatCost = len(combatBody) * 100
-  let healerCost = len(healerBody) * 100
+    # let workerCost = len(workerBody) * 100
+    # let combatCost = len(combatBody) * 100
+    # let healerCost = len(healerBody) * 100
 
-  proc doSpawning() =
-    echo "spawning block"
-    if not isNil(mySpawn.spawning):
-      # spawn busy
-      return
+    logicBlock("spawning"):
+      if not isNil(mySpawn.spawning):
+        # spawn busy
+        echo "spawn busy"
+        return
 
-    # spawn workers if we have less than desired
-    if len(workers) < desiredWorkers:
-      let spawnResult = mySpawn.spawnCreep(workerBody)
-      if isNil(spawnResult.object):
-        echo "Spawn error: ", spawnResult.error
-      else:
-        workers.add(spawnResult.object)
-    else:
-      # decide to build combat or healer
-      let currentRatio = len(healers) / len(combats)
-      let doHealer = currentRatio < healerRatio
-      let body = (if doHealer: healerBody else: combatBody)
-      let spawnResult = mySpawn.spawnCreep(body)
-      if isNil(spawnResult.object):
-        echo "Spawn error: ", spawnResult.error
-      else:
-        if doHealer:
-          healers.add(spawnResult.object)
+      # let random = rand(1.0)
+      # echo "random: ", random
+      # if random < 0.8:
+      #   raise newException(CatchableError, "Random exception")
+
+      # spawn workers if we have less than desired
+      if len(workers) < desiredWorkers:
+        let spawnResult = mySpawn.spawnCreep(workerBody)
+        if isNil(spawnResult.object):
+          echo "Spawn error: ", spawnResult.error
         else:
-          combats.add(spawnResult.object)
-  doSpawning();
-
-  echo "worker block"
-  block doWorkers:
-    # loop through workers and give them orders
-    for c in workers:
-      # carry energy back to base
-      if c.store.getUsedCapacity(RESOURCE_ENERGY) > 0:
-        let res = c.transfer(mySpawn, RESOURCE_ENERGY)
-        if res == ERR_NOT_IN_RANGE:
-          discard c.moveTo(mySpawn)
-        continue
-
-      # hunt for a container to loot
-      # TODO should ignore empty containers
-      # or containers that are already being looted
-      let closestContainer = findClosestByPath(c, containers)
-      if isNil(closestContainer):
-        echo "No containers found!"
-        continue;
-      let res = c.withdraw(closestContainer, RESOURCE_ENERGY)
-      if res == ERR_NOT_IN_RANGE:
-        discard c.moveTo(closestContainer)
-
-  echo "combat block"
-  block doCombat:
-    # if we don't have enough combat units, keep them near spawn
-    if not doAttack:
-      for c in combats:
-        discard c.moveTo(combatStagingArea)
-      for c in healers:
-        discard c.moveTo(combatStagingArea)
-      if len(combats) + len(healers) >= 5:
-        doAttack = true
-    else:
-      if len(combats) == 0:
-        echo "No combat units left, stopping attack"
-        doAttack = false
+          workers.add(spawnResult.object)
       else:
-        # otherwise, go attack their spawn 
-        echo "attack!!"
-        let enemySpawn = spawns.filterIt(it.my == false)[0]
-        for c in combats:
-          let res = c.attack(enemySpawn)
-          if res == ERR_NOT_IN_RANGE:
-            discard c.moveTo(enemySpawn)
-        for c in healers:
-          let mostHurtHealer = getMostHurtCreep(healers)
-          if (mostHurtHealer.hits < mostHurtHealer.hitsMax):
-            if c.heal(mostHurtHealer) == ERR_NOT_IN_RANGE:
-              discard c.moveTo(mostHurtHealer)
+        # decide to build combat or healer
+        let currentRatio = len(healers) / len(combats)
+        let doHealer = currentRatio < healerRatio
+        let body = (if doHealer: healerBody else: combatBody)
+        let spawnResult = mySpawn.spawnCreep(body)
+        if isNil(spawnResult.object):
+          echo "Spawn error: ", spawnResult.error
+        else:
+          if doHealer:
+            healers.add(spawnResult.object)
           else:
-            if len(combats) > 0:
-              let mostHurtCombat = getMostHurtCreep(combats)
-              if c.heal(mostHurtCombat) == ERR_NOT_IN_RANGE:
-                discard c.moveTo(mostHurtCombat)
+            combats.add(spawnResult.object)
+
+
+    logicBlock("workers"):
+      # loop through workers and give them orders
+      for c in workers:
+        # carry energy back to base
+        if not isNil(c.store) and c.store.getUsedCapacity(RESOURCE_ENERGY) > 0:
+          let res = c.transfer(mySpawn, RESOURCE_ENERGY)
+          if res == ERR_NOT_IN_RANGE:
+            discard c.moveTo(mySpawn)
+          continue
+
+        # hunt for a container to loot
+        # TODO should ignore empty containers
+        # or containers that are already being looted
+        let closestContainer = findClosestByPath(c, containers)
+        if isNil(closestContainer):
+          echo "No containers found!"
+          continue;
+        let res = c.withdraw(closestContainer, RESOURCE_ENERGY)
+        if res == ERR_NOT_IN_RANGE:
+          discard c.moveTo(closestContainer)
+
+    logicBLock("combat"):
+      # if we don't have enough combat units, keep them near spawn
+      if not doAttack:
+        for c in combats:
+          discard c.moveTo(combatStagingArea)
+        for c in healers:
+          discard c.moveTo(combatStagingArea)
+        if len(combats) + len(healers) >= 5:
+          doAttack = true
+      else:
+        if len(combats) == 0:
+          echo "No combat units left, stopping attack"
+          doAttack = false
+        else:
+          # otherwise, go attack their spawn 
+          echo "attack!!"
+          let enemySpawn = spawns.filterIt(it.my == false)[0]
+          for c in combats:
+            let res = c.attack(enemySpawn)
+            if res == ERR_NOT_IN_RANGE:
+              discard c.moveTo(enemySpawn)
+          for c in healers:
+            let mostHurtHealer = getMostHurtCreep(healers)
+            if (mostHurtHealer.hits < mostHurtHealer.hitsMax):
+              if c.heal(mostHurtHealer) == ERR_NOT_IN_RANGE:
+                discard c.moveTo(mostHurtHealer)
             else:
-              echo "No combat units left, to heal"
+              if len(combats) > 0:
+                let mostHurtCombat = getMostHurtCreep(combats)
+                if c.heal(mostHurtCombat) == ERR_NOT_IN_RANGE:
+                  discard c.moveTo(mostHurtCombat)
+              else:
+                echo "No combat units left, to heal"
 
-
-{.emit"""
-export const loop = spawnAndSwampLoop;
-""".}
+when not defined(screepsTest):
+  {.emit"""
+  export const loop = spawnAndSwampLoop;
+  """.}

@@ -1,49 +1,32 @@
 
-import "./types", "./consts", "./shims"
-import std/jsffi
-
-export types, consts, shims
-
+# Ensure this package is only included on screeps arena
 when defined(screepsWorld):
     raise newException(Exception, "don't import screeps arena from screeps world")
 
-# interface for Screeps Arena
+# When testing, don't define JS functions so we can mock them instead
+when not defined(screepsTest):
+    import std/jsffi
+    import "./types", "./consts", "./shims"
 
-# adding comments for ts types ot help with debugging
-{.emit"""
-/// <reference path="./node_modules/@types/screeps-arena/game/constants.d.ts" />
-/// <reference path="./node_modules/@types/screeps-arena/game/index.d.ts" />
-/// <reference path="./node_modules/@types/screeps-arena/game/path-finder.d.ts" />
-/// <reference path="./node_modules/@types/screeps-arena/game/utils.d.ts" />
-/// <reference path="./node_modules/@types/screeps-arena/game/visual.d.ts" />
-""".}
+    export types, consts, shims
 
-# Loading modules into variables
-# TODO should probably use objects instead of individual imports
-# need to figure out which one does what
-var gameUtil* {.importJs.}: GameUtil
-
-{.emit"""
-import * as gameUtil from 'game/utils';
-import * as gameVisual from 'game/visual';
-import * as gamePathFinder from 'game/path-finder';
-import * as game from 'game';
-import * as arena from 'arena';
-
-import { 
-  Creep, Source, StructureContainer, StructureTower, StructureSpawn,
-  ConstructionSite
- } from 'game/prototypes';
-// import { Flag } from 'arena/prototypes';
-""".}
-
-when defined(screepsFlag):
+    # adding comments for ts types to help with debugging
     {.emit"""
-    import * as arena from 'arena';
-    import { Flag } from 'arena/prototypes';
+    /// <reference path="./node_modules/@types/screeps-arena/game/index.d.ts" />
+    /// <reference path="./node_modules/@types/screeps-arena/arena/index.d.ts" />
     """.}
 
-# Nodejs global objects
-# NB. use `echo` with nim js -d:nodejs
-# var console* {.importJs, nodecl.}: JsObject
-# var module* {.importJs, nodecl.}: JsObject
+    # Loading modules into variables
+
+    var game* {.importJs.}: Game
+    var arena* {.importJs.}: Arena
+
+    {.emit"""
+    import * as game from 'game';
+    import * as arena from 'arena';
+    """.}
+
+    # Nodejs global objects
+    # NB. use `echo` with nim js -d:nodejs
+    # var console* {.importJs, nodecl.}: JsObject
+    # var module* {.importJs, nodecl.}: JsObject

@@ -1,16 +1,6 @@
 
 ## NB. enum type of strings doesn't work very well
 ## when compiled to JS
-# type BodyPartType* = enum
-#   WORK = "work"
-#   CARRY = "carry"
-#   MOVE = "move"
-#   ATTACK = "attack"
-#   RANGED_ATTACK = "ranged_attack"
-#   HEAL = "heal"
-#   CLAIM = "claim"
-#   TOUGH = "tough"
-
 const WORK* = "work".cstring
 const CARRY* = "carry".cstring
 const MOVE* = "move".cstring
@@ -46,12 +36,15 @@ type FindTargetsType* = enum
   FIND_MINERALS = 116
   FIND_NUKES = 117
 
+# NB. return codes do not seem to be consistent across functions
+# some re-use -6 for different things..
 type ReturnCode* = enum
   ERR_RCL_NOT_ENOUGH = -14
   ERR_NO_BODYPART = -12
   ERR_TIRED = -11
   ERR_INVALID_ARGS = -10
   ERR_NOT_IN_RANGE = -9
+  ERR_FULL = -8
   ERR_INVALID_TARGET = -7
   ERR_NOT_ENOUGH_ENERGY = -6
   ERR_NOT_FOUND = -5
@@ -60,3 +53,20 @@ type ReturnCode* = enum
   ERR_NO_PATH = -2
   ERR_NOT_OWNER = -1
   OK = 0
+
+type DirectionType* = enum
+  TOP = 1
+  TOP_RIGHT = 2
+  RIGHT = 3
+  BOTTOM_RIGHT = 4
+  BOTTOM = 5
+  BOTTOM_LEFT = 6
+  LEFT = 7
+  TOP_LEFT = 8
+
+type TerrainType* = enum
+  PLAIN = 0
+  WALL = 1
+  SWAMP = 2
+
+# TODO more consts
