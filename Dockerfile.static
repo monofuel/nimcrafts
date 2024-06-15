@@ -1,0 +1,39 @@
+FROM monofuel/nim AS Builder
+
+# https://scripter.co/nim-deploying-static-binaries/
+# example for building a static nim binary w/ docker
+
+RUN mkdir -p /code/nimcrafts/src
+WORKDIR /code
+RUN atlas init
+
+# setup musl for static linking
+RUN git clone https://git.musl-libc.org/git/musl /code/musl
+WORKDIR /code/musl
+RUN ./configure --prefix=/usr/local/musl
+RUN make -j 4
+RUN make install
+
+ENV PATH="/usr/local/musl/bin:${PATH}"
+
+ADD nimcrafts.nimble /code/nimcrafts/
+WORKDIR /code/nimcrafts
+RUN atlas install ./nimcrafts.nimble
+
+ADD src /code/nimcrafts/src
+
+# optional: --opt:none|speed|size
+RUN nim c -d:release -o=bin/main src/static/main.nim
+
+# optional: strip the binary
+RUN strip --strip-all bin/main
+# RUN strip --strip-debug bin/main
+
+# optional
+RUN upx --best bin/main
+
+FROM scratch
+
+COPY --from=Builder /code/nimcrafts/bin/main /main
+
+CMD ["/main"]

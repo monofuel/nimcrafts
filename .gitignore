@@ -5,3 +5,8 @@
 !*.*
 
 *.exe
+
+# Ignore object files
+*.o
+
+./bin/*

@@ -1,0 +1,3 @@
+--gcc.exe:"musl-gcc"
+--gcc.linkerexe:"musl-gcc"
+--passL:"-static"
