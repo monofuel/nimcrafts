@@ -22,6 +22,11 @@ RUN atlas install ./nimcrafts.nimble
 
 ADD src /code/nimcrafts/src
 
+# config.nims
+#   --gcc.exe:"musl-gcc"
+#   --gcc.linkerexe:"musl-gcc"
+#   --passL:"-static"
+
 # optional: --opt:none|speed|size
 RUN nim c -d:release -o=bin/main src/static/main.nim
 
